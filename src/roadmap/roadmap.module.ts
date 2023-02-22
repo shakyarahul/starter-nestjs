@@ -1,9 +1,12 @@
 import { Module } from '@nestjs/common';
-import { RoadmapService } from './roadmap.service';
-import { RoadmapController } from './roadmap.controller';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { Roadmap } from 'src/roadmap/Roadmap.entity';
+import { RoadmapController } from './Roadmap.controller';
+import { RoadmapService } from './Roadmap.service';
 
 @Module({
+  imports: [TypeOrmModule.forFeature([Roadmap])],
+  controllers: [RoadmapController],
   providers: [RoadmapService],
-  controllers: [RoadmapController]
 })
 export class RoadmapModule {}

@@ -5,8 +5,8 @@ import {
   ManyToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { Link } from './link.entity';
-import { Roadmap } from './roadmap.entity';
+import { Link } from '../../link/Link.entity';
+import { Roadmap } from '../../roadmap/Roadmap.entity';
 import { User } from '../../user/User.entity';
 
 @Entity('comment')

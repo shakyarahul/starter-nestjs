@@ -1,6 +1,5 @@
 import { Category } from '../category/Category.entity';
-import { Link } from 'src/entity/livedb/link.entity';
-import { Roadmap } from 'src/entity/livedb/roadmap.entity';
+import { Roadmap } from 'src/roadmap/Roadmap.entity';
 import {
   Column,
   Entity,
@@ -8,6 +7,7 @@ import {
   OneToMany,
   PrimaryGeneratedColumn,
 } from 'typeorm';
+import { Link } from 'src/link/Link.entity';
 
 @Entity('status')
 export class Status {

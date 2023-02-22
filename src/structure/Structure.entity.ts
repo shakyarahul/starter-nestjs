@@ -1,5 +1,5 @@
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
-import { Roadmap } from '../entity/livedb/roadmap.entity';
+import { Roadmap } from '../roadmap/Roadmap.entity';
 
 @Entity('Structure')
 export class Structure {

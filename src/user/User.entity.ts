@@ -11,7 +11,7 @@ import {
 import { Category } from '../category/category.entity';
 import { Comment } from '../entity/livedb/comment.entity';
 import { Notification_Status } from '../entity/livedb/notification_status.entity';
-import { Roadmap } from '../entity/livedb/roadmap.entity';
+import { Roadmap } from '../roadmap/Roadmap.entity';
 import { SocialAccount } from '../social_account/SocialAccount.entity';
 
 @Entity('user')

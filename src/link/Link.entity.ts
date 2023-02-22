@@ -10,9 +10,10 @@ import {
   OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { Comment } from './comment.entity';
-import { Roadmap } from './roadmap.entity';
-import { User } from '../../user/User.entity';
+import { Url } from 'url';
+import { Comment } from '../entity/livedb/comment.entity';
+import { Roadmap } from '../roadmap/Roadmap.entity';
+import { User } from '../user/User.entity';
 
 @Entity('link')
 export class Link {
@@ -23,16 +24,16 @@ export class Link {
   @JoinTable()
   roadmaps!: Roadmap[];
 
-  @OneToOne(
+  @ManyToOne(
     () => User,
     //  (user) => user.categories
   )
   @JoinColumn()
-  created_by: User;
+  created_by!: User;
 
   @ManyToOne(() => Status, (status) => status.links)
   @JoinColumn()
-  status: Status;
+  status!: Status;
 
   @ManyToOne(() => Link, (link) => link.parent_link)
   @JoinColumn()
@@ -56,7 +57,7 @@ export class Link {
     default: null,
     name: 'url',
   })
-  url!: string;
+  url!: Url;
 
   @Column('boolean', {
     nullable: false,

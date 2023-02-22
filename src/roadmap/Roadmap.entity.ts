@@ -7,11 +7,12 @@ import {
   OneToMany,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { Comment } from './comment.entity';
-import { Link } from './link.entity';
-import { Structure } from '../../structure/Structure.entity';
-import { User } from '../../user/User.entity';
+import { Comment } from '../entity/livedb/comment.entity';
+import { Link } from '../link/Link.entity';
+import { Structure } from '../structure/Structure.entity';
+import { User } from '../user/User.entity';
 import { Status } from 'src/status/Status.entity';
+import { Url } from 'url';
 
 @Entity('roadmap')
 export class Roadmap {
@@ -29,23 +30,23 @@ export class Roadmap {
     // (user) => user.createdRoadmaps
   )
   @JoinColumn()
-  created_by: User;
+  created_by!: User;
 
   @ManyToOne(() => Status, (status) => status.roadmaps)
   @JoinColumn()
-  status: number;
+  status!: Status;
 
   @Column('varchar', { nullable: true, length: 50, name: 'description' })
   description!: string;
 
   @Column('text', { nullable: true, default: null, name: 'svg_url' })
-  svg_url!: string;
+  svg_url!: Url;
 
   @Column('bigint', { nullable: true, default: 0, name: 'views' })
   views!: number;
 
   @ManyToOne(() => Structure, (structure) => structure.roadmaps)
-  structure!: Structure;
+  structure: Structure;
 
   @Column('timestamp', {
     nullable: false,
