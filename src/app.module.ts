@@ -1,27 +1,28 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Role } from './role/Role.entity';
-import { SocialAccountType } from './social_account_type/social_account_type.entity';
-import { SocialAccount } from './social_account/SocialAccount.entity';
-import { User } from './user/User.entity';
-import { Notification_Status } from './entity/livedb/notification_status.entity';
-import { Category } from './category/Category.entity';
-import { Roadmap } from './roadmap/Roadmap.entity';
-import { Link } from './link/Link.entity';
-import { Structure } from './structure/Structure.entity';
-import { Comment } from './entity/livedb/comment.entity';
-import { UserModule } from './user/user.module';
-import { NotificationStatusModule } from './notification_status/notification_status.module';
-import { StructureModule } from './structure/Structure.module';
-import { StatusModule } from './status/status.module';
-import { SocialAccountModule } from './social_account/SocialAccount.module';
-import { SocialAccountTypeModule } from './social_account_type/social_account_type.module';
-import { RoleModule } from './role/Role.module';
-import { RoadmapModule } from './roadmap/roadmap.module';
-import { LinkModule } from './link/link.module';
-import { CommentModule } from './comment/comment.module';
-import { CategoryModule } from './category/category.module';
-import { Status } from './status/Status.entity';
+import { Role } from './Entities/role/Role.entity';
+import { SocialAccountType } from './Entities/social_account_type/SocialAccountType.entity';
+import { SocialAccount } from './Entities/social_account/SocialAccount.entity';
+import { User } from './Entities/user/User.entity';
+import { NotificationStatus } from './Entities/notification_status/NotificationStatus.entity';
+import { Category } from './Entities/category/Category.entity';
+import { Roadmap } from './Entities/roadmap/Roadmap.entity';
+import { Link } from './Entities/link/Link.entity';
+import { Structure } from './Entities/structure/Structure.entity';
+import { Comment } from './Entities/comment/Comment.entity';
+import { UserModule } from './Entities/user/user.module';
+import { NotificationStatusModule } from './Entities/notification_status/NotificationStatus.module';
+import { StructureModule } from './Entities/structure/Structure.module';
+import { StatusModule } from './Entities/status/status.module';
+import { SocialAccountModule } from './Entities/social_account/SocialAccount.module';
+import { SocialAccountTypeModule } from './Entities/social_account_type/SocialAccountType.module';
+import { RoleModule } from './Entities/role/Role.module';
+import { RoadmapModule } from './Entities/roadmap/roadmap.module';
+import { LinkModule } from './Entities/link/Link.module';
+import { CommentModule } from './Entities/comment/comment.module';
+import { CategoryModule } from './Entities/category/category.module';
+import { Status } from './Entities/status/Status.entity';
+import { V1Module } from './API/v1/V1.module';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
@@ -36,7 +37,7 @@ import { Status } from './status/Status.entity';
         SocialAccountType,
         SocialAccount,
         User,
-        Notification_Status,
+        NotificationStatus,
         Status,
         Category,
         Roadmap,
@@ -57,6 +58,7 @@ import { Status } from './status/Status.entity';
     StatusModule,
     StructureModule,
     NotificationStatusModule,
+    V1Module,
   ],
   controllers: [],
   providers: [],
