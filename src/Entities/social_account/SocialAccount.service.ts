@@ -11,6 +11,21 @@ export class SocialAccountService {
     @InjectRepository(SocialAccount)
     private readonly entityRepo: Repository<SocialAccount>,
   ) {}
+
+  async createEntityIfNotExists(data, uniqueKey = 'name') {
+    const exists = await this.findAEntity({ [uniqueKey]: data[uniqueKey] });
+    if (!exists) {
+      await this.create(data);
+    } else {
+      await this.update({ ...data, id: exists.id });
+    }
+  }
+  async findAEntity(entity) {
+    return await this.entityRepo.findOne({
+      where: entity,
+      relations: ['role', 'social_account_type'],
+    });
+  }
   async findAll() {
     return await this.entityRepo.find({
       relations: ['role', 'social_account_type'],

@@ -1,5 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsNumber, IsOptional, IsString } from 'class-validator';
+import { Role } from 'src/Entities/role/Role.entity';
 import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccountType.entity';
 
 export class RequestDto {
@@ -25,7 +26,15 @@ export class RequestDto {
   })
   @IsNumber()
   @IsNotEmpty()
-  socialAccountTypeId: SocialAccountType;
+  social_account_type: SocialAccountType;
+
+  @ApiProperty({
+    description: 'Social account role type id',
+    example: 1,
+  })
+  @IsNumber()
+  @IsOptional()
+  role: Role;
 
   @ApiProperty({
     description: 'First name of the created account',

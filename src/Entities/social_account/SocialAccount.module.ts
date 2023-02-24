@@ -8,5 +8,6 @@ import { SocialAccountService } from './SocialAccount.service';
   imports: [TypeOrmModule.forFeature([SocialAccount])],
   controllers: [SocialAccountController],
   providers: [SocialAccountService],
+  exports: [SocialAccountService],
 })
 export class SocialAccountModule {}

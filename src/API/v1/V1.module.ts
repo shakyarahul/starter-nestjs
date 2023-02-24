@@ -1,4 +1,5 @@
 import { Module, OnModuleInit } from '@nestjs/common';
+import { JwtModule, JwtService } from '@nestjs/jwt';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Role } from 'src/Entities/role/Role.entity';
 import { RoleModule } from 'src/Entities/role/Role.module';
@@ -9,6 +10,7 @@ import { SocialAccountService } from 'src/Entities/social_account/SocialAccount.
 import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccountType.entity';
 import { SocialAccountTypeModule } from 'src/Entities/social_account_type/SocialAccountType.module';
 import { SocialAccountTypeService } from 'src/Entities/social_account_type/SocialAccountType.service';
+import { JwtStrategy } from './strategy/jwt.strategy';
 import { V1Controller } from './V1.controller';
 import { V1Service } from './V1.service';
 
@@ -18,6 +20,10 @@ import { V1Service } from './V1.service';
     RoleModule,
     SocialAccountModule,
     TypeOrmModule.forFeature([SocialAccountType, Role, SocialAccount]),
+    JwtModule.register({
+      secret: 'SECRET',
+      signOptions: { expiresIn: '120s' },
+    }),
   ],
   controllers: [V1Controller],
   providers: [
@@ -25,12 +31,15 @@ import { V1Service } from './V1.service';
     SocialAccountTypeService,
     SocialAccountService,
     RoleService,
+    JwtStrategy,
   ],
+  exports: [V1Service],
 })
 export class V1Module implements OnModuleInit {
   constructor(
     private readonly roleService: RoleService,
     private readonly socialAccountTypeService: SocialAccountTypeService,
+    private readonly socialAccountService: SocialAccountService,
   ) {}
   async onModuleInit() {
     // Populating Roles
@@ -54,6 +63,22 @@ export class V1Module implements OnModuleInit {
         title: 'Login with Apple',
       },
       'name',
+    );
+
+    const role = await this.roleService.findAEntity({ name: 'Administrator' });
+    const social_account_type = await this.socialAccountTypeService.findAEntity(
+      {
+        name: 'Google',
+      },
+    );
+    this.socialAccountService.createEntityIfNotExists(
+      {
+        social_account_unique_user: '107691503500061ddd50715113082367',
+        social_account_email: 'rahulsaqya@gmail.com',
+        role,
+        social_account_type,
+      },
+      'social_account_unique_user',
     );
   }
 }

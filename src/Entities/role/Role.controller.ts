@@ -1,5 +1,16 @@
-import { Body, Controller, Get, Post, Put } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Get,
+  Post,
+  Put,
+  Request,
+  UseGuards,
+} from '@nestjs/common';
 import { ApiCreatedResponse, ApiTags } from '@nestjs/swagger';
+import { HasRoles, RoleEnum } from 'src/API/v1/decorator/roles.decorator';
+import { JwtAuthGuard } from 'src/API/v1/guard/jwt-auth.guard';
+import { RolesGuard } from 'src/API/v1/guard/roles.guard';
 import { CreateRequestDto } from './dto/CreateRequest.dto';
 import { ListResponseDto } from './dto/ListResponse.dto';
 import { UpdateRequestDto } from './dto/UpdateRequest.dto';
@@ -9,12 +20,15 @@ import { RoleService as EntityService } from './Role.service';
 @Controller('role')
 export class RoleController {
   constructor(private readonly entityService: EntityService) {}
+  @HasRoles(RoleEnum.Administrator)
+  @UseGuards(JwtAuthGuard, RolesGuard)
   @Get('/')
   @ApiCreatedResponse({
     description: 'Listing',
     type: ListResponseDto,
   })
-  async list() {
+  async list(@Request() req) {
+    console.log(req.user);
     const data = await this.entityService.findAll();
     const listResDto = new ListResponseDto();
     listResDto.data = data;
@@ -24,6 +38,9 @@ export class RoleController {
     };
     return listResDto;
   }
+
+  @HasRoles(RoleEnum.Administrator)
+  @UseGuards(JwtAuthGuard, RolesGuard)
   @Post('/')
   @ApiCreatedResponse({
     description: 'Added & Listing',
@@ -31,9 +48,11 @@ export class RoleController {
   })
   async create(@Body() createDto: CreateRequestDto) {
     await this.entityService.create(createDto);
-    return this.list();
+    return this.entityService.findAll();
   }
 
+  @HasRoles(RoleEnum.Administrator)
+  @UseGuards(JwtAuthGuard, RolesGuard)
   @Put('/')
   @ApiCreatedResponse({
     description: 'Updated & Listing',
@@ -41,6 +60,6 @@ export class RoleController {
   })
   async update(@Body() updateDto: UpdateRequestDto) {
     await this.entityService.update(updateDto);
-    return this.list();
+    return this.entityService.findAll();
   }
 }

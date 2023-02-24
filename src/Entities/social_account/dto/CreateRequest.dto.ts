@@ -39,6 +39,6 @@ export class CreateRequestDto {
     example: 1,
   })
   @IsNumber()
-  @IsOptional()
+  @IsNotEmpty()
   role: Role;
 }
