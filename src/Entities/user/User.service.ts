@@ -17,9 +17,15 @@ export class UserService {
       order: { updated_at: -1 },
     });
   }
-  async create(createDto: CreateRequestDto) {
+  async manager() {
+    return this.entityRepo.manager;
+  }
+  async create(createDto: CreateRequestDto, save: boolean = true) {
     const newEntity = this.entityRepo.create(createDto);
-    return this.entityRepo.save(newEntity);
+    if (save) {
+      return await this.entityRepo.save(newEntity);
+    }
+    return newEntity;
   }
   async update(updateDto: UpdateRequestDto) {
     const updateEnity = await this.entityRepo.findOneOrFail({

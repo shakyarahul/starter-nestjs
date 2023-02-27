@@ -7,6 +7,7 @@ import { SocialAccountService } from 'src/Entities/social_account/SocialAccount.
 import { SocialAccountTypeService } from 'src/Entities/social_account_type/SocialAccountType.service';
 import { User } from 'src/Entities/user/User.entity';
 import { UserService } from 'src/Entities/user/User.service';
+import { EntityManager } from 'typeorm';
 import { RequestDto } from './dto/continue_with/POST/request.dto';
 
 @Injectable()
@@ -36,18 +37,31 @@ export class V1Service {
     // Check if the user exist with provided email, socialAccountUniqueId and socialAccountTypeId
     let userFound: User = await this.get_profile(createDto);
     if (!userFound) {
-      const social: SocialAccount = await this.social_account.create(createDto);
-      userFound = await this.user.create({
-        email: createDto.social_account_email,
-        first_name: createDto.first_name,
-        last_name: createDto.last_name,
-        social: social,
-        profile_url: null,
-        dob: null,
-        interested_categories: [],
+      const social: SocialAccount = await this.social_account.create(
+        createDto,
+        false,
+      );
+
+      await (
+        await this.user.manager()
+      ).transaction(async (em: EntityManager) => {
+        const socialCreate = await em.save(social);
+        userFound = await this.user.create(
+          {
+            email: createDto.social_account_email,
+            first_name: createDto.first_name,
+            last_name: createDto.last_name,
+            social: socialCreate,
+            profile_url: null,
+            dob: null,
+            interested_categories: [],
+          },
+          false,
+        );
+        userFound = await em.save(userFound);
       });
       userFound = await this.get_profile({
-        social_account_email: userFound.email,
+        social_account_email: createDto.social_account_email,
       });
     }
 
