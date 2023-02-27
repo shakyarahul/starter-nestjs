@@ -3,6 +3,7 @@ import {
   Controller,
   Get,
   HttpCode,
+  Param,
   Post,
   Request,
   Res,
@@ -155,7 +156,7 @@ export class V1Controller {
 
   @HasRoles(RoleEnum.Subscriber)
   @UseGuards(JwtAuthGuard, RolesGuard)
-  @Post('/upload')
+  @Post('/uploads')
   @UseInterceptors(
     FileInterceptor(
       'file',
@@ -192,5 +193,27 @@ export class V1Controller {
     };
     // return res.sendFile(data.filename, { root: 'uploads' });
     return response;
+  }
+
+  /**
+   *
+   * @param dto Api that helps to upload any type of time and upload it to sever generate a link to that resource
+   * @returns {Promise<post_continue_with_ResponseDto>}
+   */
+
+  @HasRoles(RoleEnum.Subscriber)
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Get('/uploads/:filename')
+  @HttpCode(200)
+  @ApiCreatedResponse({
+    description: 'Api that helps users to update few profile informations',
+    type: post_profile_ResponseDto,
+  })
+  async get_upload(
+    @Param('filename') filename: any,
+    //  @UploadedFile() file,
+    @Res() res,
+  ): Promise<post_upload_ResponseDto> {
+    return res.sendFile(filename, { root: 'uploads' });
   }
 }

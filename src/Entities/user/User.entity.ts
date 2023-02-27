@@ -71,6 +71,7 @@ export class User {
     () => NotificationStatus,
     (notification_status) => notification_status.user,
   )
+  @JoinColumn()
   notification: NotificationStatus;
 
   // @OneToMany(() => Category, (category) => category.created_by)

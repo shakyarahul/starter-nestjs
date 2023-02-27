@@ -2,6 +2,7 @@ import { Module, OnModuleInit } from '@nestjs/common';
 import { JwtModule, JwtService } from '@nestjs/jwt';
 import { MulterModule } from '@nestjs/platform-express';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { NotificationStatusModule } from 'src/Entities/notification_status/NotificationStatus.module';
 import { Role } from 'src/Entities/role/Role.entity';
 import { RoleModule } from 'src/Entities/role/Role.module';
 import { RoleService } from 'src/Entities/role/Role.service';
@@ -31,6 +32,7 @@ import { V1Service } from './V1.service';
     MulterModule.register({
       dest: './uploads',
     }),
+    NotificationStatusModule,
   ],
   controllers: [V1Controller],
   providers: [

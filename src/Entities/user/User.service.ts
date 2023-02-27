@@ -47,6 +47,7 @@ export class UserService {
           social_account_type: true,
           role: true,
         },
+        notification: true,
       },
     });
   }

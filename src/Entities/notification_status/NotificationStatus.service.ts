@@ -16,9 +16,12 @@ export class NotificationStatusService {
       order: { updated_at: -1 },
     });
   }
-  async create(createDto: CreateRequestDto) {
+  async create(createDto: CreateRequestDto, save: boolean = true) {
     const newEntity = this.entityRepo.create(createDto);
-    return this.entityRepo.save(newEntity);
+    if (save) {
+      return await this.entityRepo.save(newEntity);
+    }
+    return newEntity;
   }
   async update(updateDto: UpdateRequestDto) {
     const updateEnity = await this.entityRepo.findOneOrFail({
@@ -26,7 +29,6 @@ export class NotificationStatusService {
         id: updateDto.id,
       },
     });
-    updateEnity.user = updateDto.user;
     updateEnity.change_category_status = updateDto.change_category_status;
     updateEnity.change_roadmap_status = updateDto.change_roadmap_status;
     updateEnity.comment_on_your_roadmap = updateDto.comment_on_your_roadmap;

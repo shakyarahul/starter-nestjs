@@ -1,4 +1,6 @@
 import { Injectable } from '@nestjs/common';
+import { NotificationStatus } from 'src/Entities/notification_status/NotificationStatus.entity';
+import { NotificationStatusService } from 'src/Entities/notification_status/NotificationStatus.service';
 import { Role } from 'src/Entities/role/Role.entity';
 import { RoleService } from 'src/Entities/role/Role.service';
 import { SocialAccount } from 'src/Entities/social_account/SocialAccount.entity';
@@ -17,6 +19,7 @@ export class V1Service {
     private readonly social_account: SocialAccountService,
     private readonly role: RoleService,
     private user: UserService,
+    private notificationStatus: NotificationStatusService,
   ) {}
 
   async get_continue_with(): Promise<Array<SocialAccountType>> {
@@ -34,11 +37,26 @@ export class V1Service {
         { ...createDto, role },
         false,
       );
+      const notification: NotificationStatus =
+        await this.notificationStatus.create(
+          {
+            change_category_status: true,
+            change_roadmap_status: true,
+            comment_on_your_roadmap: true,
+            comment_on_your_commented_roadmap: true,
+            comment_on_your_roadmap_link: true,
+            comment_on_your_commented_roadmap_link: true,
+            when_added_new_roadmap_on_your_interested_category: true,
+          },
+          false,
+        );
 
       await (
         await this.user.manager()
       ).transaction(async (em: EntityManager) => {
         const socialCreate = await em.save(social);
+        const notificationCreate = await em.save(notification);
+
         userFound = await this.user.create(
           {
             email: createDto.social_account_email,
@@ -48,6 +66,7 @@ export class V1Service {
             profile_url: null,
             dob: null,
             interested_categories: [],
+            notification: notificationCreate,
           },
           false,
         );

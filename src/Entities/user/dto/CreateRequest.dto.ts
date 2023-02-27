@@ -9,12 +9,13 @@ import {
   IsString,
   IsUrl,
 } from 'class-validator';
+import { NotificationStatus } from 'src/Entities/notification_status/NotificationStatus.entity';
 import { SocialAccount } from 'src/Entities/social_account/SocialAccount.entity';
 import { Category } from '../../category/Category.entity';
 
 export class CreateRequestDto {
   @ApiProperty({
-    description: 'Email of the social user',
+    description: 'Email of the user',
     example: 'rahul@gmail.com',
   })
   @IsEmail()
@@ -22,7 +23,7 @@ export class CreateRequestDto {
   email!: string;
 
   @ApiProperty({
-    description: 'Profile Image of the social user',
+    description: 'Profile Image of the user',
     example: 'https:///adsfadsf.com/adsfdasf.jpg',
   })
   @IsUrl()
@@ -30,7 +31,7 @@ export class CreateRequestDto {
   profile_url!: string;
 
   @ApiProperty({
-    description: 'First name of the social user',
+    description: 'First name of the user',
     example: 'Rahul',
   })
   @IsString()
@@ -38,7 +39,7 @@ export class CreateRequestDto {
   first_name!: string;
 
   @ApiProperty({
-    description: 'Last name of the social user',
+    description: 'Last name of the user',
     example: 'Last',
   })
   @IsString()
@@ -46,7 +47,7 @@ export class CreateRequestDto {
   last_name!: string;
 
   @ApiProperty({
-    description: 'Dob name of the social user',
+    description: 'Dob name of the user',
     example: 'Dob',
   })
   @IsDate()
@@ -54,7 +55,7 @@ export class CreateRequestDto {
   dob!: Date;
 
   @ApiProperty({
-    description: 'Social account type of the social user',
+    description: 'Social account type of the user',
     example: 1,
   })
   @IsNumber()
@@ -62,10 +63,18 @@ export class CreateRequestDto {
   social!: SocialAccount;
 
   @ApiProperty({
-    description: 'Last name of the social user',
+    description: 'Last name of the user',
     example: 'Last',
   })
   @IsArray()
   @IsOptional()
   interested_categories!: Array<Category>;
+
+  @ApiProperty({
+    description: 'Notification Status of the  user',
+    example: 1,
+  })
+  @IsNumber()
+  @IsOptional()
+  notification!: NotificationStatus;
 }

@@ -1,16 +1,8 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsBoolean, IsNotEmpty, IsNumber } from 'class-validator';
+import { IsBoolean, IsNotEmpty, IsNumber, IsOptional } from 'class-validator';
 import { User } from 'src/Entities/user/User.entity';
 
 export class CreateRequestDto {
-  @ApiProperty({
-    description: 'User to represent role',
-    example: 1,
-  })
-  @IsNumber()
-  @IsNotEmpty()
-  user: User;
-
   @ApiProperty({
     description: 'Category Status to represent role',
     example: true,

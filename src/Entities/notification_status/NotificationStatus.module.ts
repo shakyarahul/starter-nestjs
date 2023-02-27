@@ -8,5 +8,6 @@ import { NotificationStatusService } from './NotificationStatus.service';
   imports: [TypeOrmModule.forFeature([NotificationStatus])],
   controllers: [NotificationStatusController],
   providers: [NotificationStatusService],
+  exports: [NotificationStatusService],
 })
 export class NotificationStatusModule {}

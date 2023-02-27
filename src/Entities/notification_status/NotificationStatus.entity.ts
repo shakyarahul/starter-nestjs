@@ -12,11 +12,7 @@ export class NotificationStatus {
   @PrimaryGeneratedColumn({ type: 'int', unsigned: true, name: 'id' })
   id!: number;
 
-  @OneToOne(
-    () => User,
-    // (user) => user.notification
-  )
-  @JoinColumn()
+  @OneToOne(() => User, (user) => user.notification)
   user: User;
 
   @Column('boolean', { nullable: false, default: true })
