@@ -33,11 +33,11 @@ export class UserService {
         id: updateDto.id,
       },
     });
-    updateEnity.email = updateDto.email;
     updateEnity.first_name = updateDto.first_name;
     updateEnity.last_name = updateDto.last_name;
     updateEnity.dob = updateDto.dob;
-    return this.entityRepo.save(updateEnity);
+    updateEnity.profile_url = updateDto.profile_url;
+    return await this.entityRepo.save(updateEnity);
   }
   async findAEntity(dto) {
     return await this.entityRepo.findOne({

@@ -1,5 +1,6 @@
 import { Module, OnModuleInit } from '@nestjs/common';
 import { JwtModule, JwtService } from '@nestjs/jwt';
+import { MulterModule } from '@nestjs/platform-express';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Role } from 'src/Entities/role/Role.entity';
 import { RoleModule } from 'src/Entities/role/Role.module';
@@ -26,6 +27,9 @@ import { V1Service } from './V1.service';
     JwtModule.register({
       secret: 'SECRET',
       signOptions: { expiresIn: '1h' },
+    }),
+    MulterModule.register({
+      dest: './uploads',
     }),
   ],
   controllers: [V1Controller],
