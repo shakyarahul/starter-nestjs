@@ -39,12 +39,13 @@ export class UserService {
     updateEnity.dob = updateDto.dob;
     return this.entityRepo.save(updateEnity);
   }
-  async findAUser(dto) {
+  async findAEntity(dto) {
     return await this.entityRepo.findOne({
       where: dto,
       relations: {
         social: {
           social_account_type: true,
+          role: true,
         },
       },
     });

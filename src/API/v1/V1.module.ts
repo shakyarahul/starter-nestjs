@@ -11,6 +11,7 @@ import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccoun
 import { SocialAccountTypeModule } from 'src/Entities/social_account_type/SocialAccountType.module';
 import { SocialAccountTypeService } from 'src/Entities/social_account_type/SocialAccountType.service';
 import { UserModule } from 'src/Entities/user/user.module';
+import { RoleEnum } from './decorator/roles.decorator';
 import { JwtStrategy } from './strategy/jwt.strategy';
 import { V1Controller } from './V1.controller';
 import { V1Service } from './V1.service';
@@ -24,7 +25,7 @@ import { V1Service } from './V1.service';
     TypeOrmModule.forFeature([SocialAccountType, Role, SocialAccount]),
     JwtModule.register({
       secret: 'SECRET',
-      signOptions: { expiresIn: '120s' },
+      signOptions: { expiresIn: '1h' },
     }),
   ],
   controllers: [V1Controller],
@@ -45,11 +46,20 @@ export class V1Module implements OnModuleInit {
   ) {}
   async onModuleInit() {
     // Populating Roles
-    this.roleService.createEntityIfNotExists({ name: 'Subscriber' }, 'name');
-    this.roleService.createEntityIfNotExists({ name: 'Contributor' }, 'name');
-    this.roleService.createEntityIfNotExists({ name: 'Author' }, 'name');
-    this.roleService.createEntityIfNotExists({ name: 'Editor' }, 'name');
-    this.roleService.createEntityIfNotExists({ name: 'Administrator' }, 'name');
+    this.roleService.createEntityIfNotExists(
+      { name: RoleEnum.Subscriber },
+      'name',
+    );
+    this.roleService.createEntityIfNotExists(
+      { name: RoleEnum.Contributor },
+      'name',
+    );
+    this.roleService.createEntityIfNotExists({ name: RoleEnum.Author }, 'name');
+    this.roleService.createEntityIfNotExists({ name: RoleEnum.Editor }, 'name');
+    this.roleService.createEntityIfNotExists(
+      { name: RoleEnum.Administrator },
+      'name',
+    );
 
     // Populating Social Accounts
     this.socialAccountTypeService.createEntityIfNotExists(
@@ -67,7 +77,10 @@ export class V1Module implements OnModuleInit {
       'name',
     );
 
-    const role = await this.roleService.findAEntity({ name: 'Administrator' });
+    const role = await this.roleService.findAEntity({
+      name: RoleEnum.Administrator,
+    });
+    console.log(role, 'Role');
     const social_account_type = await this.socialAccountTypeService.findAEntity(
       {
         name: 'Google',

@@ -55,10 +55,4 @@ export class SocialAccountService {
   async getQueryRunner() {
     return await this.entityRepo.createQueryBuilder();
   }
-  async findAUser(dto) {
-    return await this.entityRepo.findOne({
-      where: dto,
-      relations: ['role', 'social_account_type'],
-    });
-  }
 }

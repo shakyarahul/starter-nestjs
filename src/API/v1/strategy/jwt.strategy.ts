@@ -3,10 +3,11 @@ import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt, Strategy } from 'passport-jwt';
 import { RoleService } from 'src/Entities/role/Role.service';
 import { SocialAccountService } from 'src/Entities/social_account/SocialAccount.service';
+import { UserService } from 'src/Entities/user/User.service';
 @Injectable()
 export class JwtStrategy extends PassportStrategy(Strategy) {
   constructor(
-    private readonly socialAccountService: SocialAccountService,
+    private readonly userService: UserService,
     private readonly roleService: RoleService,
   ) {
     super({
@@ -21,14 +22,16 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
     if (!role) {
       throw new UnauthorizedException();
     }
-    const user = await this.socialAccountService.findAEntity({
-      id: payload.sub,
-      social_account_email: payload.name,
-      role,
+    const user = await this.userService.findAEntity({
+      social: {
+        id: payload.sub,
+        social_account_email: payload.name,
+        role,
+      },
     });
     if (!user) {
       throw new UnauthorizedException();
     }
-    return { ...payload, user };
+    return { ...user };
   }
 }

@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
+import { Role } from 'src/Entities/role/Role.entity';
 import { RoleService } from 'src/Entities/role/Role.service';
 import { CreateRequestDto } from 'src/Entities/social_account/dto/CreateRequest.dto';
 import { SocialAccount } from 'src/Entities/social_account/SocialAccount.entity';
@@ -8,6 +9,7 @@ import { SocialAccountTypeService } from 'src/Entities/social_account_type/Socia
 import { User } from 'src/Entities/user/User.entity';
 import { UserService } from 'src/Entities/user/User.service';
 import { EntityManager } from 'typeorm';
+import { RoleEnum } from './decorator/roles.decorator';
 import { RequestDto } from './dto/continue_with/POST/request.dto';
 
 @Injectable()
@@ -16,7 +18,6 @@ export class V1Service {
     private readonly social_account_type: SocialAccountTypeService,
     private readonly social_account: SocialAccountService,
     private readonly role: RoleService,
-    private jwtService: JwtService,
     private user: UserService,
   ) {}
 
@@ -25,7 +26,7 @@ export class V1Service {
   }
 
   async get_profile(createDto): Promise<User> {
-    return await this.user.findAUser({
+    return await this.user.findAEntity({
       social: {
         social_account_unique_user: createDto.social_account_unique_user,
         social_account_type: createDto.social_account_type,
@@ -37,8 +38,11 @@ export class V1Service {
     // Check if the user exist with provided email, socialAccountUniqueId and socialAccountTypeId
     let userFound: User = await this.get_profile(createDto);
     if (!userFound) {
+      const role: Role = await this.role.findAEntity({
+        name: RoleEnum.Subscriber,
+      });
       const social: SocialAccount = await this.social_account.create(
-        createDto,
+        { ...createDto, role },
         false,
       );
 
