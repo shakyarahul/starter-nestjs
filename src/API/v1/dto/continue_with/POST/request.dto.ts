@@ -1,5 +1,11 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsNotEmpty, IsNumber, IsOptional, IsString } from 'class-validator';
+import {
+  IsEmail,
+  IsNotEmpty,
+  IsNumber,
+  IsOptional,
+  IsString,
+} from 'class-validator';
 import { Role } from 'src/Entities/role/Role.entity';
 import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccountType.entity';
 
@@ -16,7 +22,7 @@ export class RequestDto {
     description: 'Email Id of the social login',
     example: 'rahulsaqya@gmail.com',
   })
-  @IsString()
+  @IsEmail()
   @IsNotEmpty()
   social_account_email: string;
 

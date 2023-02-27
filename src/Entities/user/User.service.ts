@@ -30,9 +30,17 @@ export class UserService {
     updateEnity.email = updateDto.email;
     updateEnity.first_name = updateDto.first_name;
     updateEnity.last_name = updateDto.last_name;
-    updateEnity.social = updateDto.social;
-    // updateEnity.interested_categories = updateDto.interested_categories;
     updateEnity.dob = updateDto.dob;
     return this.entityRepo.save(updateEnity);
+  }
+  async findAUser(dto) {
+    return await this.entityRepo.findOne({
+      where: dto,
+      relations: {
+        social: {
+          social_account_type: true,
+        },
+      },
+    });
   }
 }

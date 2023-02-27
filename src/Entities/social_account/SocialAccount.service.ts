@@ -49,14 +49,12 @@ export class SocialAccountService {
     updateEnity.role = updateDto.role;
     return await this.entityRepo.save(updateEnity);
   }
-
-  async findAUser(email, unique_id, account_type) {
+  async getQueryRunner() {
+    return await this.entityRepo.createQueryBuilder();
+  }
+  async findAUser(dto) {
     return await this.entityRepo.findOne({
-      where: {
-        social_account_email: email,
-        social_account_unique_user: unique_id,
-        social_account_type: account_type,
-      },
+      where: dto,
       relations: ['role', 'social_account_type'],
     });
   }

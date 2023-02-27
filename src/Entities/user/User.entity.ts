@@ -40,7 +40,7 @@ export class User {
 
   @OneToOne(() => SocialAccount, (social_account) => social_account.user)
   @JoinColumn()
-  social: number;
+  social: SocialAccount;
 
   @Column('timestamp', {
     nullable: true,

@@ -10,6 +10,7 @@ import { SocialAccountService } from 'src/Entities/social_account/SocialAccount.
 import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccountType.entity';
 import { SocialAccountTypeModule } from 'src/Entities/social_account_type/SocialAccountType.module';
 import { SocialAccountTypeService } from 'src/Entities/social_account_type/SocialAccountType.service';
+import { UserModule } from 'src/Entities/user/user.module';
 import { JwtStrategy } from './strategy/jwt.strategy';
 import { V1Controller } from './V1.controller';
 import { V1Service } from './V1.service';
@@ -19,6 +20,7 @@ import { V1Service } from './V1.service';
     SocialAccountTypeModule,
     RoleModule,
     SocialAccountModule,
+    UserModule,
     TypeOrmModule.forFeature([SocialAccountType, Role, SocialAccount]),
     JwtModule.register({
       secret: 'SECRET',

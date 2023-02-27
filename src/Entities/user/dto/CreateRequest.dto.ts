@@ -9,6 +9,7 @@ import {
   IsString,
   IsUrl,
 } from 'class-validator';
+import { SocialAccount } from 'src/Entities/social_account/SocialAccount.entity';
 import { Category } from '../../category/Category.entity';
 
 export class CreateRequestDto {
@@ -18,7 +19,7 @@ export class CreateRequestDto {
   })
   @IsEmail()
   @IsNotEmpty()
-  email: string;
+  email!: string;
 
   @ApiProperty({
     description: 'Profile Image of the social user',
@@ -26,23 +27,23 @@ export class CreateRequestDto {
   })
   @IsUrl()
   @IsOptional()
-  profile_url: string;
+  profile_url!: string;
 
   @ApiProperty({
     description: 'First name of the social user',
     example: 'Rahul',
   })
   @IsString()
-  @IsNotEmpty()
-  first_name: string;
+  @IsOptional()
+  first_name!: string;
 
   @ApiProperty({
     description: 'Last name of the social user',
     example: 'Last',
   })
   @IsString()
-  @IsNotEmpty()
-  last_name: string;
+  @IsOptional()
+  last_name!: string;
 
   @ApiProperty({
     description: 'Dob name of the social user',
@@ -50,7 +51,7 @@ export class CreateRequestDto {
   })
   @IsDate()
   @IsOptional()
-  dob: Date;
+  dob!: Date;
 
   @ApiProperty({
     description: 'Social account type of the social user',
@@ -58,7 +59,7 @@ export class CreateRequestDto {
   })
   @IsNumber()
   @IsNotEmpty()
-  social: number;
+  social!: SocialAccount;
 
   @ApiProperty({
     description: 'Last name of the social user',
@@ -66,5 +67,5 @@ export class CreateRequestDto {
   })
   @IsArray()
   @IsOptional()
-  interested_categories: Array<Category>;
+  interested_categories!: Array<Category>;
 }
