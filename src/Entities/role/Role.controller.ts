@@ -20,7 +20,7 @@ import { RoleService as EntityService } from './Role.service';
 @Controller('role')
 export class RoleController {
   constructor(private readonly entityService: EntityService) {}
-  @HasRoles(RoleEnum.Administrator)
+  @HasRoles(RoleEnum.Author)
   @UseGuards(JwtAuthGuard, RolesGuard)
   @Get('/')
   @ApiCreatedResponse({
@@ -39,7 +39,7 @@ export class RoleController {
     return listResDto;
   }
 
-  @HasRoles(RoleEnum.Administrator)
+  @HasRoles(RoleEnum.Author)
   @UseGuards(JwtAuthGuard, RolesGuard)
   @Post('/')
   @ApiCreatedResponse({
@@ -51,7 +51,7 @@ export class RoleController {
     return this.entityService.findAll();
   }
 
-  @HasRoles(RoleEnum.Administrator)
+  @HasRoles(RoleEnum.Author)
   @UseGuards(JwtAuthGuard, RolesGuard)
   @Put('/')
   @ApiCreatedResponse({
