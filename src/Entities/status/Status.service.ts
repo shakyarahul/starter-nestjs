@@ -29,4 +29,8 @@ export class StatusService {
     updateEnity.name = updateDto.name;
     return this.entityRepo.save(updateEnity);
   }
+
+  async findAEntity(data) {
+    return await this.entityRepo.findOneBy(data);
+  }
 }

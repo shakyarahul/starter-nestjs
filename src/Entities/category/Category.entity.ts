@@ -19,7 +19,7 @@ export class Category {
   @Column('varchar', { nullable: false, length: 50, name: 'name' })
   name!: string;
 
-  @OneToOne(
+  @ManyToOne(
     () => User,
     // (user) => user.categories
   )

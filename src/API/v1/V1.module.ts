@@ -2,6 +2,7 @@ import { Module, OnModuleInit } from '@nestjs/common';
 import { JwtModule, JwtService } from '@nestjs/jwt';
 import { MulterModule } from '@nestjs/platform-express';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { CategoryModule } from 'src/Entities/category/category.module';
 import { NotificationStatusModule } from 'src/Entities/notification_status/NotificationStatus.module';
 import { Role } from 'src/Entities/role/Role.entity';
 import { RoleModule } from 'src/Entities/role/Role.module';
@@ -12,6 +13,7 @@ import { SocialAccountService } from 'src/Entities/social_account/SocialAccount.
 import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccountType.entity';
 import { SocialAccountTypeModule } from 'src/Entities/social_account_type/SocialAccountType.module';
 import { SocialAccountTypeService } from 'src/Entities/social_account_type/SocialAccountType.service';
+import { StatusModule } from 'src/Entities/status/status.module';
 import { UserModule } from 'src/Entities/user/user.module';
 import { RoleEnum } from './decorator/roles.decorator';
 import { JwtStrategy } from './strategy/jwt.strategy';
@@ -33,6 +35,8 @@ import { V1Service } from './V1.service';
       dest: './uploads',
     }),
     NotificationStatusModule,
+    CategoryModule,
+    StatusModule,
   ],
   controllers: [V1Controller],
   providers: [

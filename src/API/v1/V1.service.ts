@@ -1,4 +1,6 @@
 import { Injectable } from '@nestjs/common';
+import { Category } from 'src/Entities/category/Category.entity';
+import { CategoryService } from 'src/Entities/category/Category.service';
 import { NotificationStatus } from 'src/Entities/notification_status/NotificationStatus.entity';
 import { NotificationStatusService } from 'src/Entities/notification_status/NotificationStatus.service';
 import { Role } from 'src/Entities/role/Role.entity';
@@ -7,6 +9,8 @@ import { SocialAccount } from 'src/Entities/social_account/SocialAccount.entity'
 import { SocialAccountService } from 'src/Entities/social_account/SocialAccount.service';
 import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccountType.entity';
 import { SocialAccountTypeService } from 'src/Entities/social_account_type/SocialAccountType.service';
+import { StatusEnum } from 'src/Entities/status/Status.entity';
+import { StatusService } from 'src/Entities/status/Status.service';
 import { User } from 'src/Entities/user/User.entity';
 import { UserService } from 'src/Entities/user/User.service';
 import { EntityManager } from 'typeorm';
@@ -19,7 +23,9 @@ export class V1Service {
     private readonly social_account: SocialAccountService,
     private readonly role: RoleService,
     private user: UserService,
+    private category: CategoryService,
     private notificationStatus: NotificationStatusService,
+    private status: StatusService,
   ) {}
 
   async get_continue_with(): Promise<Array<SocialAccountType>> {
@@ -102,5 +108,33 @@ export class V1Service {
 
   async post_upload(file) {
     return file;
+  }
+
+  async post_categories(dto, user: User): Promise<Category> {
+    const status = await this.status.findAEntity({ name: StatusEnum.Pending });
+    const createCat = await this.category.create({
+      ...dto,
+      status,
+      created_by: user.id,
+    });
+    return createCat;
+  }
+  async total_categories(
+    dto = {
+      keyword: '',
+      page: 1,
+      page_size: 10,
+    },
+  ): Promise<number> {
+    return await this.category.totalRows(dto);
+  }
+  async get_categories(
+    dto = {
+      keyword: '',
+      page: 1,
+      page_size: 10,
+    },
+  ): Promise<Array<Category>> {
+    return await this.category.findAll(dto);
   }
 }

@@ -1,12 +1,13 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsNotEmpty, IsString } from 'class-validator';
+import { IsEnum, IsNotEmpty, IsString } from 'class-validator';
+import { StatusEnum } from '../Status.entity';
 
 export class CreateRequestDto {
   @ApiProperty({
     description: 'Name to represent role',
     example: 'Admin',
   })
-  @IsString()
+  @IsEnum(StatusEnum)
   @IsNotEmpty()
-  name: string;
+  name: StatusEnum;
 }
