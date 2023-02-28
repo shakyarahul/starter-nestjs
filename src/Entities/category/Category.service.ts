@@ -112,7 +112,9 @@ export class CategoryService {
         'status_tbl.color',
         'status_tbl.updated_at',
         'status_tbl.created_at',
-      ]);
+      ])
+      .skip(skip)
+      .take(dto.page_size);
     return await data.getMany();
   }
 }

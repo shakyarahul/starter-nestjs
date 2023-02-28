@@ -5,6 +5,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { CategoryModule } from 'src/Entities/category/category.module';
 import { CategoryService } from 'src/Entities/category/Category.service';
 import { NotificationStatusModule } from 'src/Entities/notification_status/NotificationStatus.module';
+import { RoadmapModule } from 'src/Entities/roadmap/roadmap.module';
+import { RoadmapService } from 'src/Entities/roadmap/Roadmap.service';
 import { Role } from 'src/Entities/role/Role.entity';
 import { RoleModule } from 'src/Entities/role/Role.module';
 import { RoleService } from 'src/Entities/role/Role.service';
@@ -29,6 +31,7 @@ import { V1Service } from './V1.service';
     RoleModule,
     SocialAccountModule,
     UserModule,
+    RoadmapModule,
     TypeOrmModule.forFeature([SocialAccountType, Role, SocialAccount]),
     JwtModule.register({
       secret: 'SECRET',
