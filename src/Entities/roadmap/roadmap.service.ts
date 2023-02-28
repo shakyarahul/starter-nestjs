@@ -19,8 +19,8 @@ export class RoadmapService {
     });
   }
   async create(createDto: CreateRequestDto) {
-    const newEntity = this.entityRepo.create(createDto);
-    return this.entityRepo.save(newEntity);
+    const newEntity = await this.entityRepo.create(createDto);
+    return await this.entityRepo.save(newEntity);
   }
   async totalRows(
     dto = {
@@ -46,7 +46,6 @@ export class RoadmapService {
     },
   ) {
     const skip = (dto.page - 1) * dto.page_size;
-    console.log(skip, 'SKIPING');
     const data = this.entityRepo
       .createQueryBuilder('roadmap')
       .leftJoinAndSelect('roadmap.status', 'status_tbl')

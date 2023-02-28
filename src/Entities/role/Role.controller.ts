@@ -28,7 +28,6 @@ export class RoleController {
     type: ListResponseDto,
   })
   async list(@Request() req) {
-    console.log(req.user);
     const data = await this.entityService.findAll();
     const listResDto = new ListResponseDto();
     listResDto.data = data;

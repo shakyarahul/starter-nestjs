@@ -126,7 +126,6 @@ export class V1Controller {
     type: get_profile_ResponseDto,
   })
   async get_profile(@Request() req: any): Promise<get_profile_ResponseDto> {
-    console.log(req, 'readf');
     const response: get_profile_ResponseDto = {
       data: req.user,
       meta_data: { last_updated: getLastUpdatedDate(req.user) },

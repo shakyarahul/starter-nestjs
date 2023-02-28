@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsDate, IsNumber, IsString, IsUrl } from 'class-validator';
+import { IsArray, IsDate, IsNumber, IsString, IsUrl } from 'class-validator';
 import { Category } from 'src/Entities/category/Category.entity';
 import { Url } from 'url';
 
@@ -8,7 +8,7 @@ export class RequestDto {
     description: 'Category',
     example: 1,
   })
-  @IsNumber()
+  @IsArray()
   category_ids: Array<Category>;
 
   @ApiProperty({
