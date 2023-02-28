@@ -15,9 +15,9 @@ export class SocialAccountService {
   async createEntityIfNotExists(data, uniqueKey = 'name') {
     const exists = await this.findAEntity({ [uniqueKey]: data[uniqueKey] });
     if (!exists) {
-      await this.create(data);
+      return await this.create(data);
     } else {
-      await this.update({ ...data, id: exists.id });
+      return await this.update({ ...data, id: exists.id });
     }
   }
   async findAEntity(entity) {

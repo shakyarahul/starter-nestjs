@@ -129,12 +129,13 @@ export class V1Service {
     return await this.category.totalRows(dto);
   }
   async get_categories(
+    user: User,
     dto = {
       keyword: '',
       page: 1,
       page_size: 10,
     },
   ): Promise<Array<Category>> {
-    return await this.category.findAll(dto);
+    return await this.category.findMine(user, dto);
   }
 }

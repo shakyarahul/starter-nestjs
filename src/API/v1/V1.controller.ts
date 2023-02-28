@@ -239,7 +239,7 @@ export class V1Controller {
       req.user,
     );
     if (result) {
-      return await this.get_the_categories();
+      return await this.get_the_categories(req.user);
     }
   }
 
@@ -256,10 +256,11 @@ export class V1Controller {
     @Request() req: any,
     @Body() dto: get_categories_RequestDto,
   ): Promise<get_categories_ResponseDto> {
-    return await this.get_the_categories(dto);
+    return await this.get_the_categories(req.user, dto);
   }
 
   async get_the_categories(
+    user: User,
     dto: get_categories_RequestDto = {
       page: 1,
       page_size: 10,
@@ -267,7 +268,10 @@ export class V1Controller {
       keyword: '',
     },
   ): Promise<get_categories_ResponseDto> {
-    const data: Array<Category> = await this.entityService.get_categories(dto);
+    const data: Array<Category> = await this.entityService.get_categories(
+      user,
+      dto,
+    );
     const total: number = await this.entityService.total_categories(dto);
     const has_next: boolean = total - dto.page * dto.page_size > 0;
     const response: get_categories_ResponseDto = {

@@ -11,6 +11,14 @@ export class StatusService {
     @InjectRepository(Status)
     private readonly entityRepo: Repository<Status>,
   ) {}
+  async createEntityIfNotExists(data, uniqueKey = 'name') {
+    const exists = await this.findAEntity({ [uniqueKey]: data[uniqueKey] });
+    if (!exists) {
+      return await this.create(data);
+    } else {
+      return await this.update({ ...data, id: exists.id });
+    }
+  }
   async findAll() {
     return this.entityRepo.find({
       order: { updated_at: -1 },
