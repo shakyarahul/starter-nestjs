@@ -9,12 +9,10 @@ import {
 import { User } from '../user/User.entity';
 import { Role } from '../role/Role.entity';
 import { SocialAccountType } from '../social_account_type/SocialAccountType.entity';
+import { CommonEntity } from '../commons/common.entity';
 
 @Entity('social_account')
-export class SocialAccount {
-  @PrimaryGeneratedColumn({ type: 'int', unsigned: true, name: 'id' })
-  id!: number;
-
+export class SocialAccount extends CommonEntity {
   @Column('varchar', {
     nullable: false,
     length: 255,
@@ -39,20 +37,6 @@ export class SocialAccount {
   )
   @JoinColumn()
   social_account_type!: SocialAccountType;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'updated_at',
-  })
-  updated_at!: Date;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'created_at',
-  })
-  created_at!: Date;
 
   @OneToOne(() => User)
   user: User;

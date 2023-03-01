@@ -3,26 +3,23 @@ import {
   Column,
   Entity,
   JoinColumn,
+  JoinTable,
   ManyToMany,
   ManyToOne,
   OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { Url } from 'url';
+import { CommonEntity } from '../commons/common.entity';
+import { Roadmap } from '../roadmap/Roadmap.entity';
 import { User } from '../user/User.entity';
 
 @Entity('category')
-export class Category {
-  @PrimaryGeneratedColumn({ type: 'int', unsigned: true, name: 'id' })
-  id!: number;
-
+export class Category extends CommonEntity {
   @Column('varchar', { nullable: false, length: 50, name: 'name' })
   name!: string;
 
-  @ManyToOne(
-    () => User,
-    // (user) => user.categories
-  )
+  @ManyToOne(() => User, (user) => user.categories)
   @JoinColumn()
   created_by!: User;
 
@@ -41,21 +38,10 @@ export class Category {
   @JoinColumn()
   status: Status;
 
-  @ManyToMany(() => User)
-  @JoinColumn()
-  interested_users: User[];
+  @ManyToMany(() => User, (user) => user.interested_categories)
+  @JoinTable()
+  interested_users: Array<User>;
 
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'updated_at',
-  })
-  updated_at!: Date;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'created_at',
-  })
-  created_at!: Date;
+  @ManyToMany(() => Roadmap, (roadmap) => roadmap.categories)
+  roadmaps!: Array<Roadmap>;
 }

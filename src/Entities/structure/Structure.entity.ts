@@ -1,11 +1,9 @@
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+import { CommonEntity } from '../commons/common.entity';
 import { Roadmap } from '../roadmap/Roadmap.entity';
 
-@Entity('Structure')
-export class Structure {
-  @PrimaryGeneratedColumn({ type: 'int', unsigned: true, name: 'id' })
-  id!: number;
-
+@Entity('structure')
+export class Structure extends CommonEntity {
   @Column('varchar', {
     nullable: false,
     default: 'Structure',
@@ -13,20 +11,6 @@ export class Structure {
     name: 'name',
   })
   name!: string;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'updated_at',
-  })
-  updated_at!: Date;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'created_at',
-  })
-  created_at!: Date;
 
   @OneToMany(() => Roadmap, (roadmap) => roadmap.structure)
   roadmaps!: Roadmap[];

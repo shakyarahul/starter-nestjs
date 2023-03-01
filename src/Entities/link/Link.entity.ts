@@ -11,22 +11,17 @@ import {
 } from 'typeorm';
 import { Url } from 'url';
 import { Comment } from '../comment/Comment.entity';
+import { CommonEntity } from '../commons/common.entity';
 import { Roadmap } from '../roadmap/Roadmap.entity';
 import { User } from '../user/User.entity';
 
 @Entity('link')
-export class Link {
-  @PrimaryGeneratedColumn({ type: 'int', unsigned: true, name: 'id' })
-  id!: number;
-
+export class Link extends CommonEntity {
   @ManyToMany(() => Roadmap, (roadmap) => roadmap.links)
   @JoinTable()
   roadmaps!: Roadmap[];
 
-  @ManyToOne(
-    () => User,
-    //  (user) => user.categories
-  )
+  @ManyToOne(() => User, (user) => user.links)
   @JoinColumn()
   created_by!: User;
 
@@ -64,20 +59,6 @@ export class Link {
     name: 'open_url_directly',
   })
   open_url_directly!: boolean;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'updated_at',
-  })
-  updated_at!: Date;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'created_at',
-  })
-  created_at!: Date;
 
   @OneToMany(() => Link, (link) => link.parent_link)
   child_link: Link[];

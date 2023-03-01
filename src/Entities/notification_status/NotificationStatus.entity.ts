@@ -5,13 +5,11 @@ import {
   OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
+import { CommonEntity } from '../commons/common.entity';
 import { User } from '../user/User.entity';
 
 @Entity('notification_status')
-export class NotificationStatus {
-  @PrimaryGeneratedColumn({ type: 'int', unsigned: true, name: 'id' })
-  id!: number;
-
+export class NotificationStatus extends CommonEntity {
   @OneToOne(() => User, (user) => user.notification)
   user: User;
 
@@ -35,18 +33,4 @@ export class NotificationStatus {
 
   @Column('boolean', { nullable: false, default: true })
   when_added_new_roadmap_on_your_interested_category!: boolean;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'updated_at',
-  })
-  updated_at!: Date;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'created_at',
-  })
-  created_at!: Date;
 }
