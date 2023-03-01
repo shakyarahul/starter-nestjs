@@ -5,19 +5,14 @@ import {
   ManyToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
+import { CommonEntity } from '../commons/common.entity';
 import { Link } from '../link/Link.entity';
 import { Roadmap } from '../roadmap/Roadmap.entity';
 import { User } from '../user/User.entity';
 
 @Entity('comment')
-export class Comment {
-  @PrimaryGeneratedColumn({ type: 'int', unsigned: true, name: 'id' })
-  id!: number;
-
-  @ManyToOne(
-    () => User,
-    // (user) => user.comments
-  )
+export class Comment extends CommonEntity {
+  @ManyToOne(() => User, (user) => user.comments)
   @JoinColumn()
   created_by!: User;
 
@@ -36,18 +31,4 @@ export class Comment {
     name: 'comment',
   })
   comment!: string;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'updated_at',
-  })
-  updated_at!: Date;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'created_at',
-  })
-  created_at!: Date;
 }

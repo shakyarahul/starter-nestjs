@@ -1,13 +1,11 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { Url } from 'url';
+import { CommonEntity } from '../commons/common.entity';
 import { SocialAccount } from '../social_account/SocialAccount.entity';
 
 @Entity('social_account_type')
-export class SocialAccountType {
-  @PrimaryGeneratedColumn({ type: 'int', unsigned: true, name: 'id' })
-  id!: number;
-
+export class SocialAccountType extends CommonEntity {
   @ApiProperty({
     description: 'Logo for the social account login',
     example:
@@ -29,28 +27,6 @@ export class SocialAccountType {
   })
   @Column('varchar', { nullable: false, length: 50, name: 'title' })
   title!: string;
-
-  @ApiProperty({
-    description: 'Updated At',
-    example: new Date(),
-  })
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'updated_at',
-  })
-  updated_at!: Date;
-
-  @ApiProperty({
-    description: 'Created At',
-    example: new Date(),
-  })
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'created_at',
-  })
-  created_at!: Date;
 
   @OneToMany(
     () => SocialAccount,

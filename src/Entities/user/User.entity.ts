@@ -2,20 +2,22 @@ import {
   Column,
   Entity,
   JoinColumn,
+  JoinTable,
+  ManyToMany,
   OneToMany,
   OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
+import { Category } from '../category/Category.entity';
 import { Comment } from '../comment/Comment.entity';
+import { CommonEntity } from '../commons/common.entity';
+import { Link } from '../link/Link.entity';
 import { NotificationStatus } from '../notification_status/NotificationStatus.entity';
 import { Roadmap } from '../roadmap/Roadmap.entity';
 import { SocialAccount } from '../social_account/SocialAccount.entity';
 
 @Entity('user')
-export class User {
-  @PrimaryGeneratedColumn({ type: 'int', unsigned: true, name: 'id' })
-  id!: number;
-
+export class User extends CommonEntity {
   @Column('varchar', { nullable: false, length: 255, name: 'email' })
   email!: string;
 
@@ -49,23 +51,9 @@ export class User {
   })
   dob!: Date;
 
-  // @ManyToMany(() => Category)
-  // @JoinTable()
-  // interested_categories!: Category[];
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'updated_at',
-  })
-  updated_at!: Date;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'created_at',
-  })
-  created_at!: Date;
+  @ManyToMany(() => Category, (category) => category.interested_users)
+  @JoinTable()
+  interested_categories!: Array<Category>;
 
   @OneToOne(
     () => NotificationStatus,
@@ -74,12 +62,15 @@ export class User {
   @JoinColumn()
   notification: NotificationStatus;
 
-  // @OneToMany(() => Category, (category) => category.created_by)
-  // categories: Category[];
+  @OneToMany(() => Category, (category) => category.created_by)
+  categories: Category[];
 
   @OneToMany(() => Roadmap, (roadmap) => roadmap.created_by)
   createdRoadmaps: Roadmap[];
 
   @OneToMany(() => Comment, (comment) => comment.created_by)
   comments: Comment[];
+
+  @OneToMany(() => Link, (link) => link.created_by)
+  links: Link[];
 }

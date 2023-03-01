@@ -2,6 +2,7 @@ import {
   Column,
   Entity,
   JoinColumn,
+  JoinTable,
   ManyToMany,
   ManyToOne,
   OneToMany,
@@ -13,22 +14,18 @@ import { Structure } from '../structure/Structure.entity';
 import { User } from '../user/User.entity';
 import { Status } from 'src/Entities/status/Status.entity';
 import { Url } from 'url';
+import { CommonEntity } from '../commons/common.entity';
+import { Category } from '../category/Category.entity';
 
 @Entity('roadmap')
-export class Roadmap {
-  @PrimaryGeneratedColumn({ type: 'int', unsigned: true, name: 'id' })
-  id!: number;
-
+export class Roadmap extends CommonEntity {
   @Column('varchar', { nullable: false, length: 50, name: 'title' })
   title!: string;
 
   @Column('varchar', { nullable: true, length: 100, name: 'subtitle' })
   subtitle!: string;
 
-  @ManyToOne(
-    () => User,
-    // (user) => user.createdRoadmaps
-  )
+  @ManyToOne(() => User, (user) => user.createdRoadmaps)
   @JoinColumn()
   created_by!: User;
 
@@ -45,22 +42,12 @@ export class Roadmap {
   @Column('bigint', { nullable: true, default: 0, name: 'views' })
   views!: number;
 
+  @ManyToMany(() => Category, (category) => category.roadmaps)
+  @JoinTable()
+  categories!: Array<Category>;
+
   @ManyToOne(() => Structure, (structure) => structure.roadmaps)
   structure: Structure;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'updated_at',
-  })
-  updated_at!: Date;
-
-  @Column('timestamp', {
-    nullable: false,
-    default: () => 'CURRENT_TIMESTAMP',
-    name: 'created_at',
-  })
-  created_at!: Date;
 
   @ManyToMany(() => Link, (link) => link.roadmaps)
   links: Link[];
