@@ -148,7 +148,9 @@ export class V1Service {
       ...dto,
       status,
       created_by: user,
-      categories: dto.category_ids,
+      categories: dto.category_ids.map((v) => {
+        return { id: v };
+      }),
     });
     return createRoadmap;
   }

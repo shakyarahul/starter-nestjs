@@ -15,6 +15,10 @@ export class RoadmapService {
   ) {}
   async findAll() {
     return this.entityRepo.find({
+      relations: {
+        categories: true,
+        status: true,
+      },
       order: { updated_at: -1 },
     });
   }

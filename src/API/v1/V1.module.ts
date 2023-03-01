@@ -64,72 +64,56 @@ export class V1Module implements OnModuleInit {
   ) {}
   async onModuleInit() {
     // Populating Roles
-    this.roleService.createEntityIfNotExists(
+    [
       { name: RoleEnum.Subscriber },
-      'name',
-    );
-    this.roleService.createEntityIfNotExists(
       { name: RoleEnum.Contributor },
-      'name',
-    );
-    this.roleService.createEntityIfNotExists({ name: RoleEnum.Author }, 'name');
-    this.roleService.createEntityIfNotExists({ name: RoleEnum.Editor }, 'name');
-    this.roleService.createEntityIfNotExists(
+      { name: RoleEnum.Author },
+      { name: RoleEnum.Editor },
       { name: RoleEnum.Administrator },
-      'name',
-    );
-
+    ].map((v) => this.roleService.createEntityIfNotExists(v, 'name'));
     // Populating Social Accounts
-    this.socialAccountTypeService.createEntityIfNotExists(
+    [
       {
         name: 'Google',
         title: 'Login with Google',
       },
-      'name',
-    );
-    this.socialAccountTypeService.createEntityIfNotExists(
       {
         name: 'Apple',
         title: 'Login with Apple',
       },
-      'name',
+    ].map((v) =>
+      this.socialAccountTypeService.createEntityIfNotExists(v, 'name'),
     );
-
-    const role = await this.roleService.findAEntity({
-      name: RoleEnum.Administrator,
-    });
-    const social_account_type = await this.socialAccountTypeService.findAEntity(
-      {
-        name: 'Google',
-      },
-    );
-    const admin = await this.v1Service.post_continue_with({
-      social_account_unique_user: '107691503500061ddd50715113082367',
-      social_account_email: 'rahulsaqya@gmail.com',
-      role,
-      social_account_type,
-      first_name: 'Rahul',
-      last_name: 'Saqya',
-    });
-
-    const approvedStatus = await this.statusService.createEntityIfNotExists(
+    // Populating Status
+    [
       {
         name: StatusEnum.Approved,
       },
-      'name',
-    );
-    this.statusService.createEntityIfNotExists(
       {
         name: StatusEnum.Pending,
       },
-      'name',
-    );
-    this.statusService.createEntityIfNotExists(
       {
         name: StatusEnum.Rejected,
       },
-      'name',
-    );
+    ].map((v) => this.statusService.createEntityIfNotExists(v, 'name'));
+    const approvedStatus = await this.statusService.findAEntity({
+      name: StatusEnum.Approved,
+    });
+    const role_admin = await this.roleService.findAEntity({
+      name: RoleEnum.Administrator,
+    });
+    const social_account_type_google =
+      await this.socialAccountTypeService.findAEntity({
+        name: 'Google',
+      });
+    const admin = await this.v1Service.post_continue_with({
+      social_account_unique_user: '107691503500061ddd50715113082367',
+      social_account_email: 'rahulsaqya@gmail.com',
+      role: role_admin,
+      social_account_type: social_account_type_google,
+      first_name: 'Rahul',
+      last_name: 'Saqya',
+    });
 
     await this.categoryService.createEntityIfNotExists(
       {
