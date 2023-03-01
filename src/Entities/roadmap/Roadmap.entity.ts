@@ -46,9 +46,6 @@ export class Roadmap extends CommonEntity {
   @JoinTable()
   categories!: Array<Category>;
 
-  @ManyToOne(() => Structure, (structure) => structure.roadmaps)
-  structure: Structure;
-
   @ManyToMany(() => Link, (link) => link.roadmaps)
   links: Link[];
 

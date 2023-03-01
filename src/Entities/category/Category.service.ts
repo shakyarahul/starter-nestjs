@@ -21,7 +21,6 @@ export class CategoryService {
     },
   ) {
     const skip = (dto.page - 1) * dto.page_size;
-    console.log(skip, 'SKIPING');
     return await this.entityRepo.find({
       where: {
         name: Like(`%${dto?.keyword}%`),
@@ -85,7 +84,6 @@ export class CategoryService {
     },
   ) {
     const skip = (dto.page - 1) * dto.page_size;
-    console.log(skip, 'SKIPING');
     const data = this.entityRepo
       .createQueryBuilder('category')
       .leftJoinAndSelect('category.status', 'status_tbl')
@@ -112,7 +110,9 @@ export class CategoryService {
         'status_tbl.color',
         'status_tbl.updated_at',
         'status_tbl.created_at',
-      ]);
+      ])
+      .skip(skip)
+      .take(dto.page_size);
     return await data.getMany();
   }
 }

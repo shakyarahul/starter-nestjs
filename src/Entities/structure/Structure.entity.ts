@@ -12,6 +12,6 @@ export class Structure extends CommonEntity {
   })
   name!: string;
 
-  @OneToMany(() => Roadmap, (roadmap) => roadmap.structure)
-  roadmaps!: Roadmap[];
+  @OneToMany(() => Roadmap, (roadmap) => roadmap.links)
+  links!: Roadmap[];
 }

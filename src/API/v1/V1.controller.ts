@@ -25,6 +25,12 @@ import { ResponseDto as post_profile_ResponseDto } from './dto/profile/POST/resp
 
 import { RequestDto as post_categories_RequestDto } from './dto/categories/POST/request.dto';
 import { ResponseDto as post_categories_ResponseDto } from './dto/categories/POST/response.dto';
+
+import { RequestDto as post_roadmaps_RequestDto } from './dto/roadmaps/POST/request.dto';
+import { ResponseDto as post_roadmaps_ResponseDto } from './dto/roadmaps/POST/response.dto';
+
+import { RequestDto as get_roadmaps_RequestDto } from './dto/roadmaps/GET/request.dto';
+import { ResponseDto as get_roadmaps_ResponseDto } from './dto/roadmaps/GET/response.dto';
 import {
   RequestDto as get_categories_RequestDto,
   SortByEnum,
@@ -44,6 +50,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { diskStorage } from 'multer';
 import { extname } from 'path';
 import { Category } from 'src/Entities/category/Category.entity';
+import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
 
 @ApiTags('V1')
 @Controller('v1')
@@ -119,7 +126,6 @@ export class V1Controller {
     type: get_profile_ResponseDto,
   })
   async get_profile(@Request() req: any): Promise<get_profile_ResponseDto> {
-    console.log(req, 'readf');
     const response: get_profile_ResponseDto = {
       data: req.user,
       meta_data: { last_updated: getLastUpdatedDate(req.user) },
@@ -259,6 +265,43 @@ export class V1Controller {
     return await this.get_the_categories(req.user, dto);
   }
 
+  @HasRoles(RoleEnum.Subscriber)
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Post('/roadmaps')
+  @HttpCode(200)
+  @UsePipes(ValidationPipe)
+  @ApiCreatedResponse({
+    description: 'Api that helps users to update few roadmaps informations',
+    type: post_roadmaps_ResponseDto,
+  })
+  async post_roadmaps(
+    @Request() req: any,
+    @Body() dto: post_roadmaps_RequestDto,
+  ): Promise<post_roadmaps_ResponseDto> {
+    const result: Roadmap = await this.entityService.post_roadmaps(
+      dto,
+      req.user,
+    );
+    if (result) {
+      return await this.get_the_roadmaps(req.user);
+    }
+  }
+
+  @HasRoles(RoleEnum.Subscriber)
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Get('/roadmaps')
+  @HttpCode(200)
+  @ApiCreatedResponse({
+    description: 'Api that helps users to update few roadmaps informations',
+    type: get_roadmaps_ResponseDto,
+  })
+  async get_roadmaps(
+    @Request() req: any,
+    @Body() dto: get_roadmaps_RequestDto,
+  ): Promise<get_roadmaps_ResponseDto> {
+    return await this.get_the_roadmaps(req.user, dto);
+  }
+
   async get_the_categories(
     user: User,
     dto: get_categories_RequestDto = {
@@ -275,6 +318,34 @@ export class V1Controller {
     const total: number = await this.entityService.total_categories(dto);
     const has_next: boolean = total - dto.page * dto.page_size > 0;
     const response: get_categories_ResponseDto = {
+      data: data,
+      meta_data: {
+        last_updated: getLastUpdatedDate(data),
+        query_params: dto,
+        total_pages: Math.ceil(total / dto.page_size),
+        sort_by: Object.values(SortByEnum),
+        has_next,
+      },
+    };
+    return response;
+  }
+
+  async get_the_roadmaps(
+    user: User,
+    dto: get_roadmaps_RequestDto = {
+      page: 1,
+      page_size: 10,
+      sort_by: SortByEnum.Latest,
+      keyword: '',
+    },
+  ): Promise<get_roadmaps_ResponseDto> {
+    const data: Array<Roadmap> = await this.entityService.get_roadmaps(
+      user,
+      dto,
+    );
+    const total: number = await this.entityService.total_roadmaps(dto);
+    const has_next: boolean = total - dto.page * dto.page_size > 0;
+    const response: get_roadmaps_ResponseDto = {
       data: data,
       meta_data: {
         last_updated: getLastUpdatedDate(data),

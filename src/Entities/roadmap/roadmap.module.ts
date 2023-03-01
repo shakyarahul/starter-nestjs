@@ -8,5 +8,6 @@ import { RoadmapService } from './Roadmap.service';
   imports: [TypeOrmModule.forFeature([Roadmap])],
   controllers: [RoadmapController],
   providers: [RoadmapService],
+  exports: [RoadmapService],
 })
 export class RoadmapModule {}

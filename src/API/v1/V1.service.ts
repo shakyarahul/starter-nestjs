@@ -3,6 +3,8 @@ import { Category } from 'src/Entities/category/Category.entity';
 import { CategoryService } from 'src/Entities/category/Category.service';
 import { NotificationStatus } from 'src/Entities/notification_status/NotificationStatus.entity';
 import { NotificationStatusService } from 'src/Entities/notification_status/NotificationStatus.service';
+import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
+import { RoadmapService } from 'src/Entities/roadmap/Roadmap.service';
 import { Role } from 'src/Entities/role/Role.entity';
 import { RoleService } from 'src/Entities/role/Role.service';
 import { SocialAccount } from 'src/Entities/social_account/SocialAccount.entity';
@@ -26,6 +28,7 @@ export class V1Service {
     private category: CategoryService,
     private notificationStatus: NotificationStatusService,
     private status: StatusService,
+    private roadmap: RoadmapService,
   ) {}
 
   async get_continue_with(): Promise<Array<SocialAccountType>> {
@@ -137,5 +140,38 @@ export class V1Service {
     },
   ): Promise<Array<Category>> {
     return await this.category.findMine(user, dto);
+  }
+
+  async post_roadmaps(dto, user: User) {
+    const status = await this.status.findAEntity({ name: StatusEnum.Pending });
+    const createRoadmap = await this.roadmap.create({
+      ...dto,
+      status,
+      created_by: user,
+      categories: dto.category_ids.map((v) => {
+        return { id: v };
+      }),
+    });
+    return createRoadmap;
+  }
+
+  async total_roadmaps(
+    dto = {
+      keyword: '',
+      page: 1,
+      page_size: 10,
+    },
+  ): Promise<number> {
+    return await this.roadmap.totalRows(dto);
+  }
+  async get_roadmaps(
+    user: User,
+    dto = {
+      keyword: '',
+      page: 1,
+      page_size: 10,
+    },
+  ): Promise<Array<Roadmap>> {
+    return await this.roadmap.findMine(user, dto);
   }
 }

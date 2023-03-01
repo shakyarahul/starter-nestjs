@@ -13,6 +13,7 @@ import { Url } from 'url';
 import { Comment } from '../comment/Comment.entity';
 import { CommonEntity } from '../commons/common.entity';
 import { Roadmap } from '../roadmap/Roadmap.entity';
+import { Structure } from '../structure/Structure.entity';
 import { User } from '../user/User.entity';
 
 @Entity('link')
@@ -59,6 +60,9 @@ export class Link extends CommonEntity {
     name: 'open_url_directly',
   })
   open_url_directly!: boolean;
+
+  @ManyToOne(() => Structure, (structure) => structure.links)
+  structure: Structure;
 
   @OneToMany(() => Link, (link) => link.parent_link)
   child_link: Link[];

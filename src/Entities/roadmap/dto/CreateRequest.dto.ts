@@ -1,5 +1,12 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsNotEmpty, IsNumber, IsString, IsUrl } from 'class-validator';
+import {
+  IsNotEmpty,
+  IsNumber,
+  IsOptional,
+  IsString,
+  IsUrl,
+} from 'class-validator';
+import { Category } from 'src/Entities/category/Category.entity';
 import { Status } from 'src/Entities/status/Status.entity';
 import { User } from 'src/Entities/user/User.entity';
 import { Url } from 'url';
@@ -28,6 +35,14 @@ export class CreateRequestDto {
   @IsNumber()
   @IsNotEmpty()
   created_by: User;
+
+  @ApiProperty({
+    description: 'Category that represent roadmap',
+    example: [1, 2],
+  })
+  @IsNumber()
+  @IsOptional()
+  categories: Array<Category>;
 
   @ApiProperty({
     description: 'Status that represent roadmap',
