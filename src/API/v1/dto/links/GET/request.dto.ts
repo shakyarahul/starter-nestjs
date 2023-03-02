@@ -1,11 +1,12 @@
 import { ApiProperty } from '@nestjs/swagger';
 import {
   IsEnum,
-  IsNotEmpty,
-  IsNumber,
   IsOptional,
+  IsNumber,
   IsString,
+  IsNotEmpty,
 } from 'class-validator';
+import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
 import { SortByEnum } from '../../categories/GET/request.dto';
 
 export class RequestDto {
@@ -16,13 +17,6 @@ export class RequestDto {
   @IsNumber()
   @IsOptional()
   page: number;
-  @ApiProperty({
-    description: 'Keyword',
-    example: 'Javascript',
-  })
-  @IsString()
-  @IsOptional()
-  keyword: string;
 
   @ApiProperty({
     description: 'Page Size',
@@ -31,12 +25,4 @@ export class RequestDto {
   @IsNumber()
   @IsOptional()
   page_size: number;
-
-  @ApiProperty({
-    description: 'Sort_by',
-    example: 'popularity',
-  })
-  @IsEnum(SortByEnum)
-  @IsOptional()
-  sort_by: SortByEnum;
 }

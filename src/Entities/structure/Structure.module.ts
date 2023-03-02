@@ -8,5 +8,6 @@ import { StructureService } from './Structure.service';
   imports: [TypeOrmModule.forFeature([Structure])],
   controllers: [StructureController],
   providers: [StructureService],
+  exports: [StructureService],
 })
 export class StructureModule {}

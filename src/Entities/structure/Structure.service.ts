@@ -29,4 +29,15 @@ export class StructureService {
     updateEnity.name = updateDto.name;
     return this.entityRepo.save(updateEnity);
   }
+  async createEntityIfNotExists(data, uniqueKey = 'name') {
+    const exists = await this.findAEntity({ [uniqueKey]: data[uniqueKey] });
+    if (!exists) {
+      await this.create(data);
+    } else {
+      await this.update({ ...data, id: exists.id });
+    }
+  }
+  async findAEntity(data) {
+    return await this.entityRepo.findOneBy(data);
+  }
 }

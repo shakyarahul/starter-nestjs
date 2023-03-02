@@ -103,13 +103,11 @@ export class CategoryService {
         'category.description',
         'category.updated_at',
         'category.created_at',
-        'category.createdById',
-        'category.statusId',
         'status_tbl.id',
         'status_tbl.name',
-        'status_tbl.color',
-        'status_tbl.updated_at',
-        'status_tbl.created_at',
+        // 'status_tbl.color',
+        // 'status_tbl.updated_at',
+        // 'status_tbl.created_at',
       ])
       .skip(skip)
       .take(dto.page_size);

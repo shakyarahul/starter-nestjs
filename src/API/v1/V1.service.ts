@@ -1,6 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { Category } from 'src/Entities/category/Category.entity';
 import { CategoryService } from 'src/Entities/category/Category.service';
+import { Link } from 'src/Entities/link/Link.entity';
+import { LinkService } from 'src/Entities/link/Link.service';
 import { NotificationStatus } from 'src/Entities/notification_status/NotificationStatus.entity';
 import { NotificationStatusService } from 'src/Entities/notification_status/NotificationStatus.service';
 import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
@@ -29,6 +31,7 @@ export class V1Service {
     private notificationStatus: NotificationStatusService,
     private status: StatusService,
     private roadmap: RoadmapService,
+    private link: LinkService,
   ) {}
 
   async get_continue_with(): Promise<Array<SocialAccountType>> {
@@ -173,5 +176,37 @@ export class V1Service {
     },
   ): Promise<Array<Roadmap>> {
     return await this.roadmap.findMine(user, dto);
+  }
+
+  async post_links(dto, user: User) {
+    const status = await this.status.findAEntity({ name: StatusEnum.Pending });
+    const createRoadmap = await this.link.create({
+      ...dto,
+      roadmaps: dto.roadmaps.map((v) => {
+        return { id: v };
+      }),
+      status,
+      created_by: user,
+    });
+    return createRoadmap;
+  }
+
+  async total_links(
+    dto = {
+      page: 1,
+      page_size: 10,
+    },
+  ): Promise<number> {
+    return await this.link.totalRows(dto);
+  }
+  async get_links(
+    user: User,
+    roadmapId: Roadmap,
+    dto = {
+      page: 1,
+      page_size: 10,
+    },
+  ): Promise<Array<Link>> {
+    return await this.link.findMine(user, roadmapId, dto);
   }
 }
