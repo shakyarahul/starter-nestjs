@@ -1,6 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { Category } from 'src/Entities/category/Category.entity';
 import { CategoryService } from 'src/Entities/category/Category.service';
+import { Comment } from 'src/Entities/comment/Comment.entity';
+import { CommentService } from 'src/Entities/comment/Comment.service';
 import { Link } from 'src/Entities/link/Link.entity';
 import { LinkService } from 'src/Entities/link/Link.service';
 import { NotificationStatus } from 'src/Entities/notification_status/NotificationStatus.entity';
@@ -32,6 +34,7 @@ export class V1Service {
     private status: StatusService,
     private roadmap: RoadmapService,
     private link: LinkService,
+    private comment: CommentService,
   ) {}
 
   async get_continue_with(): Promise<Array<SocialAccountType>> {
@@ -173,6 +176,7 @@ export class V1Service {
       keyword: '',
       page: 1,
       page_size: 10,
+      category_id: null,
     },
   ): Promise<Array<Roadmap>> {
     return await this.roadmap.findMine(user, dto);
@@ -208,5 +212,33 @@ export class V1Service {
     },
   ): Promise<Array<Link>> {
     return await this.link.findMine(user, roadmapId, dto);
+  }
+
+  async post_comments(dto, user: User) {
+    const createRoadmap = await this.comment.create({
+      ...dto,
+      created_by: user,
+    });
+    return createRoadmap;
+  }
+
+  async total_comments(
+    dto = {
+      page: 1,
+      page_size: 10,
+    },
+  ): Promise<number> {
+    return await this.comment.totalRows(dto);
+  }
+  async get_comments(
+    user: User,
+    roadmapId: Roadmap,
+    linkId: any = null,
+    dto = {
+      page: 1,
+      page_size: 10,
+    },
+  ): Promise<Array<Comment>> {
+    return await this.comment.findMine(user, roadmapId, linkId, dto);
   }
 }

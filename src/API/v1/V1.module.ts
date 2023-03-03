@@ -4,6 +4,7 @@ import { MulterModule } from '@nestjs/platform-express';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { CategoryModule } from 'src/Entities/category/category.module';
 import { CategoryService } from 'src/Entities/category/Category.service';
+import { CommentModule } from 'src/Entities/comment/comment.module';
 import { LinkModule } from 'src/Entities/link/Link.module';
 import { NotificationStatusModule } from 'src/Entities/notification_status/NotificationStatus.module';
 import { RoadmapModule } from 'src/Entities/roadmap/roadmap.module';
@@ -48,6 +49,7 @@ import { V1Service } from './V1.service';
     StatusModule,
     LinkModule,
     StructureModule,
+    CommentModule,
   ],
   controllers: [V1Controller],
   providers: [
@@ -82,10 +84,12 @@ export class V1Module implements OnModuleInit {
     // Populating Social Accounts
     await [
       {
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg',
         name: 'Google',
         title: 'Login with Google',
       },
       {
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg',
         name: 'Apple',
         title: 'Login with Apple',
       },

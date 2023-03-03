@@ -6,6 +6,7 @@ import { CreateRequestDto } from './dto/CreateRequest.dto';
 import { UpdateRequestDto } from './dto/UpdateRequest.dto';
 import { StatusEnum } from '../status/Status.entity';
 import { User } from '../user/User.entity';
+import { isEmpty } from 'class-validator';
 
 @Injectable()
 export class RoadmapService {
@@ -47,6 +48,7 @@ export class RoadmapService {
       keyword: '',
       page: 1,
       page_size: 10,
+      category_id: null,
     },
   ) {
     const skip = (dto.page - 1) * dto.page_size;
@@ -81,7 +83,13 @@ export class RoadmapService {
       ])
       .skip(skip)
       .take(dto.page_size);
-    return await data.getMany();
+    if (isEmpty(dto.category_id)) {
+      return await data.getMany();
+    } else {
+      return (await data.getMany()).filter((v) =>
+        v.categories.map((k) => k.id).includes(dto.category_id),
+      );
+    }
   }
 
   async update(updateDto: UpdateRequestDto) {

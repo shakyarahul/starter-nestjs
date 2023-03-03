@@ -1,11 +1,13 @@
 import { ApiProperty } from '@nestjs/swagger';
 import {
+  IsBoolean,
   IsEnum,
   IsNotEmpty,
   IsNumber,
   IsOptional,
   IsString,
 } from 'class-validator';
+import { Category } from 'src/Entities/category/Category.entity';
 import { SortByEnum } from '../../categories/GET/request.dto';
 
 export class RequestDto {
@@ -39,4 +41,12 @@ export class RequestDto {
   @IsEnum(SortByEnum)
   @IsOptional()
   sort_by: SortByEnum;
+
+  @ApiProperty({
+    description: 'Category',
+    example: 1,
+  })
+  @IsNumber()
+  @IsOptional()
+  category_id: Category;
 }
