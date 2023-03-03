@@ -1,10 +1,16 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsEnum, IsNotEmpty, IsNumber, IsString } from 'class-validator';
+import {
+  IsEnum,
+  IsNotEmpty,
+  IsNumber,
+  IsOptional,
+  IsString,
+} from 'class-validator';
 
 export enum SortByEnum {
-  Popularity = 'populartiy',
+  Popularity = 'popularity',
   Latest = 'latest',
-  Most_Commented = 'most_commented',
+  Oldest = 'oldest',
 }
 
 export class RequestDto {
@@ -20,7 +26,7 @@ export class RequestDto {
     example: 'Javascript',
   })
   @IsString()
-  @IsNotEmpty()
+  @IsOptional()
   keyword: string;
 
   @ApiProperty({
@@ -28,7 +34,7 @@ export class RequestDto {
     example: 10,
   })
   @IsNumber()
-  @IsNotEmpty()
+  @IsOptional()
   page_size: number;
 
   @ApiProperty({

@@ -143,6 +143,7 @@ export class V1Service {
       keyword: '',
       page: 1,
       page_size: 10,
+      sort_by: 'latest',
     },
   ): Promise<Array<Category>> {
     return await this.category.findMine(user, dto);
