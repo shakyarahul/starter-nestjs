@@ -8,5 +8,6 @@ import { LinkService } from './Link.service';
   imports: [TypeOrmModule.forFeature([Link])],
   controllers: [LinkController],
   providers: [LinkService],
+  exports: [LinkService],
 })
 export class LinkModule {}

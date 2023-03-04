@@ -1,6 +1,6 @@
-import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, OneToMany } from 'typeorm';
 import { CommonEntity } from '../commons/common.entity';
-import { Roadmap } from '../roadmap/Roadmap.entity';
+import { Link } from '../link/Link.entity';
 
 @Entity('structure')
 export class Structure extends CommonEntity {
@@ -12,6 +12,13 @@ export class Structure extends CommonEntity {
   })
   name!: string;
 
-  @OneToMany(() => Roadmap, (roadmap) => roadmap.links)
-  links!: Roadmap[];
+  @Column('int', {
+    nullable: false,
+    default: 1,
+    name: 'supported_childs',
+  })
+  supported_childs!: number;
+
+  @OneToMany(() => Link, (link) => link.structure)
+  links!: Link[];
 }

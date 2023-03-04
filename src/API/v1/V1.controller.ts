@@ -31,6 +31,19 @@ import { ResponseDto as post_roadmaps_ResponseDto } from './dto/roadmaps/POST/re
 
 import { RequestDto as get_roadmaps_RequestDto } from './dto/roadmaps/GET/request.dto';
 import { ResponseDto as get_roadmaps_ResponseDto } from './dto/roadmaps/GET/response.dto';
+
+import { RequestDto as post_links_RequestDto } from './dto/links/POST/request.dto';
+import { ResponseDto as post_links_ResponseDto } from './dto/links/POST/response.dto';
+
+import { RequestDto as get_links_RequestDto } from './dto/links/GET/request.dto';
+import { ResponseDto as get_links_ResponseDto } from './dto/links/GET/response.dto';
+
+import { RequestDto as get_comments_RequestDto } from './dto/comments/GET/request.dto';
+import { ResponseDto as get_comments_ResponseDto } from './dto/comments/GET/response.dto';
+
+import { RequestDto as post_comments_RequestDto } from './dto/comments/POST/request.dto';
+import { ResponseDto as post_comments_ResponseDto } from './dto/comments/POST/response.dto';
+
 import {
   RequestDto as get_categories_RequestDto,
   SortByEnum,
@@ -51,6 +64,8 @@ import { diskStorage } from 'multer';
 import { extname } from 'path';
 import { Category } from 'src/Entities/category/Category.entity';
 import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
+import { Link } from 'src/Entities/link/Link.entity';
+import { Comment } from 'src/Entities/comment/Comment.entity';
 
 @ApiTags('V1')
 @Controller('v1')
@@ -152,11 +167,8 @@ export class V1Controller {
     @Body() dto: post_profile_RequestDto,
   ): Promise<post_profile_ResponseDto> {
     const data: User = await this.entityService.post_profile(dto, req.user);
-    const response: post_profile_ResponseDto = {
-      data: data,
-      meta_data: { last_updated: getLastUpdatedDate(req.user) },
-    };
-    return response;
+
+    return this.get_profile(req);
   }
 
   /**
@@ -290,6 +302,7 @@ export class V1Controller {
   @HasRoles(RoleEnum.Subscriber)
   @UseGuards(JwtAuthGuard, RolesGuard)
   @Get('/roadmaps')
+  @UsePipes(ValidationPipe)
   @HttpCode(200)
   @ApiCreatedResponse({
     description: 'Api that helps users to update few roadmaps informations',
@@ -300,6 +313,121 @@ export class V1Controller {
     @Body() dto: get_roadmaps_RequestDto,
   ): Promise<get_roadmaps_ResponseDto> {
     return await this.get_the_roadmaps(req.user, dto);
+  }
+
+  @HasRoles(RoleEnum.Subscriber)
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Post('/links/:roadmapId')
+  @HttpCode(200)
+  @UsePipes(ValidationPipe)
+  @ApiCreatedResponse({
+    description: 'Api that helps users to update few links informations',
+    type: post_links_ResponseDto,
+  })
+  async post_links(
+    @Request() req: any,
+    @Body() dto: post_links_RequestDto,
+    @Param('roadmapId') roadMapId: Roadmap,
+  ): Promise<post_links_ResponseDto> {
+    const result: Link = await this.entityService.post_links(dto, req.user);
+    if (result) {
+      return await this.get_the_links(req.user, roadMapId);
+    }
+  }
+
+  @HasRoles(RoleEnum.Subscriber)
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Get('/links/:roadmapId')
+  @HttpCode(200)
+  @UsePipes(ValidationPipe)
+  @ApiCreatedResponse({
+    description: 'Api that helps users to update few links informations',
+    type: get_links_ResponseDto,
+  })
+  async get_links(
+    @Request() req: any,
+    @Body() dto: get_links_RequestDto,
+    @Param('roadmapId') roadMapId: Roadmap,
+  ): Promise<get_links_ResponseDto> {
+    return await this.get_the_links(req.user, roadMapId, dto);
+  }
+
+  @HasRoles(RoleEnum.Subscriber)
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Post('/comments/:roadmapId/:linkId')
+  @HttpCode(200)
+  @UsePipes(ValidationPipe)
+  @ApiCreatedResponse({
+    description: 'Api that helps users to update few comments informations',
+    type: post_comments_ResponseDto,
+  })
+  async post_comments(
+    @Request() req: any,
+    @Body() dto: post_comments_RequestDto,
+    @Param('roadmapId') roadMapId: Roadmap,
+    @Param('linkId') linkId: any,
+  ): Promise<post_comments_ResponseDto> {
+    const result: Comment = await this.entityService.post_comments(
+      dto,
+      req.user,
+    );
+    if (result) {
+      return await this.get_the_comments(req.user, roadMapId, linkId);
+    }
+  }
+
+  @HasRoles(RoleEnum.Subscriber)
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Post('/comments/:roadmapId')
+  @HttpCode(200)
+  @UsePipes(ValidationPipe)
+  @ApiCreatedResponse({
+    description: 'Api that helps users to update few comments informations',
+    type: post_comments_ResponseDto,
+  })
+  async post__comments(
+    @Request() req: any,
+    @Body() dto: post_comments_RequestDto,
+    @Param('roadmapId') roadMapId: Roadmap,
+    @Param('linkId') linkId: any,
+  ): Promise<post_comments_ResponseDto> {
+    return await this.post__comments(req, dto, roadMapId, linkId);
+  }
+
+  @HasRoles(RoleEnum.Subscriber)
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Get('/comments/:roadmapId/:linkId')
+  @HttpCode(200)
+  @UsePipes(ValidationPipe)
+  @ApiCreatedResponse({
+    description: 'Api that helps users to update few comments informations',
+    type: get_comments_ResponseDto,
+  })
+  async get_comments(
+    @Request() req: any,
+    @Body() dto: get_comments_RequestDto,
+    @Param('roadmapId') roadMapId: Roadmap,
+    @Param('linkId') linkId: any,
+  ): Promise<get_comments_ResponseDto> {
+    return await this.get_the_comments(req.user, roadMapId, linkId, dto);
+  }
+
+  @HasRoles(RoleEnum.Subscriber)
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Get('/comments/:roadmapId')
+  @HttpCode(200)
+  @UsePipes(ValidationPipe)
+  @ApiCreatedResponse({
+    description: 'Api that helps users to update few comments informations',
+    type: get_comments_ResponseDto,
+  })
+  async get__comments(
+    @Request() req: any,
+    @Body() dto: get_comments_RequestDto,
+    @Param('roadmapId') roadMapId: Roadmap,
+    @Param('linkId') linkId: any,
+  ): Promise<get_comments_ResponseDto> {
+    return await this.get_comments(req.user, dto, roadMapId, linkId);
   }
 
   async get_the_categories(
@@ -337,6 +465,7 @@ export class V1Controller {
       page_size: 10,
       sort_by: SortByEnum.Latest,
       keyword: '',
+      category_id: null,
     },
   ): Promise<get_roadmaps_ResponseDto> {
     const data: Array<Roadmap> = await this.entityService.get_roadmaps(
@@ -346,6 +475,64 @@ export class V1Controller {
     const total: number = await this.entityService.total_roadmaps(dto);
     const has_next: boolean = total - dto.page * dto.page_size > 0;
     const response: get_roadmaps_ResponseDto = {
+      data: data,
+      meta_data: {
+        last_updated: getLastUpdatedDate(data),
+        query_params: dto,
+        total_pages: Math.ceil(total / dto.page_size),
+        sort_by: Object.values(SortByEnum),
+        has_next,
+      },
+    };
+    return response;
+  }
+
+  async get_the_links(
+    user: User,
+    roadmapId: Roadmap,
+    dto: get_links_RequestDto = {
+      page: 1,
+      page_size: 10,
+    },
+  ): Promise<get_links_ResponseDto> {
+    const data: Array<Link> = await this.entityService.get_links(
+      user,
+      roadmapId,
+      dto,
+    );
+    const total: number = await this.entityService.total_links(dto);
+    const has_next: boolean = total - dto.page * dto.page_size > 0;
+    const response: get_links_ResponseDto = {
+      data: data,
+      meta_data: {
+        last_updated: getLastUpdatedDate(data),
+        query_params: dto,
+        total_pages: Math.ceil(total / dto.page_size),
+        sort_by: Object.values(SortByEnum),
+        has_next,
+      },
+    };
+    return response;
+  }
+
+  async get_the_comments(
+    user: User,
+    roadmapId: Roadmap,
+    linkId: any = null,
+    dto: get_comments_RequestDto = {
+      page: 1,
+      page_size: 10,
+    },
+  ): Promise<get_comments_ResponseDto> {
+    const data: Array<Comment> = await this.entityService.get_comments(
+      user,
+      roadmapId,
+      linkId,
+      dto,
+    );
+    const total: number = await this.entityService.total_comments(dto);
+    const has_next: boolean = total - dto.page * dto.page_size > 0;
+    const response: get_comments_ResponseDto = {
       data: data,
       meta_data: {
         last_updated: getLastUpdatedDate(data),

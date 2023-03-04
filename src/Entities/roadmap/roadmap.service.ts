@@ -6,6 +6,7 @@ import { CreateRequestDto } from './dto/CreateRequest.dto';
 import { UpdateRequestDto } from './dto/UpdateRequest.dto';
 import { StatusEnum } from '../status/Status.entity';
 import { User } from '../user/User.entity';
+import { isEmpty } from 'class-validator';
 
 @Injectable()
 export class RoadmapService {
@@ -47,12 +48,14 @@ export class RoadmapService {
       keyword: '',
       page: 1,
       page_size: 10,
+      category_id: null,
     },
   ) {
     const skip = (dto.page - 1) * dto.page_size;
     const data = this.entityRepo
       .createQueryBuilder('roadmap')
       .leftJoinAndSelect('roadmap.status', 'status_tbl')
+      .leftJoinAndSelect('roadmap.categories', 'categories_tbl')
       .where('roadmap.title LIKE :keyword', { keyword: `%${dto.keyword}%` })
       .andWhere(
         '(status_tbl.name = :statusNameApproved OR (roadmap.createdById = :createdById AND status_tbl.name = :statusNamePending))',
@@ -71,18 +74,22 @@ export class RoadmapService {
         'roadmap.views',
         'roadmap.updated_at',
         'roadmap.created_at',
-        'roadmap.createdById',
-        'roadmap.statusId',
-        'roadmap.structureId',
         'status_tbl.id',
         'status_tbl.name',
         'status_tbl.color',
-        'status_tbl.updated_at',
-        'status_tbl.created_at',
+        // 'status_tbl.updated_at',
+        // 'status_tbl.created_at',
+        'categories_tbl',
       ])
       .skip(skip)
       .take(dto.page_size);
-    return await data.getMany();
+    if (isEmpty(dto.category_id)) {
+      return await data.getMany();
+    } else {
+      return (await data.getMany()).filter((v) =>
+        v.categories.map((k) => k.id).includes(dto.category_id),
+      );
+    }
   }
 
   async update(updateDto: UpdateRequestDto) {

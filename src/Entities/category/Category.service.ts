@@ -1,5 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { SortByEnum } from 'src/API/v1/dto/categories/GET/request.dto';
+import { getSorting } from 'src/API/v1/helpers/index.helpers';
 import { Category } from 'src/Entities/category/Category.entity';
 import { Like, Not, Repository } from 'typeorm';
 import { StatusEnum } from '../status/Status.entity';
@@ -74,19 +76,28 @@ export class CategoryService {
     updateEnity.description = updateDto.description;
     return this.entityRepo.save(updateEnity);
   }
-
   async findMine(
     loggedInUser: User,
     dto = {
       keyword: '',
       page: 1,
       page_size: 10,
+      sort_by: 'latest',
     },
   ) {
+    const { orderByKey, orderByValue } = await getSorting(
+      dto.sort_by,
+      'num_interested_users',
+    );
     const skip = (dto.page - 1) * dto.page_size;
     const data = this.entityRepo
       .createQueryBuilder('category')
       .leftJoinAndSelect('category.status', 'status_tbl')
+      .loadRelationCountAndMap(
+        'category.num_interested_users',
+        'category.interested_users',
+        'oadfasf',
+      )
       .where('category.name LIKE :keyword', { keyword: `%${dto.keyword}%` })
       .andWhere(
         '(status_tbl.name = :statusNameApproved OR (category.createdById = :createdById AND status_tbl.name = :statusNamePending))',
@@ -103,16 +114,16 @@ export class CategoryService {
         'category.description',
         'category.updated_at',
         'category.created_at',
-        'category.createdById',
-        'category.statusId',
         'status_tbl.id',
         'status_tbl.name',
-        'status_tbl.color',
-        'status_tbl.updated_at',
-        'status_tbl.created_at',
+        // 'status_tbl.color',
+        // 'status_tbl.updated_at',
+        // 'status_tbl.created_at',
       ])
+      .orderBy('category.' + orderByKey, orderByValue)
       .skip(skip)
       .take(dto.page_size);
+    console.log(data.getSql());
     return await data.getMany();
   }
 }
