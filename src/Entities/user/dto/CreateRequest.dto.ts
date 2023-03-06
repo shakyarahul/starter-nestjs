@@ -68,7 +68,7 @@ export class CreateRequestDto {
   })
   @IsArray()
   @IsOptional()
-  interested_categories!: Array<Category>;
+  interested_categories!: Array<any>;
 
   @ApiProperty({
     description: 'Notification Status of the  user',

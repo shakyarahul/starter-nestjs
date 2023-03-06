@@ -137,6 +137,7 @@ export class V1Service {
   ): Promise<number> {
     return await this.category.totalRows(dto);
   }
+
   async get_categories(
     user: User,
     dto = {
@@ -221,6 +222,21 @@ export class V1Service {
       created_by: user,
     });
     return createRoadmap;
+  }
+
+  async set_interest_in_category(user: User, categoryId: Category) {
+    const interested_categories = [
+      ...user.interested_categories,
+      categoryId,
+    ].map((v) => {
+      return { id: v };
+    });
+    const updatedUser = await this.user.update({
+      ...user,
+      interested_categories: interested_categories,
+    });
+
+    return await this.user.findAEntity({ id: user.id });
   }
 
   async total_comments(

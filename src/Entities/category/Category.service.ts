@@ -93,11 +93,6 @@ export class CategoryService {
     const data = this.entityRepo
       .createQueryBuilder('category')
       .leftJoinAndSelect('category.status', 'status_tbl')
-      .loadRelationCountAndMap(
-        'category.num_interested_users',
-        'category.interested_users',
-        'oadfasf',
-      )
       .where('category.name LIKE :keyword', { keyword: `%${dto.keyword}%` })
       .andWhere(
         '(status_tbl.name = :statusNameApproved OR (category.createdById = :createdById AND status_tbl.name = :statusNamePending))',
@@ -120,6 +115,7 @@ export class CategoryService {
         // 'status_tbl.updated_at',
         // 'status_tbl.created_at',
       ])
+      .groupBy('category.id')
       .orderBy('category.' + orderByKey, orderByValue)
       .skip(skip)
       .take(dto.page_size);

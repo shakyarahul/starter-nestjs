@@ -37,11 +37,15 @@ export class UserService {
     updateEnity.last_name = updateDto.last_name;
     updateEnity.dob = updateDto.dob;
     updateEnity.profile_url = updateDto.profile_url;
+    updateEnity.interested_categories = updateDto.interested_categories;
     return await this.entityRepo.save(updateEnity);
   }
   async findAEntity(dto) {
     return await this.entityRepo.findOne({
       where: dto,
+      loadRelationIds: {
+        relations: ['interested_categories'],
+      },
       relations: {
         social: {
           social_account_type: true,

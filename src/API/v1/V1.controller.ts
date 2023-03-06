@@ -430,6 +430,22 @@ export class V1Controller {
     return await this.get_comments(req.user, dto, roadMapId, linkId);
   }
 
+  @HasRoles(RoleEnum.Subscriber)
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Get('set_interest_in_category/:categoryId')
+  @HttpCode(200)
+  @ApiCreatedResponse({
+    description: 'Api that helps users to update few comments informations',
+    type: Promise<any>,
+  })
+  async set_interest_in_category(
+    @Request() req: any,
+    @Param('categoryId') categoryId: Category,
+  ): Promise<any> {
+    const user: User = req.user;
+    return await this.entityService.set_interest_in_category(user, categoryId);
+  }
+
   async get_the_categories(
     user: User,
     dto: get_categories_RequestDto = {
