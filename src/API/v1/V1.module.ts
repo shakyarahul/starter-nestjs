@@ -127,21 +127,21 @@ export class V1Module implements OnModuleInit {
         supported_childs: 8,
         starting_x: 217,
         starting_y: 64.5,
-        height: 60,
+        recomended_height: 60,
       },
       {
         name: 'SvgSpider',
         supported_childs: 11,
         starting_x: 650,
         starting_y: 140,
-        height: 75,
+        recomended_height: 75,
       },
       {
         name: 'SvgSpiderLeft',
         supported_childs: 5,
         starting_x: 844.263,
         starting_y: 129,
-        height: 50,
+        recomended_height: 50,
       },
     ].map(
       async (v) =>

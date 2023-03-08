@@ -443,7 +443,16 @@ export class V1Controller {
     @Param('categoryId') categoryId: Category,
   ): Promise<any> {
     const user: User = req.user;
-    return await this.entityService.set_interest_in_category(user, categoryId);
+    const data: any = await this.entityService.set_interest_in_category(
+      user,
+      categoryId,
+    );
+    const response: post_upload_ResponseDto = {
+      data: data,
+      meta_data: { last_updated: getLastUpdatedDate(data) },
+    };
+    // return res.sendFile(data.filename, { root: 'uploads' });
+    return response;
   }
 
   async get_the_categories(

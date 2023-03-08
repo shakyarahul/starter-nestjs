@@ -38,7 +38,7 @@ export class Structure extends CommonEntity {
     default: 1,
     name: 'height',
   })
-  height: number;
+  recomended_height: number;
 
   @OneToMany(() => Link, (link) => link.structure)
   links!: Link[];
