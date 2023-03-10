@@ -1,6 +1,7 @@
 import { Status } from 'src/Entities/status/Status.entity';
 import {
   Column,
+  Double,
   Entity,
   JoinColumn,
   JoinTable,
@@ -69,6 +70,20 @@ export class Link extends CommonEntity {
 
   @OneToMany(() => Comment, (comment) => comment.link)
   comments: Comment[];
+
+  @Column('double', {
+    nullable: false,
+    default: 0.0,
+    name: 'x',
+  })
+  x: number;
+
+  @Column('double', {
+    nullable: false,
+    default: 0.0,
+    name: 'y',
+  })
+  y: number;
 
   @Column('double', {
     nullable: false,
