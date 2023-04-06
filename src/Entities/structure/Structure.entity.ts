@@ -19,6 +19,27 @@ export class Structure extends CommonEntity {
   })
   supported_childs!: number;
 
+  @Column('double', {
+    nullable: false,
+    default: 1,
+    name: 'starting_x',
+  })
+  starting_x: number;
+
+  @Column('double', {
+    nullable: false,
+    default: 1,
+    name: 'starting_y',
+  })
+  starting_y: number;
+
+  @Column('double', {
+    nullable: false,
+    default: 1,
+    name: 'height',
+  })
+  recomended_height: number;
+
   @OneToMany(() => Link, (link) => link.structure)
   links!: Link[];
 }

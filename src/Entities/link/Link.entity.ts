@@ -69,4 +69,11 @@ export class Link extends CommonEntity {
 
   @OneToMany(() => Comment, (comment) => comment.link)
   comments: Comment[];
+
+  @Column('double', {
+    nullable: false,
+    default: 10,
+    name: 'height',
+  })
+  height: number;
 }

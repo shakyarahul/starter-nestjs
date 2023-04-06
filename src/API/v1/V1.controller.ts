@@ -5,6 +5,7 @@ import {
   HttpCode,
   Param,
   Post,
+  Query,
   Request,
   Res,
   UploadedFile,
@@ -272,8 +273,9 @@ export class V1Controller {
   })
   async get_categories(
     @Request() req: any,
-    @Body() dto: get_categories_RequestDto,
+    @Query() dto: get_categories_RequestDto,
   ): Promise<get_categories_ResponseDto> {
+    console.log(dto, 'QSDS');
     return await this.get_the_categories(req.user, dto);
   }
 
@@ -310,7 +312,7 @@ export class V1Controller {
   })
   async get_roadmaps(
     @Request() req: any,
-    @Body() dto: get_roadmaps_RequestDto,
+    @Query() dto: get_roadmaps_RequestDto,
   ): Promise<get_roadmaps_ResponseDto> {
     return await this.get_the_roadmaps(req.user, dto);
   }
@@ -346,7 +348,7 @@ export class V1Controller {
   })
   async get_links(
     @Request() req: any,
-    @Body() dto: get_links_RequestDto,
+    @Query() dto: get_links_RequestDto,
     @Param('roadmapId') roadMapId: Roadmap,
   ): Promise<get_links_ResponseDto> {
     return await this.get_the_links(req.user, roadMapId, dto);
@@ -405,7 +407,7 @@ export class V1Controller {
   })
   async get_comments(
     @Request() req: any,
-    @Body() dto: get_comments_RequestDto,
+    @Query() dto: get_comments_RequestDto,
     @Param('roadmapId') roadMapId: Roadmap,
     @Param('linkId') linkId: any,
   ): Promise<get_comments_ResponseDto> {
@@ -423,18 +425,43 @@ export class V1Controller {
   })
   async get__comments(
     @Request() req: any,
-    @Body() dto: get_comments_RequestDto,
+    @Query() dto: get_comments_RequestDto,
     @Param('roadmapId') roadMapId: Roadmap,
     @Param('linkId') linkId: any,
   ): Promise<get_comments_ResponseDto> {
     return await this.get_comments(req.user, dto, roadMapId, linkId);
   }
 
+  @HasRoles(RoleEnum.Subscriber)
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Get('set_interest_in_category/:categoryId')
+  @HttpCode(200)
+  @ApiCreatedResponse({
+    description: 'Api that helps users to update few comments informations',
+    type: Promise<any>,
+  })
+  async set_interest_in_category(
+    @Request() req: any,
+    @Param('categoryId') categoryId: Category,
+  ): Promise<any> {
+    const user: User = req.user;
+    const data: any = await this.entityService.set_interest_in_category(
+      user,
+      categoryId,
+    );
+    const response: post_upload_ResponseDto = {
+      data: data,
+      meta_data: { last_updated: getLastUpdatedDate(data) },
+    };
+    // return res.sendFile(data.filename, { root: 'uploads' });
+    return response;
+  }
+
   async get_the_categories(
     user: User,
     dto: get_categories_RequestDto = {
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
       sort_by: SortByEnum.Latest,
       keyword: '',
     },
@@ -444,13 +471,14 @@ export class V1Controller {
       dto,
     );
     const total: number = await this.entityService.total_categories(dto);
-    const has_next: boolean = total - dto.page * dto.page_size > 0;
+    const has_next: boolean =
+      total - parseInt(dto.page) * parseInt(dto.page_size) > 0;
     const response: get_categories_ResponseDto = {
       data: data,
       meta_data: {
         last_updated: getLastUpdatedDate(data),
         query_params: dto,
-        total_pages: Math.ceil(total / dto.page_size),
+        total_pages: Math.ceil(total / parseInt(dto.page_size)),
         sort_by: Object.values(SortByEnum),
         has_next,
       },
@@ -461,8 +489,8 @@ export class V1Controller {
   async get_the_roadmaps(
     user: User,
     dto: get_roadmaps_RequestDto = {
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
       sort_by: SortByEnum.Latest,
       keyword: '',
       category_id: null,
@@ -473,13 +501,14 @@ export class V1Controller {
       dto,
     );
     const total: number = await this.entityService.total_roadmaps(dto);
-    const has_next: boolean = total - dto.page * dto.page_size > 0;
+    const has_next: boolean =
+      total - parseInt(dto.page) * parseInt(dto.page_size) > 0;
     const response: get_roadmaps_ResponseDto = {
       data: data,
       meta_data: {
         last_updated: getLastUpdatedDate(data),
         query_params: dto,
-        total_pages: Math.ceil(total / dto.page_size),
+        total_pages: Math.ceil(total / parseInt(dto.page_size)),
         sort_by: Object.values(SortByEnum),
         has_next,
       },

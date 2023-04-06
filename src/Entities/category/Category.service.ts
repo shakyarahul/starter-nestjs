@@ -50,8 +50,8 @@ export class CategoryService {
   async totalRows(
     dto = {
       keyword: '',
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
     },
   ) {
     return await this.entityRepo.count({
@@ -80,8 +80,8 @@ export class CategoryService {
     loggedInUser: User,
     dto = {
       keyword: '',
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
       sort_by: 'latest',
     },
   ) {
@@ -89,16 +89,13 @@ export class CategoryService {
       dto.sort_by,
       'num_interested_users',
     );
-    const skip = (dto.page - 1) * dto.page_size;
+    const skip = (parseInt(dto.page) - 1) * parseInt(dto.page_size);
     const data = this.entityRepo
       .createQueryBuilder('category')
       .leftJoinAndSelect('category.status', 'status_tbl')
-      .loadRelationCountAndMap(
-        'category.num_interested_users',
-        'category.interested_users',
-        'oadfasf',
-      )
-      .where('category.name LIKE :keyword', { keyword: `%${dto.keyword}%` })
+      .where('category.name LIKE :keyword', {
+        keyword: `%${dto.keyword || ''}%`,
+      })
       .andWhere(
         '(status_tbl.name = :statusNameApproved OR (category.createdById = :createdById AND status_tbl.name = :statusNamePending))',
         {
@@ -120,9 +117,10 @@ export class CategoryService {
         // 'status_tbl.updated_at',
         // 'status_tbl.created_at',
       ])
+      .groupBy('category.id')
       .orderBy('category.' + orderByKey, orderByValue)
       .skip(skip)
-      .take(dto.page_size);
+      .take(parseInt(dto.page_size));
     console.log(data.getSql());
     return await data.getMany();
   }

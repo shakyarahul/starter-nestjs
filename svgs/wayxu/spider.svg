@@ -1,0 +1,1379 @@
+<!doctype html>
+<svg viewBox="2236.785 1299.776 3457.677 1608.884" width="3457.677" height="1608.884">
+  <path d="M1160.3331254619504 3079.1629038835017Q1025.7210485743806 2902.082815542778 980.0240415213857 2710.016603653832" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)"></path>
+  <path d="M1160 2887Q1052.2595174189655 2810.9567838908124 1040.4091552626019 2705.238075052353" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)"></path>
+  <path d="M1151 2972Q1035.3809892459622 2837.661478588875 1009.6531869693515 2711.3892687110033" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)"></path>
+  <path d="M1156.5 3023Q1037.3782389829962 2878.002977486081 992.7374044080638 2717.540462369653" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)"></path>
+  <path d="M1160 2931Q1036.2820550917636 2817.1872523323427 1026.5689695306392 2708.313671881678" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)"></path>
+  <path d="M1165 2848Q1060.4420686252238 2792.5376333018744 1052.7115425799022 2711.3892687110033" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)"></path>
+  <path d="M1166 2800Q1076.7916385741682 2770.4368061216014 1058.8627362385523 2706.7758734670156" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)"></path>
+  <path d="M1162 2750Q1102.160953425227 2735.7554070385963 1061.9383330678772 2702.162478223028" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)"></path>
+  <path d="M1163 2705Q1101.4429168983024 2704.4623764878 1048.4352964490888 2698.7495890689925" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)"></path>
+  <path d="M 2935.863 1568.467 C 2822.988 1615.638 2787.469 1807.405 2757 1951.383" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 2936.999 1752.375 C 2865.163 1809.379 2825.295 1877.507 2817.393 1956.757" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 2927.998 1656.797 C 2850.909 1757.502 2803.787 1855.182 2786.633 1949.84" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 2936.63 1618.413 C 2838.539 1685.211 2799.48 1822.635 2769.716 1942.923" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 2936.999 1702.9 C 2854.511 1788.217 2810.028 1871.683 2803.551 1953.298" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 2942 1796.229 C 2872.286 1837.805 2834.852 1889.009 2829.697 1949.84" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 2943 1850.202 C 2883.52 1872.364 2847.804 1907.305 2835.849 1955.027" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 2939 1906.424 C 2899.102 1917.102 2865.744 1935.032 2838.926 1960.214" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 2940 1957.024 C 2898.956 1957.427 2860.763 1959.77 2825.421 1964.052" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:vuepress" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)">
+    <rect x="1152.35" y="2869.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1191" y="2895" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Vuepress</tspan></text>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 2887L1291.5 2891 1298 2884.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="104-static-site-generators:jekyll" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)">
+    <rect x="1152.35" y="2915.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2941" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Jekyll</tspan></text>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2933L1292.5 2937 1299 2930.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 1757.951416, -711.041992)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 1758.950073, -1125.914551)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 1758.950073, -1125.914551)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 1758.950073, -1125.914551)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:vuepress" transform="matrix(1, 0, 0, 1, 1758.950073, -1125.914551)">
+    <rect x="1152.35" y="2869.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1191" y="2895" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Vuepress</tspan></text>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 2887L1291.5 2891 1298 2884.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="104-static-site-generators:jekyll" transform="matrix(1, 0, 0, 1, 1758.950073, -1125.914551)">
+    <rect x="1152.35" y="2915.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2941" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Jekyll</tspan></text>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2933L1292.5 2937 1299 2930.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 1758.950073, -1125.914551)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 1758.950073, -1125.914551)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 1758.950073, -1125.914551)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 1758.950073, -1125.914551)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <path d="M 2561.307 2004.349 C 2471.578 2121.365 2411.484 2243.334 2381.022 2370.254" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 4942.328613, 4374.603027)"></path>
+  <path d="M 2500.93 1999.611 C 2429.113 2049.861 2389.255 2109.917 2381.355 2179.777" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 4882.284668, 4179.388184)"></path>
+  <path d="M 2531.681 2005.708 C 2454.613 2094.481 2407.504 2180.589 2390.354 2264.032" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 4922.035156, 4269.739746)"></path>
+  <path d="M 2548.594 2011.807 C 2469.191 2107.623 2414.611 2208.548 2384.854 2314.584" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 4933.447754, 4326.391113)"></path>
+  <path d="M 2514.768 2002.661 C 2432.302 2077.869 2387.831 2151.447 2381.355 2223.392" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 4896.123047, 4226.053223)"></path>
+  <path d="M 2488.627 2005.709 C 2418.932 2042.359 2381.506 2087.496 2376.355 2141.12" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 4864.981934, 4146.829102)"></path>
+  <path d="M 2482.477 2001.135 C 2423.013 2020.671 2387.306 2051.472 2375.355 2093.541" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 4857.832031, 4094.676025)"></path>
+  <path d="M 2479.401 1996.564 C 2439.514 2005.976 2406.166 2021.782 2379.355 2043.981" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 4858.755859, 4040.544922)"></path>
+  <path d="M 2492.905 1993.181 C 2451.872 1993.536 2413.689 1995.601 2378.355 1999.376" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 4871.259766, 3992.556885)"></path>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 1084.434814, -705.792053)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 1084.434814, -705.792053)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 1084.434814, -705.792053)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:vuepress" transform="matrix(1, 0, 0, 1, 1084.434814, -705.792053)">
+    <rect x="1152.35" y="2869.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1191" y="2895" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Vuepress</tspan></text>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 2887L1291.5 2891 1298 2884.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="104-static-site-generators:jekyll" transform="matrix(1, 0, 0, 1, 1084.434814, -705.792053)">
+    <rect x="1152.35" y="2915.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2941" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Jekyll</tspan></text>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2933L1292.5 2937 1299 2930.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 1084.434814, -705.792053)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <path d="M 2542.282 1956.878 C 2429.422 1909.293 2393.909 1715.843 2363.444 1570.601" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 4905.726074, 3527.479004)"></path>
+  <path d="M 2481.898 1962.299 C 2410.071 1904.795 2370.209 1836.069 2362.308 1756.124" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 4844.206055, 3718.422852)"></path>
+  <path d="M 2512.653 1955.322 C 2435.575 1853.734 2388.46 1755.196 2371.308 1659.707" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 4883.961426, 3615.029053)"></path>
+  <path d="M 2529.568 1948.344 C 2431.49 1880.96 2392.436 1742.329 2362.677 1620.986" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 4892.245117, 3569.330078)"></path>
+  <path d="M 2495.738 1958.81 C 2413.261 1872.744 2368.784 1788.545 2362.308 1706.214" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 4858.046387, 3665.023926)"></path>
+  <path d="M 2469.595 1955.322 C 2399.89 1913.381 2362.462 1861.727 2357.308 1800.362" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 4826.902832, 3755.684082)"></path>
+  <path d="M 2463.444 1960.555 C 2403.972 1938.198 2368.261 1902.951 2356.308 1854.809" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 4819.752441, 3815.364014)"></path>
+  <path d="M 2460.368 1965.787 C 2420.476 1955.016 2387.122 1936.928 2360.308 1911.525" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 4820.675781, 3877.312012)"></path>
+  <path d="M 2473.87 1969.659 C 2432.833 1969.253 2394.645 1966.889 2359.308 1962.569" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 4833.178223, 3932.228027)"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 1084.434814, -705.792053)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 1084.434814, -705.792053)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 1084.434814, -705.792053)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 1085.433472, -1120.664673)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 1085.433472, -1120.664673)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 1085.433472, -1120.664673)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:vuepress" transform="matrix(1, 0, 0, 1, 1085.433472, -1120.664673)">
+    <rect x="1152.35" y="2869.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1191" y="2895" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Vuepress</tspan></text>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 2887L1291.5 2891 1298 2884.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="104-static-site-generators:jekyll" transform="matrix(1, 0, 0, 1, 1085.433472, -1120.664673)">
+    <rect x="1152.35" y="2915.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2941" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Jekyll</tspan></text>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2933L1292.5 2937 1299 2930.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 1085.433472, -1120.664673)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 1085.433472, -1120.664673)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 1085.433472, -1120.664673)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 1085.433472, -1120.664673)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 2285.593994, -280.855957)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+  <path d="M 3950.978 1738.461 C 3861.236 1620.408 3801.133 1497.359 3770.669 1369.315" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3950.645 1546.298 C 3878.818 1495.603 3838.954 1435.016 3831.054 1364.536" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3941.645 1631.298 C 3864.565 1541.739 3817.45 1454.869 3800.298 1370.688" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3947.145 1682.298 C 3867.73 1585.634 3813.143 1483.814 3783.382 1376.839" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3950.645 1590.298 C 3868.166 1514.423 3823.689 1440.194 3817.214 1367.612" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3955.645 1507.298 C 3885.939 1470.323 3848.51 1424.787 3843.356 1370.688" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3956.645 1459.298 C 3897.172 1439.59 3861.46 1408.515 3849.507 1366.074" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3952.645 1409.298 C 3912.752 1399.802 3879.398 1383.856 3852.583 1361.461" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3953.645 1364.298 C 3912.607 1363.94 3874.418 1361.857 3839.08 1358.048" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3972.693 1327.364 C 3931.649 1327.767 3893.456 1330.11 3858.114 1334.392" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 2790.64502, -1340.701904)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 2790.64502, -1340.701904)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 2790.64502, -1340.701904)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:vuepress" transform="matrix(1, 0, 0, 1, 2790.64502, -1340.701904)">
+    <rect x="1152.35" y="2869.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1191" y="2895" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Vuepress</tspan></text>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 2887L1291.5 2891 1298 2884.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="104-static-site-generators:jekyll" transform="matrix(1, 0, 0, 1, 2790.64502, -1340.701904)">
+    <rect x="1152.35" y="2915.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2941" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Jekyll</tspan></text>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2933L1292.5 2937 1299 2930.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 2790.64502, -1340.701904)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 2790.64502, -1340.701904)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 2790.64502, -1340.701904)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 2790.64502, -1340.701904)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 2791.643799, -1755.574463)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <path d="M 3594 1374.69 C 3504.271 1491.706 3444.177 1613.675 3413.715 1740.595" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 7007.714844, 3115.284912)"></path>
+  <path d="M 3533.623 1369.951 C 3461.806 1420.201 3421.948 1480.257 3414.048 1550.117" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6947.671387, 2920.068115)"></path>
+  <path d="M 3564.375 1376.048 C 3487.307 1464.821 3440.198 1550.929 3423.048 1634.372" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6987.42334, 3010.419922)"></path>
+  <path d="M 3581.287 1382.148 C 3501.884 1477.964 3447.304 1578.889 3417.547 1684.925" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6998.834473, 3067.072998)"></path>
+  <path d="M 3547.461 1373.002 C 3464.995 1448.21 3420.524 1521.788 3414.048 1593.733" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6961.508789, 2966.735107)"></path>
+  <path d="M 3521.32 1376.049 C 3451.625 1412.699 3414.199 1457.836 3409.048 1511.46" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6930.368164, 2887.509033)"></path>
+  <path d="M 3515.172 1371.475 C 3455.708 1391.011 3420.001 1421.812 3408.05 1463.881" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6923.222168, 2835.355957)"></path>
+  <path d="M 3512.095 1366.905 C 3472.208 1376.317 3438.86 1392.123 3412.049 1414.322" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6924.144043, 2781.227051)"></path>
+  <path d="M 3525.599 1363.521 C 3484.566 1363.876 3446.383 1365.941 3411.049 1369.716" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6936.648438, 2733.236816)"></path>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 2117.128662, -1335.452026)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 2117.128662, -1335.452026)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 2117.128662, -1335.452026)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:vuepress" transform="matrix(1, 0, 0, 1, 2117.128662, -1335.452026)">
+    <rect x="1152.35" y="2869.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1191" y="2895" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Vuepress</tspan></text>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 2887L1291.5 2891 1298 2884.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="104-static-site-generators:jekyll" transform="matrix(1, 0, 0, 1, 2117.128662, -1335.452026)">
+    <rect x="1152.35" y="2915.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2941" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Jekyll</tspan></text>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2933L1292.5 2937 1299 2930.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 2117.128662, -1335.452026)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <path d="M 3506.563 1339.999 C 3465.526 1339.593 3427.338 1337.229 3392.001 1332.909" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6898.563965, 2672.908203)"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 2117.128662, -1335.452026)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 2117.128662, -1335.452026)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 2117.128662, -1335.452026)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 2118.127197, -1750.324585)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 3318.287598, -910.515869)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+  <path d="M 3949.962 2269.184 C 3908.924 2268.826 3870.736 2266.742 3835.398 2262.934" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3964.874 1843.693 C 3851.999 1890.864 3816.48 2082.631 3786.011 2226.609" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3966.01 2027.601 C 3894.174 2084.605 3854.306 2152.733 3846.404 2231.983" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3957.009 1932.023 C 3879.92 2032.728 3832.798 2130.408 3815.644 2225.066" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3965.641 1893.639 C 3867.55 1960.437 3828.491 2097.861 3798.727 2218.149" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3966.01 1978.126 C 3883.522 2063.443 3839.039 2146.909 3832.562 2228.524" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3971.011 2071.455 C 3901.297 2113.031 3863.863 2164.235 3858.708 2225.066" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3972.011 2125.428 C 3912.531 2147.59 3876.815 2182.531 3864.86 2230.253" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3968.011 2181.65 C 3928.113 2192.328 3894.755 2210.258 3867.937 2235.44" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3969.011 2232.25 C 3927.967 2232.653 3889.774 2234.996 3854.432 2239.278" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 2786.961914, -435.81604)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 2787.960449, -850.688538)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 2787.960449, -850.688538)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 2787.960449, -850.688538)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:vuepress" transform="matrix(1, 0, 0, 1, 2787.960449, -850.688538)">
+    <rect x="1152.35" y="2869.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1191" y="2895" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Vuepress</tspan></text>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 2887L1291.5 2891 1298 2884.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="104-static-site-generators:jekyll" transform="matrix(1, 0, 0, 1, 2787.960449, -850.688538)">
+    <rect x="1152.35" y="2915.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2941" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Jekyll</tspan></text>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2933L1292.5 2937 1299 2930.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 2787.960449, -850.688538)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 2787.960449, -850.688538)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 2787.960449, -850.688538)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 2787.960449, -850.688538)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <path d="M 3521.915 2268.406 C 3480.882 2268.761 3442.699 2270.826 3407.365 2274.601" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6929.280273, 4543.007324)"></path>
+  <path d="M 3571.293 2232.104 C 3458.433 2184.519 3422.92 1991.069 3392.455 1845.827" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6963.748047, 4077.931152)"></path>
+  <path d="M 3510.909 2237.525 C 3439.082 2180.021 3399.22 2111.295 3391.319 2031.35" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6902.228027, 4268.875)"></path>
+  <path d="M 3541.666 2230.548 C 3464.588 2128.96 3417.473 2030.422 3400.321 1934.933" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6941.987305, 4165.480957)"></path>
+  <path d="M 3558.579 2223.57 C 3460.501 2156.186 3421.447 2017.555 3391.688 1896.212" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6950.26709, 4119.782227)"></path>
+  <path d="M 3524.748 2234.036 C 3442.271 2147.97 3397.794 2063.771 3391.318 1981.44" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6916.065918, 4215.475586)"></path>
+  <path d="M 3498.607 2230.548 C 3428.902 2188.607 3391.474 2136.953 3386.32 2075.588" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6884.926758, 4306.13623)"></path>
+  <path d="M 3492.455 2235.781 C 3432.983 2213.424 3397.272 2178.177 3385.319 2130.035" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6877.773926, 4365.815918)"></path>
+  <path d="M 3489.377 2241.013 C 3449.485 2230.242 3416.131 2212.154 3389.317 2186.751" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6878.693848, 4427.763672)"></path>
+  <path d="M 3502.883 2244.885 C 3461.846 2244.479 3423.658 2242.115 3388.321 2237.795" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6891.204102, 4482.679688)"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 2113.445313, -430.566101)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 2114.443848, -845.43866)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 2114.443848, -845.43866)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 2114.443848, -845.43866)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:vuepress" transform="matrix(1, 0, 0, 1, 2114.443848, -845.43866)">
+    <rect x="1152.35" y="2869.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1191" y="2895" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Vuepress</tspan></text>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 2887L1291.5 2891 1298 2884.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="104-static-site-generators:jekyll" transform="matrix(1, 0, 0, 1, 2114.443848, -845.43866)">
+    <rect x="1152.35" y="2915.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2941" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Jekyll</tspan></text>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2933L1292.5 2937 1299 2930.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 2114.443848, -845.43866)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 2114.443848, -845.43866)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 2114.443848, -845.43866)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 2114.443848, -845.43866)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 3314.604492, -5.630005)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+  <path d="M 3945.999 2461.206 C 3904.961 2460.847 3866.773 2458.764 3831.434 2454.955" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3965.047 2424.272 C 3924.003 2424.675 3885.81 2427.018 3850.468 2431.3" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 2782.998535, -243.793671)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 2783.997314, -658.666138)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <path d="M 3517.952 2460.429 C 3476.919 2460.784 3438.736 2462.849 3403.402 2466.624" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6921.354004, 4927.053223)"></path>
+  <path d="M 3498.917 2436.907 C 3457.88 2436.501 3419.692 2434.137 3384.355 2429.817" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6883.271973, 4866.724121)"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 2109.482178, -238.543732)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 2110.480713, -653.416321)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 3310.640625, 186.392349)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+  <path d="M 3952.465 2857.01 C 3882.76 2820.035 3845.33 2774.498 3840.176 2720.399" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3953.465 2809.01 C 3893.993 2789.301 3858.28 2758.227 3846.328 2715.786" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3949.465 2759.01 C 3909.572 2749.514 3876.218 2733.568 3849.403 2711.173" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3950.465 2714.01 C 3909.427 2713.652 3871.239 2711.568 3835.9 2707.76" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3972.514 2570.254 C 3913.034 2592.416 3877.318 2627.357 3865.363 2675.079" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3968.514 2626.476 C 3928.616 2637.154 3895.258 2655.084 3868.44 2680.266" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 3969.514 2677.076 C 3928.47 2677.479 3890.277 2679.822 3854.935 2684.104" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 2787.464355, 9.009949)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 2787.464355, 9.009949)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 2787.464355, 9.009949)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 2787.464355, 9.009949)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 2788.463379, -405.86264)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 2788.463379, -405.86264)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 2788.463379, -405.86264)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <path d="M 3518.14 2725.761 C 3448.445 2762.411 3411.019 2807.548 3405.868 2861.172" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6924.007813, 5586.933105)"></path>
+  <path d="M 3511.99 2721.187 C 3452.526 2740.723 3416.819 2771.524 3404.868 2813.593" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6916.85791, 5534.780273)"></path>
+  <path d="M 3508.915 2716.616 C 3469.028 2726.028 3435.68 2741.834 3408.869 2764.033" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6917.78418, 5480.648926)"></path>
+  <path d="M 3522.418 2713.233 C 3481.385 2713.588 3443.202 2715.653 3407.868 2719.428" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 6930.286133, 5432.660645)"></path>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 2113.947998, 14.259888)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 2113.947998, 14.259888)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <path d="M 3492.957 2680.607 C 3433.485 2658.25 3397.774 2623.003 3385.821 2574.861" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6878.77832, 5255.467773)"></path>
+  <path d="M 3489.881 2685.839 C 3449.989 2675.068 3416.635 2656.98 3389.821 2631.577" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6879.702148, 5317.416016)"></path>
+  <path d="M 3503.383 2689.711 C 3462.346 2689.305 3424.158 2686.941 3388.821 2682.621" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 6892.204102, 5372.332031)"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 2113.947998, 14.259888)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 2113.947998, 14.259888)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 2114.946533, -400.612762)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 2114.946533, -400.612762)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 2114.946533, -400.612762)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 3315.106934, 439.195984)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+  <path d="M 4817.801 1769.068 C 4728.059 1651.015 4667.956 1527.966 4637.492 1399.922" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4817.468 1576.905 C 4745.641 1526.21 4705.777 1465.623 4697.877 1395.143" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4808.468 1661.905 C 4731.388 1572.346 4684.273 1485.476 4667.121 1401.295" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4813.968 1712.905 C 4734.553 1616.241 4679.966 1514.421 4650.205 1407.446" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4817.468 1620.905 C 4734.989 1545.03 4690.512 1470.801 4684.037 1398.219" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4822.468 1537.905 C 4752.762 1500.93 4715.333 1455.394 4710.179 1401.295" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4823.468 1489.905 C 4763.995 1470.197 4728.283 1439.122 4716.33 1396.681" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4819.468 1439.905 C 4779.575 1430.409 4746.221 1414.463 4719.406 1392.068" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4820.468 1394.905 C 4779.43 1394.547 4741.241 1392.464 4705.903 1388.655" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4839.516 1357.971 C 4798.472 1358.374 4760.279 1360.717 4724.937 1364.999" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 3657.467773, -1310.094727)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 3657.467773, -1310.094727)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 3657.467773, -1310.094727)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:vuepress" transform="matrix(1, 0, 0, 1, 3657.467773, -1310.094727)">
+    <rect x="1152.35" y="2869.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1191" y="2895" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Vuepress</tspan></text>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 2887L1291.5 2891 1298 2884.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="104-static-site-generators:jekyll" transform="matrix(1, 0, 0, 1, 3657.467773, -1310.094727)">
+    <rect x="1152.35" y="2915.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2941" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Jekyll</tspan></text>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2933L1292.5 2937 1299 2930.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 3657.467773, -1310.094727)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 3657.467773, -1310.094727)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 3657.467773, -1310.094727)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 3657.467773, -1310.094727)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 3658.466553, -1724.967163)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 4185.110352, -879.90863)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+  <path d="M 4816.785 2299.791 C 4775.747 2299.433 4737.559 2297.349 4702.221 2293.541" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4831.697 1874.3 C 4718.822 1921.471 4683.303 2113.238 4652.834 2257.216" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4832.833 2058.208 C 4760.997 2115.212 4721.129 2183.34 4713.227 2262.59" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4823.832 1962.63 C 4746.743 2063.335 4699.621 2161.015 4682.467 2255.673" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4832.464 1924.246 C 4734.373 1991.044 4695.314 2128.468 4665.55 2248.756" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4832.833 2008.733 C 4750.345 2094.05 4705.862 2177.516 4699.385 2259.131" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4837.834 2102.062 C 4768.12 2143.638 4730.686 2194.842 4725.531 2255.673" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4838.834 2156.035 C 4779.354 2178.197 4743.638 2213.138 4731.683 2260.86" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4834.834 2212.257 C 4794.936 2222.935 4761.578 2240.865 4734.76 2266.047" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4835.834 2262.857 C 4794.79 2263.26 4756.597 2265.603 4721.255 2269.885" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 3653.784668, -405.208801)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 3654.783203, -820.081299)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 3654.783203, -820.081299)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 3654.783203, -820.081299)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:vuepress" transform="matrix(1, 0, 0, 1, 3654.783203, -820.081299)">
+    <rect x="1152.35" y="2869.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1191" y="2895" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Vuepress</tspan></text>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 2887L1291.5 2891 1298 2884.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="104-static-site-generators:jekyll" transform="matrix(1, 0, 0, 1, 3654.783203, -820.081299)">
+    <rect x="1152.35" y="2915.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2941" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Jekyll</tspan></text>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2933L1292.5 2937 1299 2930.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 3654.783203, -820.081299)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 3654.783203, -820.081299)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 3654.783203, -820.081299)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 3654.783203, -820.081299)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 4181.427246, 24.977234)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+  <path d="M 4812.822 2491.813 C 4771.784 2491.454 4733.596 2489.371 4698.257 2485.562" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4831.87 2454.879 C 4790.826 2455.282 4752.633 2457.625 4717.291 2461.907" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 3649.821289, -213.186462)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 3650.820068, -628.058899)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 4177.463379, 216.999573)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+  <path d="M 4819.288 2887.617 C 4749.583 2850.642 4712.153 2805.105 4706.999 2751.006" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4820.288 2839.617 C 4760.816 2819.908 4725.103 2788.834 4713.151 2746.393" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4816.288 2789.617 C 4776.395 2780.121 4743.041 2764.175 4716.226 2741.78" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4817.288 2744.617 C 4776.25 2744.259 4738.062 2742.175 4702.723 2738.367" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4839.337 2600.861 C 4779.857 2623.023 4744.141 2657.964 4732.186 2705.686" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4835.337 2657.083 C 4795.439 2667.761 4762.081 2685.691 4735.263 2710.873" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <path d="M 4836.337 2707.683 C 4795.293 2708.086 4757.1 2710.429 4721.758 2714.711" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 3654.287109, 39.617126)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 3654.287109, 39.617126)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 3654.287109, 39.617126)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 3654.287109, 39.617126)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 3655.286133, -375.255432)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 3655.286133, -375.255432)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 3655.286133, -375.255432)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 4181.929688, 469.803162)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+  <path d="M 5404.525 1408.44 C 5314.796 1525.456 5254.702 1647.425 5224.24 1774.345" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10628.765625, 3182.784912)"></path>
+  <path d="M 5344.149 1403.701 C 5272.332 1453.951 5232.474 1514.007 5224.574 1583.867" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10568.723633, 2987.568115)"></path>
+  <path d="M 5374.9 1409.798 C 5297.832 1498.571 5250.723 1584.679 5233.573 1668.122" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10608.472656, 3077.919922)"></path>
+  <path d="M 5391.813 1415.898 C 5312.41 1511.714 5257.83 1612.639 5228.073 1718.675" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10619.886719, 3134.572998)"></path>
+  <path d="M 5357.985 1406.752 C 5275.519 1481.96 5231.048 1555.538 5224.572 1627.483" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10582.556641, 3034.234863)"></path>
+  <path d="M 5331.844 1409.799 C 5262.149 1446.449 5224.723 1491.586 5219.572 1545.21" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10551.416016, 2955.009033)"></path>
+  <path d="M 5325.697 1405.225 C 5266.233 1424.761 5230.526 1455.562 5218.575 1497.631" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10544.271484, 2902.855957)"></path>
+  <path d="M 5322.62 1400.655 C 5282.733 1410.067 5249.385 1425.873 5222.574 1448.072" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10545.194336, 2848.727051)"></path>
+  <path d="M 5336.124 1397.271 C 5295.091 1397.626 5256.908 1399.691 5221.574 1403.466" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10557.698242, 2800.736816)"></path>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 3927.653076, -1301.702271)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 3927.653076, -1301.702271)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 3927.653076, -1301.702271)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:vuepress" transform="matrix(1, 0, 0, 1, 3927.653076, -1301.702271)">
+    <rect x="1152.35" y="2869.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1191" y="2895" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Vuepress</tspan></text>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 2887L1291.5 2891 1298 2884.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="104-static-site-generators:jekyll" transform="matrix(1, 0, 0, 1, 3927.653076, -1301.702271)">
+    <rect x="1152.35" y="2915.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2941" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Jekyll</tspan></text>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2933L1292.5 2937 1299 2930.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 3927.653076, -1301.702271)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <path d="M 5317.088 1373.749 C 5276.051 1373.343 5237.863 1370.979 5202.526 1366.659" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10519.614258, 2740.407959)"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 3927.653076, -1301.702271)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 3927.653076, -1301.702271)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 3927.653076, -1301.702271)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 3928.651611, -1716.574707)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 5128.812012, -876.766052)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+  <path d="M 5332.439 2302.156 C 5291.406 2302.511 5253.223 2304.576 5217.889 2308.351" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10550.328125, 4610.507324)"></path>
+  <path d="M 5381.817 2265.854 C 5268.957 2218.269 5233.444 2024.819 5202.979 1879.577" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10584.795898, 4145.431152)"></path>
+  <path d="M 5321.434 2271.275 C 5249.607 2213.771 5209.745 2145.045 5201.844 2065.1" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10523.27832, 4336.375)"></path>
+  <path d="M 5352.191 2264.297 C 5275.113 2162.709 5227.998 2064.171 5210.846 1968.682" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10563.037109, 4232.979004)"></path>
+  <path d="M 5369.104 2257.32 C 5271.026 2189.936 5231.972 2051.305 5202.213 1929.962" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10571.316406, 4187.282227)"></path>
+  <path d="M 5335.272 2267.785 C 5252.795 2181.719 5208.318 2097.52 5201.842 2015.189" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10537.113281, 4282.974121)"></path>
+  <path d="M 5309.131 2264.298 C 5239.426 2222.357 5201.998 2170.703 5196.844 2109.338" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10505.974609, 4373.63623)"></path>
+  <path d="M 5302.979 2269.531 C 5243.507 2247.174 5207.796 2211.927 5195.843 2163.785" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10498.821289, 4433.315918)"></path>
+  <path d="M 5299.902 2274.762 C 5260.01 2263.991 5226.656 2245.903 5199.842 2220.5" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10499.744141, 4495.261719)"></path>
+  <path d="M 5313.408 2278.634 C 5272.371 2278.228 5234.183 2275.864 5198.846 2271.544" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10512.254883, 4550.177734)"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 3923.969727, -396.816284)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 3924.968262, -811.688843)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 3924.968262, -811.688843)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 3924.968262, -811.688843)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:vuepress" transform="matrix(1, 0, 0, 1, 3924.968262, -811.688843)">
+    <rect x="1152.35" y="2869.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1191" y="2895" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Vuepress</tspan></text>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="2887" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 2887L1291.5 2891 1298 2884.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="104-static-site-generators:jekyll" transform="matrix(1, 0, 0, 1, 3924.968262, -811.688843)">
+    <rect x="1152.35" y="2915.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2941" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Jekyll</tspan></text>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2933" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2933L1292.5 2937 1299 2930.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 3924.968262, -811.688843)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 3924.968262, -811.688843)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 3924.968262, -811.688843)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 3924.968262, -811.688843)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 5125.128906, 28.119831)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+  <path d="M 5328.477 2494.179 C 5287.444 2494.534 5249.261 2496.599 5213.927 2500.374" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10542.40332, 4994.553223)"></path>
+  <path d="M 5309.442 2470.657 C 5268.405 2470.251 5230.217 2467.887 5194.88 2463.567" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10504.322266, 4934.223633)"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 3920.006592, -204.79393)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 3921.005127, -619.666504)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 5121.165039, 220.142105)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+  <path d="M 5328.664 2759.51 C 5258.969 2796.16 5221.543 2841.297 5216.392 2894.921" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10545.056641, 5654.430664)"></path>
+  <path d="M 5322.515 2754.937 C 5263.051 2774.473 5227.344 2805.274 5215.393 2847.343" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10537.908203, 5602.279785)"></path>
+  <path d="M 5319.439 2750.365 C 5279.552 2759.777 5246.204 2775.583 5219.393 2797.782" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10538.832031, 5548.146973)"></path>
+  <path d="M 5332.943 2746.982 C 5291.91 2747.337 5253.727 2749.402 5218.393 2753.177" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" style="" transform="matrix(-1, 0, 0, -1, 10551.335938, 5500.15918)"></path>
+  <g class="clickable-group " data-group-id="101-static-site-generators:gatsbyjs" transform="matrix(1, 0, 0, 1, 3924.472412, 48.009724)">
+    <rect x="1154.35" y="2822.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1188" y="2848" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>GatsbyJS</tspan></text>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2840" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1289.5 2840L1293.5 2844 1300 2837.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="100-static-site-generators:next-js" transform="matrix(1, 0, 0, 1, 3924.472412, 48.009724)">
+    <rect x="1154.35" y="2776.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1198" y="2802" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Next.js</tspan></text>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2794" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 2794L1294.5 2798 1301 2791.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <path d="M 5303.481 2714.356 C 5244.009 2691.999 5208.298 2656.752 5196.345 2608.61" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10499.826172, 5322.966309)"></path>
+  <path d="M 5300.405 2719.589 C 5260.513 2708.818 5227.159 2690.73 5200.345 2665.327" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10500.75, 5384.916016)"></path>
+  <path d="M 5313.907 2723.46 C 5272.87 2723.054 5234.682 2720.69 5199.345 2716.37" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12" transform="matrix(-1, 0, 0, -1, 10513.25293, 5439.830078)"></path>
+  <g class="clickable-group " data-group-id="107-static-site-generators:eleventy" transform="matrix(1, 0, 0, 1, 3924.472412, 48.009724)">
+    <rect x="1153.35" y="2686.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1295" cy="2704" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1289.5 2704L1293.5 2708 1300 2701.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="1193" y="2712" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Eleventy</tspan></text>
+  </g>
+  <g class="clickable-group " data-group-id="106-static-site-generators:astro" transform="matrix(1, 0, 0, 1, 3924.472412, 48.009724)">
+    <rect x="1154.35" y="2731.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1207" y="2757" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Astro</tspan></text>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="2749" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M1290.5 2749L1294.5 2753 1301 2746.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="102-static-site-generators:nuxt-js" transform="matrix(1, 0, 0, 1, 3925.470947, -366.862946)">
+    <rect x="1152.35" y="3009.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1197" y="3035" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Nuxt.js</tspan></text>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1293" cy="3027" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1287.5 3027L1291.5 3031 1298 3024.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="105-static-site-generators:hugo" transform="matrix(1, 0, 0, 1, 3925.470947, -366.862946)">
+    <rect x="1152.35" y="2961.35" width="144.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1203" y="2987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Hugo</tspan></text>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1294" cy="2979" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1288.5 2979L1292.5 2983 1299 2976.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="103-static-site-generators:remix" transform="matrix(1, 0, 0, 1, 3925.470947, -366.862946)">
+    <rect x="1152.35" y="3055.35" width="145.3" height="38.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="1200" y="3081" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>Remix</tspan></text>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="1296" cy="3073" r="10" fill="rgb(56,118,29)"></circle>
+    <path d="M1290.5 3073L1294.5 3077 1301 3070.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <g class="clickable-group " data-group-id="116-auth-strategies" transform="matrix(1, 0, 0, 1, 5125.631348, 472.945831)">
+    <rect x="167.35" y="2226.35" width="398.3" height="84.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2.7"></rect>
+    <text x="253" y="2262.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="20px" style="white-space: pre;"><tspan>Authentication Strategies</tspan></text>
+    <circle cx="166" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+    <circle cx="166" cy="2269" r="10" fill="rgb(153,0,255)"></circle>
+    <path d="M160.5 2269L164.5 2273 171 2266.5" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text x="190" y="2290" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px" style="white-space: pre;"><tspan>JWT, OAuth, SSO, Basic Auth, Session Auth etc</tspan></text>
+  </g>
+</svg>
