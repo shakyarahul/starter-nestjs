@@ -30,8 +30,8 @@ export class RoadmapService {
   async totalRows(
     dto = {
       keyword: '',
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
     },
   ) {
     return await this.entityRepo.count({
@@ -46,17 +46,19 @@ export class RoadmapService {
     loggedInUser: User,
     dto = {
       keyword: '',
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
       category_id: null,
     },
   ) {
-    const skip = (dto.page - 1) * dto.page_size;
+    const skip = (parseInt(dto.page) - 1) * parseInt(dto.page_size);
     const data = this.entityRepo
       .createQueryBuilder('roadmap')
       .leftJoinAndSelect('roadmap.status', 'status_tbl')
       .leftJoinAndSelect('roadmap.categories', 'categories_tbl')
-      .where('roadmap.title LIKE :keyword', { keyword: `%${dto.keyword}%` })
+      .where('roadmap.title LIKE :keyword', {
+        keyword: `%${dto.keyword || ''}%`,
+      })
       .andWhere(
         '(status_tbl.name = :statusNameApproved OR (roadmap.createdById = :createdById AND status_tbl.name = :statusNamePending))',
         {
@@ -82,7 +84,8 @@ export class RoadmapService {
         'categories_tbl',
       ])
       .skip(skip)
-      .take(dto.page_size);
+      .take(parseInt(dto.page_size));
+    console.log('data', await data.getMany());
     if (isEmpty(dto.category_id)) {
       return await data.getMany();
     } else {

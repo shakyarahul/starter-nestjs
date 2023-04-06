@@ -68,7 +68,7 @@ export class LinkService {
       .leftJoinAndSelect('link.status', 'status_tbl')
       .leftJoinAndSelect('link.parent_link', 'parent_link_tbl')
       .leftJoinAndSelect('link.structure', 'structure_tbl')
-      // .where('link.title LIKE :keyword', { keyword: `%${dto.keyword}%` })
+      // .where('link.title LIKE :keyword', { keyword: `%${dto.keyword || ''}%` })
       .andWhere(
         '(status_tbl.name = :statusNameApproved OR (link.createdById = :createdById AND status_tbl.name = :statusNamePending))',
         {

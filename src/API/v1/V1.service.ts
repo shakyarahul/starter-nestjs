@@ -131,8 +131,8 @@ export class V1Service {
   async total_categories(
     dto = {
       keyword: '',
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
     },
   ): Promise<number> {
     return await this.category.totalRows(dto);
@@ -142,8 +142,8 @@ export class V1Service {
     user: User,
     dto = {
       keyword: '',
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
       sort_by: 'latest',
     },
   ): Promise<Array<Category>> {
@@ -166,8 +166,8 @@ export class V1Service {
   async total_roadmaps(
     dto = {
       keyword: '',
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
     },
   ): Promise<number> {
     return await this.roadmap.totalRows(dto);
@@ -176,8 +176,8 @@ export class V1Service {
     user: User,
     dto = {
       keyword: '',
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
       category_id: null,
     },
   ): Promise<Array<Roadmap>> {

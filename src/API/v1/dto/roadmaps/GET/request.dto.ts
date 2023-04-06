@@ -15,9 +15,9 @@ export class RequestDto {
     description: 'Page Number',
     example: 1,
   })
-  @IsNumber()
+  @IsString()
   @IsOptional()
-  page: number;
+  page: string;
   @ApiProperty({
     description: 'Keyword',
     example: 'Javascript',
@@ -30,9 +30,9 @@ export class RequestDto {
     description: 'Page Size',
     example: 10,
   })
-  @IsNumber()
+  @IsString()
   @IsOptional()
-  page_size: number;
+  page_size: string;
 
   @ApiProperty({
     description: 'Sort_by',
@@ -46,7 +46,7 @@ export class RequestDto {
     description: 'Category',
     example: 1,
   })
-  @IsNumber()
+  @IsString()
   @IsOptional()
   category_id: Category;
 }
