@@ -493,7 +493,7 @@ export class V1Controller {
       page_size: '10',
       sort_by: SortByEnum.Latest,
       keyword: '',
-      category_id: null,
+      category: null,
     },
   ): Promise<get_roadmaps_ResponseDto> {
     const data: Array<Roadmap> = await this.entityService.get_roadmaps(

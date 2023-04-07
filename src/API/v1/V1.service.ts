@@ -178,7 +178,7 @@ export class V1Service {
       keyword: '',
       page: '1',
       page_size: '10',
-      category_id: null,
+      category: null,
     },
   ): Promise<Array<Roadmap>> {
     return await this.roadmap.findMine(user, dto);

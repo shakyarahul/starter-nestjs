@@ -27,6 +27,18 @@ export class RoadmapService {
     const newEntity = await this.entityRepo.create(createDto);
     return await this.entityRepo.save(newEntity);
   }
+  async createEntityIfNotExists(data, uniqueKey = 'name') {
+    const exists = await this.findAEntity({ [uniqueKey]: data[uniqueKey] });
+    if (!exists) {
+      console.log('asdfadsfdasfdas', data);
+      await this.create(data);
+    } else {
+      await this.update({ ...data, id: exists.id });
+    }
+  }
+  async findAEntity(entity) {
+    return await this.entityRepo.findOneBy(entity);
+  }
   async totalRows(
     dto = {
       keyword: '',
@@ -48,7 +60,7 @@ export class RoadmapService {
       keyword: '',
       page: '1',
       page_size: '10',
-      category_id: null,
+      category: null,
     },
   ) {
     const skip = (parseInt(dto.page) - 1) * parseInt(dto.page_size);
@@ -85,13 +97,13 @@ export class RoadmapService {
       ])
       .skip(skip)
       .take(parseInt(dto.page_size));
-    console.log('data', await data.getMany());
-    if (isEmpty(dto.category_id)) {
+    if (isEmpty(dto.category)) {
       return await data.getMany();
     } else {
-      return (await data.getMany()).filter((v) =>
-        v.categories.map((k) => k.id).includes(dto.category_id),
-      );
+      const zxc = await data.getMany();
+      return zxc.filter((v) => {
+        return v.categories.map((k) => k.id).includes(parseInt(dto.category));
+      });
     }
   }
 

@@ -48,5 +48,5 @@ export class RequestDto {
   })
   @IsString()
   @IsOptional()
-  category_id: Category;
+  category: Category;
 }
