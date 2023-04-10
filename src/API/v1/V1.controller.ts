@@ -365,14 +365,15 @@ export class V1Controller {
     @Request() req: any,
     @Body() dto: post_comments_RequestDto,
     @Param('roadmapId') roadMapId: Roadmap,
-    @Param('linkId') linkId: any,
+    // @Param('linkId') linkId: any,
   ): Promise<post_comments_ResponseDto> {
     const result: Comment = await this.entityService.post_comments(
       dto,
       req.user,
     );
     if (result) {
-      return await this.get_the_comments(req.user, roadMapId, linkId);
+      // return await this.get_the_comments(req.user, roadMapId, linkId);
+      return await this.get_the_comments(req.user, roadMapId);
     }
   }
 
@@ -389,9 +390,10 @@ export class V1Controller {
     @Request() req: any,
     @Body() dto: post_comments_RequestDto,
     @Param('roadmapId') roadMapId: Roadmap,
-    @Param('linkId') linkId: any,
+    // @Param('linkId') linkId: any,
   ): Promise<post_comments_ResponseDto> {
-    return await this.post__comments(req, dto, roadMapId, linkId);
+    // return await this.post__comments(req, dto, roadMapId, linkId);
+    return await this.post_comments(req, dto, roadMapId);
   }
 
   @HasRoles(RoleEnum.Subscriber)

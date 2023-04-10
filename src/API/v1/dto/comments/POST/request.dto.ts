@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsNumber, IsString } from 'class-validator';
+import { IsNumber, IsOptional, IsString } from 'class-validator';
 import { Link } from 'src/Entities/link/Link.entity';
 import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
 export class RequestDto {
@@ -21,6 +21,7 @@ export class RequestDto {
     description: 'Link',
     example: 1,
   })
+  @IsOptional()
   @IsNumber()
   link: Link;
 }

@@ -20,7 +20,7 @@ export class Comment extends CommonEntity {
   @JoinColumn()
   roadmap!: Roadmap;
 
-  @ManyToOne(() => Link, (link) => link.comments)
+  @ManyToOne(() => Link, (link) => link.comments, { nullable: true })
   @JoinColumn()
   link!: Link;
 

@@ -34,7 +34,7 @@ export class CommentService {
     });
     updateEnity.comment = updateDto.comment;
     updateEnity.created_by = updateDto.created_by;
-    updateEnity.link = updateDto.link;
+    // updateEnity.link = updateDto.link;
     updateEnity.roadmap = updateDto.roadmap;
     return this.entityRepo.save(updateEnity);
   }

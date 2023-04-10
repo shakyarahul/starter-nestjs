@@ -29,6 +29,7 @@ import { JwtStrategy } from './strategy/jwt.strategy';
 import { V1Controller } from './V1.controller';
 import { V1Service } from './V1.service';
 import { Category } from 'src/Entities/category/Category.entity';
+import { ChatGateway } from './gateway/index.gateway';
 
 @Module({
   imports: [
@@ -59,6 +60,7 @@ import { Category } from 'src/Entities/category/Category.entity';
     SocialAccountService,
     RoleService,
     JwtStrategy,
+    ChatGateway,
   ],
   exports: [V1Service],
 })
