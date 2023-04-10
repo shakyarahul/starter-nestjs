@@ -241,8 +241,8 @@ export class V1Service {
 
   async total_comments(
     dto = {
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
     },
   ): Promise<number> {
     return await this.comment.totalRows(dto);
@@ -252,8 +252,8 @@ export class V1Service {
     roadmapId: Roadmap,
     linkId: any = null,
     dto = {
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
     },
   ): Promise<Array<Comment>> {
     return await this.comment.findMine(user, roadmapId, linkId, dto);

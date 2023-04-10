@@ -41,8 +41,8 @@ export class CommentService {
 
   async totalRows(
     dto = {
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
     },
   ) {
     return await this.entityRepo.count({
@@ -58,12 +58,12 @@ export class CommentService {
     roadmapId: Roadmap,
     linkId: any = null,
     dto = {
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
     },
   ) {
     console.log(linkId);
-    const skip = (dto.page - 1) * dto.page_size;
+    const skip = (parseInt(dto.page) - 1) * parseInt(dto.page_size);
     const data = this.entityRepo
       .createQueryBuilder('comment')
       .leftJoinAndSelect('comment.link', 'link_tbl')
@@ -89,7 +89,7 @@ export class CommentService {
         'roadmap_tbl.title',
       ])
       .skip(skip)
-      .take(dto.page_size);
+      .take(parseInt(dto.page_size));
     return await data.getMany();
   }
 }

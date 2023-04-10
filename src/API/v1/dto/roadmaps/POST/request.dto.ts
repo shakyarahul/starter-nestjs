@@ -15,6 +15,8 @@ export class RequestDto {
     description: 'Svg Url',
     example: 'https://asdfadsf.com/asdfdas.jpg',
   })
-  @IsUrl()
-  svg_url: Url;
+  // @IsUrl()
+  // svg_url: Url;
+  @IsString()
+  svg_url: string;
 }

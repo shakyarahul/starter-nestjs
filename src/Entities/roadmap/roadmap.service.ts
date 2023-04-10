@@ -64,6 +64,7 @@ export class RoadmapService {
     },
   ) {
     const skip = (parseInt(dto.page) - 1) * parseInt(dto.page_size);
+    console.log(dto, 'Adfa');
     const data = this.entityRepo
       .createQueryBuilder('roadmap')
       .leftJoinAndSelect('roadmap.status', 'status_tbl')

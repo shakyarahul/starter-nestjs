@@ -225,8 +225,6 @@ export class V1Controller {
    * @returns {Promise<post_continue_with_ResponseDto>}
    */
 
-  @HasRoles(RoleEnum.Subscriber)
-  @UseGuards(JwtAuthGuard, RolesGuard)
   @Get('/uploads/:filename')
   @HttpCode(200)
   @ApiCreatedResponse({
@@ -549,8 +547,8 @@ export class V1Controller {
     roadmapId: Roadmap,
     linkId: any = null,
     dto: get_comments_RequestDto = {
-      page: 1,
-      page_size: 10,
+      page: '1',
+      page_size: '10',
     },
   ): Promise<get_comments_ResponseDto> {
     const data: Array<Comment> = await this.entityService.get_comments(
@@ -560,13 +558,14 @@ export class V1Controller {
       dto,
     );
     const total: number = await this.entityService.total_comments(dto);
-    const has_next: boolean = total - dto.page * dto.page_size > 0;
+    const has_next: boolean =
+      total - parseInt(dto.page) * parseInt(dto.page_size) > 0;
     const response: get_comments_ResponseDto = {
       data: data,
       meta_data: {
         last_updated: getLastUpdatedDate(data),
         query_params: dto,
-        total_pages: Math.ceil(total / dto.page_size),
+        total_pages: Math.ceil(total / parseInt(dto.page_size)),
         sort_by: Object.values(SortByEnum),
         has_next,
       },

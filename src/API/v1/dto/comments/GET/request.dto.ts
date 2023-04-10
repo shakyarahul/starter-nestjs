@@ -1,19 +1,19 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsOptional, IsNumber } from 'class-validator';
+import { IsOptional, IsString } from 'class-validator';
 export class RequestDto {
   @ApiProperty({
     description: 'Page Number',
     example: 1,
   })
-  @IsNumber()
+  @IsString()
   @IsOptional()
-  page: number;
+  page: string;
 
   @ApiProperty({
     description: 'Page Size',
     example: 10,
   })
-  @IsNumber()
+  @IsString()
   @IsOptional()
-  page_size: number;
+  page_size: string;
 }
