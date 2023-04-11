@@ -62,17 +62,17 @@ export class CommentService {
       page_size: '10',
     },
   ) {
-    console.log(linkId);
+    console.log(linkId, roadmapId, 'ADsfadsfda');
     const skip = (parseInt(dto.page) - 1) * parseInt(dto.page_size);
     const data = this.entityRepo
       .createQueryBuilder('comment')
       .leftJoinAndSelect('comment.link', 'link_tbl')
       .leftJoinAndSelect('comment.roadmap', 'roadmap_tbl')
       .leftJoinAndSelect('comment.created_by', 'user_tbl')
-      .where('comment.roadmap LIKE :roadmapId', { roadmapId: `%${roadmapId}%` })
-      .where(isEmpty(linkId) ? '' : 'comment.link LIKE :linkId', {
-        linkId: `%${linkId}%`,
-      })
+      .where('comment.roadmap = :roadmapId', { roadmapId: roadmapId })
+      // .where(isEmpty(linkId) ? '' : 'comment.link LIKE :linkId', {
+      //   linkId: `%${linkId}%`,
+      // })
       .select([
         'comment.id',
         'comment.comment',
@@ -88,8 +88,32 @@ export class CommentService {
         'roadmap_tbl.id',
         'roadmap_tbl.title',
       ])
+      .orderBy('comment.created_at', 'DESC')
       .skip(skip)
       .take(parseInt(dto.page_size));
+
+    /**
+     * SELECT
+     * `comment`.`id` AS `comment_id`,
+     * `comment`.`updated_at` AS `comment_updated_at`,
+     * `comment`.`created_at` AS `comment_created_at`,
+     * `comment`.`comment` AS `comment_comment`,
+     * `link_tbl`.`id` AS `link_tbl_id`,
+     * `link_tbl`.`title` AS `link_tbl_title`,
+     * `link_tbl`.`subtitle` AS `link_tbl_subtitle`,
+     * `roadmap_tbl`.`id` AS `roadmap_tbl_id`,
+     * `roadmap_tbl`.`title` AS `roadmap_tbl_title`,
+     * `user_tbl`.`email` AS `user_tbl_email`,
+     * `user_tbl`.`profile_url` AS `user_tbl_profile_url`,
+     * `user_tbl`.`first_name` AS `user_tbl_first_name`,
+     * `user_tbl`.`last_name` AS `user_tbl_last_name`
+     * FROM `comment` `comment`
+     * LEFT JOIN `link` `link_tbl` ON `link_tbl`.`id`=`comment`.`linkId`
+     * LEFT JOIN `roadmap` `roadmap_tbl` ON `roadmap_tbl`.`id`=`comment`.`roadmapId`
+     * LEFT JOIN `user` `user_tbl` ON `user_tbl`.`id`=`comment`.`createdById`
+     * ORDER BY `comment`.`created_at` DESC
+     */
+    console.log(data.getSql());
     return await data.getMany();
   }
 }

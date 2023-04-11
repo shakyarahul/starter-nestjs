@@ -1,0 +1,1582 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="91 169 1178 2968" style="font-family: Arial">
+  <path d="M947 2175Q945 2113 947 2033" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M494 2434Q422 2449 356 2499" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M600 2993Q599 3054 600 3132" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M602 2805Q601 2876 602 2966" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M838 2739Q786 2780 705 2786" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M826 2848Q787 2816 702 2800" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M854 2794Q784 2796 694 2794" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M832 2676Q770 2639 720 2649" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M826 2614Q772 2642 724 2632" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M521 2594Q430 2583 376 2621" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M523 2577Q438 2590 380 2554" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M602 2526Q601 2640 602 2784" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M1005 2540Q819 2537 669 2535" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M999 2335Q955 2334 921 2335" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1001 2391Q951 2387 913 2387" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M828 2394Q766 2357 716 2367" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M822 2332Q768 2360 720 2350" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M484 2369Q393 2358 339 2396" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M486 2352Q401 2365 343 2329" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M562 2346Q560 2306 562 2256" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <g class="clickable-group " data-group-id="100-javascript-asynchronous-javascript:event-loop">
+    <rect x="490" y="2250" width="136" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="515" y="2277" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Event Loop</tspan>
+    </text>
+    <g>
+      <circle cx="625" cy="2269" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="625" cy="2269" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M619 2269L623 2273 630 2266" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="106-javascript-this-keyword:explicit-binding">
+    <path d="M971 2245L970 2214 971 2175" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+    <path d="M900 2245L899 2214 900 2175" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+    <path d="M830 2245L829 2214 830 2175" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+    <rect x="802" y="2154" width="199" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="850" y="2181" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Explicit Binding</tspan>
+    </text>
+    <g>
+      <circle cx="998" cy="2172" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="998" cy="2172" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="998" cy="2172" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M992 2172L996 2176 1003 2169" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <rect x="802" y="2220" width="49" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="813" y="2247" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>call</tspan>
+    </text>
+    <rect x="865" y="2220" width="67" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="878" y="2247" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>apply</tspan>
+    </text>
+    <rect x="943" y="2220" width="59" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="956" y="2247" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>bind</tspan>
+    </text>
+  </g>
+  <path d="M1076 2018Q1044 2061 990 2084" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1084 2070Q1038 2088 979 2093" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1080 2126Q1038 2105 991 2106" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1077 2174Q1042 2131 990 2109" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1074 2227Q1041 2136 986 2120" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M803 2094Q646 2109 644 1962" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M638 1957Q690 1818 639 1701" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M824 1958Q724 1893 702 1719" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M818 1906Q747 1854 710 1717" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M812 1850Q756 1816 719 1717" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M815 1804Q768 1786 727 1716" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1076 1851Q1057 1882 1021 1898" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1076 1960Q1059 1926 1014 1911" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1078 1905Q1044 1904 1019 1905" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M814 1750Q771 1741 725 1705" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1083 1766Q1064 1712 1003 1711" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1110 1707Q1060 1703 1022 1703" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M847 1703Q774 1701 717 1702" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M704 1705Q702 1669 704 1623" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M623 1709Q519 1705 435 1709" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M321 1772Q320 1742 321 1704" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M589 1532Q573 1681 428 1697" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M1030 1631Q974 1603 954 1535" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1026 1576Q985 1570 958 1532" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1032 1523Q988 1522 956 1522" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M798 1522Q725 1520 668 1521" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M237 1601Q236 1571 237 1533" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M353 1601Q352 1571 353 1533" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <g class="clickable-group " data-group-id="101-javascript-control-flow:conditional-statements:switch">
+    <rect x="303" y="1573" width="98" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="322" y="1600" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Switch</tspan>
+    </text>
+    <g>
+      <circle cx="399" cy="1591" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="399" cy="1591" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M393 1591L397 1595 404 1588" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-control-flow:conditional-statements:if-else">
+    <rect x="185" y="1572" width="102" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="211" y="1600" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Ifelse</tspan>
+    </text>
+    <g>
+      <circle cx="184" cy="1591" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="184" cy="1591" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M178 1591L182 1595 189 1588" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <path d="M498 1522L425 1520 368 1521" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M586 1461L587 1491 589 1530" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M1075 1456L1019 1459 947 1460" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M787 1354L746 1429 672 1456" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M787 1406L737 1455 682 1459" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M792 1463L742 1467 677 1469" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M506 1448L443 1419 396 1363" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M498 1466L432 1461 382 1460" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M499 1457L433 1450 397 1411" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M706 1244L587 1302 586 1449" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M1093 1219L1044 1247 996 1246" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1091 1277L1045 1258 990 1254" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1086 1330L1058 1281 994 1258" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1088 1167L1056 1230 987 1242" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1078 1094L1077 1064 1078 1026" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M850 1249L798 1250 732 1250" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M583 1249L524 1251 449 1251" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M874 1021L842 1177 677 1244" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M765 924L866 925 875 1025" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M1198 1094L1197 1064 1198 1026" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M741 912L669 914 577 912" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1012 853L981 892 919 914" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1025 907L982 909 927 910" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <g class="clickable-group " data-group-id="102-javascript-type-casting:implicit-type-casting">
+    <rect x="1004" y="886" width="233" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1041" y="913" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Implicit Type Casting</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="905" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="905" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 905L1232 909 1239 902" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <path d="M706 1026L623 1037 592 1105" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M474 1186L472 1147 474 1097" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M434 1017L369 1023 324 1033" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M430 1024L364 1046 335 1086" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M443 1026L362 1075 335 1138" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M437 1011L364 1008 332 974" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M700 1016L628 1014 531 1015" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1017 1021L959 1022 885 1021" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M536 762L582 877 724 905" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M727 811L693 768 638 768" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M996 756L938 757 864 756" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M475 757L425 758 360 757" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M743 758L692 758 628 756" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M804 748L804 713 804 672" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M957 610L920 543 850 520" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1201 676L1200 646 1201 608" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1100 676L1099 646 1100 608" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M993 676L992 646 993 608" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path> 
+  <g class="clickable-group " data-group-id="100-javascript-variables:scopes:block">
+    <rect x="950" y="650" width="85" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="971" y="677" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Block</tspan>
+    </text>
+    <g>
+      <circle cx="1032" cy="688" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1032" cy="688" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1026 688L1030 692 1037 685" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-variables:scopes:function">
+    <rect x="1052" y="650" width="95" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1066" y="677" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Function</tspan>
+    </text>
+    <g>
+      <circle cx="1145" cy="688" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1145" cy="688" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1139 688L1143 692 1150 685" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-variables:scopes:global">
+    <rect x="1164" y="650" width="73" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1176" y="677" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Global</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="688" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="688" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 688L1232 692 1239 685" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <path d="M552 452L465 481 411 556" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M674 508L528 587 537 745" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M966 445L919 488 852 493" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M957 560L927 532 847 511" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1192 438L1191 408 1192 370" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M1088 438L1087 408 1088 370" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M991 438L990 415 991 386" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <g class="clickable-group " data-group-id="100-javascript-variables:variable-declarations:var">
+    <rect x="950" y="364" width="82" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="980" y="389" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>var</tspan>
+    </text>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-variables:variable-declarations:let">
+    <rect x="1048" y="364" width="79" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1078" y="391" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>let</tspan>
+    </text>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-variables:variable-declarations:const">
+    <rect x="1146" y="364" width="90" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1171" y="390" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>const</tspan>
+    </text>
+  </g>
+  <path d="M973 502L916 504 842 503" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M567 448L496 446 405 448" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M563 451L486 457 405 497" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <path d="M697 210L670 251 703 286" fill="none" stroke="rgb(153,0,255)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <text x="657" y="325" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="28px">
+    <tspan>JavaScript</tspan>
+  </text>
+  <path d="M744 340L754 387 716 431" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <rect x="915" y="175" width="347" height="138" rx="2" fill="rgb(255,255,255)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+  <text x="928" y="210" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+    <tspan>Find the detailed version of this roadmap</tspan>
+  </text>
+  <text x="928" y="238" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+    <tspan>along with resources and other roadmaps</tspan>
+  </text>
+  <g class="clickable-group " data-group-id="ext_link:roadmap">
+    <rect x="930" y="256" width="317" height="42" rx="2" fill="rgb(65,53,214)" fill-opacity="1" stroke="rgb(65,53,214)" stroke-width="2"></rect>
+    <text x="1070" y="284" fill="rgb(255,255,255)" font-style="normal" font-weight="normal" font-size="20px">
+      <tspan>roadmap</tspan>
+    </text>
+    <text x="994" y="284" fill="rgb(255,255,255)" font-style="normal" font-weight="normal" font-size="20px">
+      <tspan>https</tspan>
+    </text>
+    <text x="1042" y="282" fill="rgb(255,255,255)" font-style="normal" font-weight="normal" font-size="20px">
+      <tspan>:</tspan>
+    </text>
+    <text x="1049" y="285" fill="rgb(255,255,255)" font-style="normal" font-weight="normal" font-size="20px">
+      <tspan>/</tspan>
+    </text>
+    <text x="1057" y="285" fill="rgb(255,255,255)" font-style="normal" font-weight="normal" font-size="20px">
+      <tspan>/</tspan>
+    </text>
+  </g>
+  <path d="M553 441L482 435 399 394" fill="none" stroke="rgb(43,120,228)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 12"></path>
+  <g class="clickable-group " data-group-id="100-javascript-introduction">
+    <rect x="525" y="425" width="337" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="596" y="455" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Introduction to JavaScript</tspan>
+    </text>
+    <g>
+      <circle cx="860" cy="446" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="860" cy="446" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M854 446L858 450 865 443" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-introduction:what-is-javascript">
+    <rect x="186" y="373" width="235" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="229" y="401" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>What is JavaScript?</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="392" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="392" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 392L183 396 190 389" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g>
+    <rect x="97" y="178" width="488" height="133" rx="2" fill="rgb(255,255,255)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <g>
+      <circle cx="129" cy="208" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="129" cy="208" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M123 208L127 212 134 205" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <text x="155" y="216" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="16px">
+      <tspan>Beginner Topics / start with these</tspan>
+    </text>
+    <text x="156" y="281" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="16px">
+      <tspan>Advanced Topics / pick these after intermediate topics</tspan>
+    </text>
+    <g>
+      <circle cx="129" cy="273" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="129" cy="273" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M123 273L127 277 134 270" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <text x="155" y="249" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="16px">
+      <tspan>Intermediate Topics / pick them after beginner topics</tspan>
+    </text>
+    <g>
+      <circle cx="129" cy="240" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="129" cy="240" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="129" cy="240" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M123 240L127 244 134 237" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-introduction:history-of-javascript">
+    <rect x="186" y="423" width="235" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="226" y="451" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>History of JavaScript</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="441" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="441" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 441L183 445 190 438" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-introduction:javascript-versions">
+    <rect x="186" y="474" width="235" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="229" y="502" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>JavaScript Versions</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="493" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="493" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 493L183 497 190 490" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-variables">
+    <rect x="525" y="481" width="337" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="623" y="511" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>All About Variables</tspan>
+    </text>
+    <g>
+      <circle cx="523" cy="501" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="523" cy="501" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M517 501L521 505 528 498" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-variables:variable-declarations">
+    <rect x="949" y="430" width="288" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1012" y="457" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Variable Declarations</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="448" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="448" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 448L1232 452 1239 445" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-variables:naming-rules">
+    <rect x="949" y="533" width="288" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1006" y="560" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Variable Naming Rules</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="552" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="552" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 552L1232 556 1239 549" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-variables:hoisting">
+    <rect x="949" y="481" width="288" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1062" y="508" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Hoisting</tspan>
+    </text>
+    <g>
+      <circle cx="1233" cy="500" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1233" cy="500" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1227 500L1231 504 1238 497" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-datatypes">
+    <rect x="447" y="734" width="215" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="512" y="764" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Data Types</tspan>
+    </text>
+    <g>
+      <circle cx="448" cy="754" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="448" cy="754" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M442 754L446 758 453 751" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="103-javascript-introduction:how-to-run-javascript">
+    <rect x="186" y="525" width="235" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="216" y="553" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>How to run JavaScript?</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="544" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="544" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 544L183 548 190 541" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="103-javascript-variables:scopes">
+    <rect x="949" y="586" width="288" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1032" y="613" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Variable Scopes</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="604" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="604" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 604L1232 608 1239 601" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-datatypes:object">
+    <rect x="722" y="736" width="181" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="787" y="763" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Object</tspan>
+    </text>
+    <g>
+      <circle cx="899" cy="734" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="899" cy="734" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M893 734L897 738 904 731" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-datatypes:object:prototype">
+    <rect x="696" y="650" width="217" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="740" y="677" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Object Prototype</tspan>
+    </text>
+    <g>
+      <circle cx="694" cy="668" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="694" cy="668" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="694" cy="668" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M688 668L692 672 699 665" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-datatypes:object:prototypal-inheritance">
+    <rect x="696" y="600" width="217" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="720" y="627" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Prototypal Inheritance</tspan>
+    </text>
+    <g>
+      <circle cx="694" cy="618" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="694" cy="618" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="694" cy="618" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M688 618L692 622 699 615" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-datatypes:object:builtin-objects">
+    <rect x="949" y="736" width="165" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="973" y="763" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Built-in Objects</tspan>
+    </text>
+    <g>
+      <circle cx="1113" cy="755" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1113" cy="755" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1107 755L1111 759 1118 752" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-datatypes:primitive-types">
+    <rect x="186" y="607" width="215" height="259" rx="2" fill="rgb(255,255,255)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="235" y="849" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Primitive Types</tspan>
+    </text>
+    <rect x="202" y="621" width="71" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="216" y="648" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>string</tspan>
+    </text>
+    <rect x="201" y="674" width="98" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="221" y="701" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>number</tspan>
+    </text>
+    <rect x="310" y="674" width="75" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="326" y="701" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>bigint</tspan>
+    </text>
+    <rect x="202" y="725" width="97" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="220" y="752" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>boolean</tspan>
+    </text>
+    <rect x="310" y="725" width="72" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="333" y="752" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>null</tspan>
+    </text>
+    <rect x="283" y="621" width="102" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="296" y="648" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>undefined</tspan>
+    </text>
+    <rect x="202" y="776" width="183" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="266" y="803" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Symbol</tspan>
+    </text>
+    <g>
+      <circle cx="197" cy="640" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="197" cy="640" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M191 640L195 644 202 637" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <g>
+      <circle cx="197" cy="693" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="197" cy="693" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M191 693L195 697 202 690" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <g>
+      <circle cx="197" cy="744" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="197" cy="744" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M191 744L195 748 202 741" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <g>
+      <circle cx="387" cy="640" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="387" cy="640" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M381 640L385 644 392 637" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <g>
+      <circle cx="384" cy="693" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="384" cy="693" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M378 693L382 697 389 690" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <g>
+      <circle cx="384" cy="744" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="384" cy="744" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M378 744L382 748 389 741" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <g>
+      <circle cx="198" cy="795" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="198" cy="795" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="198" cy="795" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M192 795L196 799 203 792" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-datatypes:typeof-operator">
+    <rect x="721" y="788" width="181" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="752" y="815" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>typeof operator</tspan>
+    </text>
+    <g>
+      <circle cx="898" cy="807" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="898" cy="807" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M892 807L896 811 903 804" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="104-javascript-data-structures">
+    <rect x="693" y="998" width="255" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="761" y="1028" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Data Structures</tspan>
+    </text>
+    <g>
+      <circle cx="947" cy="1020" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="947" cy="1020" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M941 1020L945 1024 952 1017" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-data-structures:indexed-collections">
+    <rect x="1011" y="1001" width="226" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1049" y="1028" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Indexed Collections</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1020" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1020" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 1020L1232 1024 1239 1017" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-data-structures:indexed-collections:arrays">
+    <rect x="1158" y="1068" width="79" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1171" y="1095" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Arrays</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1086" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1086" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 1086L1232 1090 1239 1083" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-data-structures:indexed-collections:typed-arrays">
+    <rect x="1014" y="1067" width="125" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1029" y="1094" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Typed Arrays</tspan>
+    </text>
+    <g>
+      <circle cx="1011" cy="1086" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1011" cy="1086" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M1005 1086L1009 1090 1016 1083" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-data-structures:keyed-collections">
+    <rect x="420" y="995" width="190" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="447" y="1022" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Keyed Collections</tspan>
+    </text>
+    <g>
+      <circle cx="607" cy="1014" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="607" cy="1014" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="607" cy="1014" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M601 1014L605 1018 612 1011" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-data-structures:keyed-collections:map">
+    <rect x="186" y="960" width="158" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="241" y="987" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Map</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="978" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="978" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="978" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M179 978L183 982 190 975" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-data-structures:keyed-collections:weak-map">
+    <rect x="186" y="1010" width="158" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="225" y="1037" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Weak Map</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="1028" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1028" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1028" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M179 1028L183 1032 190 1025" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-data-structures:keyed-collections:set">
+    <rect x="186" y="1060" width="158" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="253" y="1087" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Set</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="1078" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1078" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1078" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M179 1078L183 1082 190 1075" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="103-javascript-data-structures:keyed-collections:weak-set">
+    <rect x="186" y="1110" width="158" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="229" y="1137" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Weak Set</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="1128" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1128" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1128" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M179 1128L183 1132 190 1125" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-data-structures:structured-data">
+    <rect x="420" y="1075" width="190" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="455" y="1102" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Structured Data</tspan>
+    </text>
+    <g>
+      <circle cx="418" cy="1094" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="418" cy="1094" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M412 1094L416 1098 423 1091" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-data-structures:structured-data:json">
+    <rect x="420" y="1145" width="102" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="449" y="1172" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>JSON</tspan>
+    </text>
+    <g>
+      <circle cx="418" cy="1164" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="418" cy="1164" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M412 1164L416 1168 423 1161" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="103-javascript-type-casting">
+    <rect x="693" y="883" width="255" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="771" y="913" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Type Casting</tspan>
+    </text>
+    <g>
+      <circle cx="946" cy="905" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="946" cy="905" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M940 905L944 909 951 902" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-type-casting:explicit-type-casting">
+    <rect x="1004" y="834" width="233" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1041" y="861" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Explicit Type Casting</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="853" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="853" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 853L1232 857 1239 850" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-type-casting:type-conversion-coercion">
+    <rect x="308" y="892" width="305" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="349" y="919" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Type Conversion vs Coercion</tspan>
+    </text>
+    <g>
+      <circle cx="307" cy="911" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="307" cy="911" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M301 911L305 915 312 908" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="105-javascript-equality-comparisons">
+    <rect x="534" y="1227" width="225" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="564" y="1257" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Equality Comparisons</tspan>
+    </text>
+    <g>
+      <circle cx="533" cy="1248" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="533" cy="1248" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M527 1248L531 1252 538 1245" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-equality-comparisons:value-comparison-operators">
+    <rect x="186" y="1206" width="279" height="108" rx="2" fill="rgb(255,255,255)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="214" y="1294" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Value Comparison Operators</tspan>
+    </text>
+    <rect x="201" y="1223" width="57" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="217" y="1247" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>==</tspan>
+    </text>
+    <rect x="269" y="1223" width="66" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="284" y="1247" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>===</tspan>
+    </text>
+    <rect x="345" y="1223" width="104" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="364" y="1250" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Object</tspan>
+    </text>
+    <g>
+      <circle cx="188" cy="1206" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="188" cy="1206" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M182 1206L186 1210 193 1203" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-equality-comparisons:equality-algorithms">
+    <rect x="812" y="1230" width="195" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="838" y="1256" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Equality Algorithms</tspan>
+    </text>
+    <g>
+      <circle cx="1006" cy="1248" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1006" cy="1248" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M1000 1248L1004 1252 1011 1245" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-equality-comparisons:equality-algorithms:is-loosely-equal">
+    <rect x="1078" y="1155" width="159" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1100" y="1182" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>isLooselyEqual</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1174" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1174" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M1228 1174L1232 1178 1239 1171" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-equality-comparisons:equality-algorithms:is-strictly-equal">
+    <rect x="1078" y="1205" width="159" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1104" y="1232" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>isStrictlyEqual</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1223" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1223" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M1228 1223L1232 1227 1239 1220" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-equality-comparisons:equality-algorithms:same-value-zero">
+    <rect x="1078" y="1254" width="159" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1096" y="1281" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>SameValueZero</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1273" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1273" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M1228 1273L1232 1277 1239 1270" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="103-javascript-equality-comparisons:equality-algorithms:same-value">
+    <rect x="1078" y="1304" width="159" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1114" y="1331" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>SameValue</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1323" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1323" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M1228 1323L1232 1327 1239 1320" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="106-javascript-loops-iterations">
+    <rect x="486" y="1436" width="204" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="510" y="1466" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Loops and Iterations</tspan>
+    </text>
+    <g>
+      <circle cx="482" cy="1457" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="482" cy="1457" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M476 1457L480 1461 487 1454" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="103-javascript-loops-iterations:for-statement">
+    <rect x="186" y="1344" width="215" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="242" y="1371" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>for statement</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="1361" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1361" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 1361L183 1365 190 1358" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="104-javascript-loops-iterations:do-while-statement">
+    <rect x="186" y="1393" width="215" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="219" y="1420" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>dowhile statement</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="1411" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1411" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 1411L183 1415 190 1408" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="105-javascript-loops-iterations:while-statement">
+    <rect x="186" y="1442" width="215" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="233" y="1469" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>while statement</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="1460" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1460" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 1460L183 1464 190 1457" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-loops-iterations:break-continue">
+    <rect x="775" y="1439" width="195" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="809" y="1466" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>break / continue</tspan>
+    </text>
+    <g>
+      <circle cx="966" cy="1458" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="966" cy="1458" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M960 1458L964 1462 971 1455" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-loops-iterations:break-continue:labeled-statements">
+    <rect x="1022" y="1437" width="215" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1053" y="1464" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Labeled Statements</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1455" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1455" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 1455L1232 1459 1239 1452" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-loops-iterations:for-in-statement">
+    <rect x="775" y="1341" width="195" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="810" y="1368" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>forin statement</tspan>
+    </text>
+    <g>
+      <circle cx="966" cy="1359" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="966" cy="1359" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M960 1359L964 1363 971 1356" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-loops-iterations:for-of-statement">
+    <rect x="775" y="1390" width="195" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="810" y="1417" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>forof statement</tspan>
+    </text>
+    <g>
+      <circle cx="966" cy="1409" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="966" cy="1409" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M960 1409L964 1413 971 1406" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="107-javascript-control-flow">
+    <rect x="486" y="1497" width="204" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="541" y="1527" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Control Flow</tspan>
+    </text>
+    <g>
+      <circle cx="482" cy="1518" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="482" cy="1518" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M476 1518L480 1522 487 1515" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-control-flow:conditional-statements">
+    <rect x="186" y="1503" width="215" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="204" y="1530" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Conditional Statements</tspan>
+    </text>
+    <g>
+      <circle cx="184" cy="1521" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="184" cy="1521" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M178 1521L182 1525 189 1518" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-control-flow:exception-handling">
+    <rect x="775" y="1502" width="195" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="798" y="1529" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Exception Handling</tspan>
+    </text>
+    <g>
+      <circle cx="966" cy="1520" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="966" cy="1520" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M960 1520L964 1524 971 1517" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-control-flow:exception-handling:throw-statement">
+    <rect x="1022" y="1504" width="215" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1068" y="1531" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>throw statement</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1522" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1522" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 1522L1232 1526 1239 1519" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-control-flow:exception-handling:try-catch-finally">
+    <rect x="1022" y="1556" width="215" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1061" y="1583" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>try / catch / finally</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1575" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1575" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 1575L1232 1579 1239 1572" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-control-flow:exception-handling:utilizing-error-objects">
+    <rect x="1021" y="1608" width="216" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1045" y="1635" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Utilizing Error Objects</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1627" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1627" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 1627L1232 1631 1239 1624" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="108-javascript-expressions-and-operators">
+    <rect x="186" y="1679" width="267" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="215" y="1709" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Expressions and Operators</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="1700" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1700" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 1700L183 1704 190 1697" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-expressions-and-operators:assignment-operators">
+    <rect x="186" y="1753" width="267" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="234" y="1780" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Assignment Operators</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="1771" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1771" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 1771L183 1775 190 1768" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-expressions-and-operators:omparison-operators">
+    <rect x="186" y="1803" width="267" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="232" y="1830" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Comparison Operators</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="1821" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1821" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 1821L183 1825 190 1818" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-expressions-and-operators:arithmetic-operators">
+    <rect x="186" y="1851" width="267" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="240" y="1878" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Arithmetic Operators</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="1870" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1870" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 1870L183 1874 190 1867" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="103-javascript-expressions-and-operators:bitwise-operators">
+    <rect x="186" y="1901" width="267" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="251" y="1928" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Bitwise Operators</tspan>
+    </text>
+    <g>
+      <circle cx="184" cy="1920" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="184" cy="1920" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="184" cy="1920" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M178 1920L182 1924 189 1917" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="104-javascript-expressions-and-operators:logical-operators">
+    <rect x="186" y="1951" width="267" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="251" y="1978" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Logical Operators</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="1970" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="1970" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 1970L183 1974 190 1967" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="105-javascript-expressions-and-operators:bigint-operators">
+    <rect x="186" y="2000" width="267" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="256" y="2027" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>BigInt Operators</tspan>
+    </text>
+    <g>
+      <circle cx="184" cy="2019" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="184" cy="2019" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="184" cy="2019" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M178 2019L182 2023 189 2016" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="106-javascript-expressions-and-operators:string-operators">
+    <rect x="186" y="2050" width="267" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="256" y="2077" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>String Operators</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="2069" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="2069" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 2069L183 2073 190 2066" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="107-javascript-expressions-and-operators:conditional-operators">
+    <rect x="186" y="2100" width="267" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="235" y="2127" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Conditional Operators</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="2118" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="2118" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 2118L183 2122 190 2115" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="108-javascript-expressions-and-operators:comma-operators">
+    <rect x="186" y="2149" width="267" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="249" y="2176" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Comma Operators</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="2168" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="2168" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 2168L183 2172 190 2165" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="109-javascript-expressions-and-operators:unary-operators">
+    <rect x="186" y="2198" width="267" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="256" y="2225" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Unary Operators</tspan>
+    </text>
+    <g>
+      <circle cx="184" cy="2216" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="184" cy="2216" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M178 2216L182 2220 189 2213" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="110-javascript-expressions-and-operators:relational-operators">
+    <rect x="186" y="2247" width="267" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="240" y="2274" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Relational Operators</tspan>
+    </text>
+    <g>
+      <circle cx="184" cy="2266" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="184" cy="2266" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="184" cy="2266" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M178 2266L182 2270 189 2263" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="109-javascript-functions">
+    <rect x="553" y="1679" width="183" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="607" y="1709" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Functions</tspan>
+    </text>
+    <g>
+      <circle cx="735" cy="1701" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="735" cy="1701" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M729 1701L733 1705 740 1698" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-functions:defining-calling-functions">
+    <rect x="613" y="1599" width="274" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="634" y="1626" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Defining and Calling Functions</tspan>
+    </text>
+    <g>
+      <circle cx="885" cy="1617" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="885" cy="1617" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M879 1617L883 1621 890 1614" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-functions:function-parameters">
+    <rect x="804" y="1682" width="223" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="836" y="1709" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Function Parameters</tspan>
+    </text>
+    <g>
+      <circle cx="1025" cy="1701" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1025" cy="1701" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1019 1701L1023 1705 1030 1698" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-functions:function-parameters:default-params">
+    <rect x="1078" y="1682" width="159" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1099" y="1709" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Default Params</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1702" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1702" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 1702L1232 1706 1239 1699" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-functions:function-parameters:rest-params">
+    <rect x="1078" y="1731" width="159" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1109" y="1758" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Rest Params</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1750" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1750" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1228 1750L1232 1754 1239 1747" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-functions:arrow-functions">
+    <rect x="804" y="1732" width="223" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="854" y="1759" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Arrow Functions</tspan>
+    </text>
+    <g>
+      <circle cx="1025" cy="1750" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1025" cy="1750" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1019 1750L1023 1754 1030 1747" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="103-javascript-functions:iifes">
+    <rect x="804" y="1783" width="223" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="895" y="1810" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>IIFEs</tspan>
+    </text>
+    <g>
+      <circle cx="1025" cy="1802" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1025" cy="1802" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1025" cy="1802" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1019 1802L1023 1806 1030 1799" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="105-javascript-functions:scope-and-function-stack">
+    <rect x="805" y="1883" width="223" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="825" y="1910" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Scope &amp; Function Stack</tspan>
+    </text>
+    <g>
+      <circle cx="1025" cy="1901" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1025" cy="1901" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1025" cy="1901" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1019 1901L1023 1905 1030 1898" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-functions:scope-and-function-stack:recursion">
+    <rect x="1071" y="1835" width="167" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1115" y="1862" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Recursion</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1852" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1852" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1852" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1228 1852L1232 1856 1239 1849" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-functions:scope-and-function-stack:lexical-scoping">
+    <rect x="1071" y="1885" width="167" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1095" y="1912" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Lexical Scoping</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1903" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1903" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1903" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1228 1903L1232 1907 1239 1900" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-functions:scope-and-function-stack:closures">
+    <rect x="1071" y="1935" width="167" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1121" y="1962" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Closures</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="1954" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1954" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="1954" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1228 1954L1232 1958 1239 1951" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="104-javascript-functions:arguments-object">
+    <rect x="804" y="1832" width="223" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="849" y="1859" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>arguments object</tspan>
+    </text>
+    <g>
+      <circle cx="1025" cy="1851" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1025" cy="1851" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1025" cy="1851" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1019 1851L1023 1855 1030 1848" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="106-javascript-functions:built-in-functions">
+    <rect x="805" y="1935" width="223" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="850" y="1962" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Built-in Functions</tspan>
+    </text>
+    <g>
+      <circle cx="1025" cy="1953" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1025" cy="1953" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M1019 1953L1023 1957 1030 1950" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-this-keyword:this-in-a-method">
+    <rect x="1068" y="2001" width="169" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1107" y="2028" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>in a method</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="2020" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="2020" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="2020" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1228 2020L1232 2024 1239 2017" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-this-keyword:this-in-a-function">
+    <rect x="1068" y="2051" width="169" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1106" y="2078" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>in a function</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="2070" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="2070" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="2070" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1228 2070L1232 2074 1239 2067" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="110-javascript-strict-mode">
+    <rect x="556" y="1936" width="177" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="600" y="1967" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Strict Mode</tspan>
+    </text>
+    <g>
+      <circle cx="729" cy="1957" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="729" cy="1957" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="729" cy="1957" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M723 1957L727 1961 734 1954" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="111-javascript-this-keyword">
+    <rect x="750" y="2076" width="250" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="775" y="2106" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Using (this) keyword ____</tspan>
+    </text>
+    <g>
+      <circle cx="998" cy="2097" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="998" cy="2097" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="998" cy="2097" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M992 2097L996 2101 1003 2094" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="103-javascript-this-keyword:using-this-alone">
+    <rect x="1068" y="2100" width="169" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1101" y="2127" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>using it alone</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="2119" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="2119" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="2119" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1228 2119L1232 2123 1239 2116" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="104-javascript-this-keyword:this-in-event-handlers">
+    <rect x="1067" y="2149" width="170" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1082" y="2176" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>in event handlers</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="2167" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="2167" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="2167" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1228 2167L1232 2171 1239 2164" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="105-javascript-this-keyword:this-in-arrow-functions">
+    <rect x="1066" y="2198" width="173" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1080" y="2225" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>in arrow functions</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="2216" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="2216" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="2216" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1228 2216L1232 2220 1239 2213" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-this-keyword:function-borrowing">
+    <rect x="816" y="2002" width="185" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="834" y="2029" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Function Borrowing</tspan>
+    </text>
+    <g>
+      <circle cx="1000" cy="2021" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1000" cy="2021" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1000" cy="2021" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M994 2021L998 2025 1005 2018" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="112-javascript-asynchronous-javascript">
+    <rect x="468" y="2335" width="271" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="507" y="2365" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Asynchronous JavaScript</tspan>
+    </text>
+    <g>
+      <circle cx="735" cy="2356" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="735" cy="2356" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="735" cy="2356" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M729 2356L733 2360 740 2353" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-asynchronous-javascript:set-timeout">
+    <rect x="186" y="2313" width="166" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="227" y="2340" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>setTimeout</tspan>
+    </text>
+    <g>
+      <circle cx="184" cy="2331" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="184" cy="2331" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M178 2331L182 2335 189 2328" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-asynchronous-javascript:set-interval">
+    <rect x="186" y="2363" width="166" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="229" y="2390" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>setInterval</tspan>
+    </text>
+    <g>
+      <circle cx="184" cy="2381" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="184" cy="2381" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M178 2381L182 2385 189 2378" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="103-javascript-asynchronous-javascript:callbacks">
+    <rect x="810" y="2315" width="122" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="835" y="2342" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Callbacks</tspan>
+    </text>
+    <g>
+      <circle cx="928" cy="2333" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="928" cy="2333" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="928" cy="2333" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M922 2333L926 2337 933 2330" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="104-javascript-asynchronous-javascript:promises">
+    <rect x="810" y="2367" width="122" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="835" y="2394" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Promises</tspan>
+    </text>
+    <g>
+      <circle cx="928" cy="2386" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="928" cy="2386" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="928" cy="2386" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M922 2386L926 2390 933 2383" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-asynchronous-javascript:promises:async-await">
+    <rect x="984" y="2369" width="155" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1011" y="2396" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>async / await</tspan>
+    </text>
+    <g>
+      <circle cx="1137" cy="2388" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1137" cy="2388" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1137" cy="2388" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1131 2388L1135 2392 1142 2385" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-asynchronous-javascript:callbacks:callback-hell">
+    <rect x="984" y="2315" width="155" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1011" y="2342" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Callback Hell</tspan>
+    </text>
+    <g>
+      <circle cx="1137" cy="2333" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1137" cy="2333" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1137" cy="2333" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1131 2333L1135 2337 1142 2330" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="113-javascript-classes">
+    <rect x="984" y="2507" width="252" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="1080" y="2537" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Classes</tspan>
+    </text>
+    <g>
+      <circle cx="1234" cy="2529" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="2529" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1234" cy="2529" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1228 2529L1232 2533 1239 2526" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="114-javascript-iterators-and-generators">
+    <rect x="468" y="2507" width="271" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="508" y="2537" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Iterators and Generators</tspan>
+    </text>
+    <g>
+      <circle cx="468" cy="2529" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="468" cy="2529" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M462 2529L466 2533 473 2526" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="115-javascript-modules">
+    <rect x="468" y="2562" width="271" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="520" y="2592" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Modules in JavaScript</tspan>
+    </text>
+    <g>
+      <circle cx="736" cy="2584" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="736" cy="2584" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="736" cy="2584" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M730 2584L734 2588 741 2581" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-modules:commonjs">
+    <rect x="188" y="2540" width="210" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="249" y="2567" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>CommonJS</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="2559" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="2559" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="2559" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M179 2559L183 2563 190 2556" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-modules:esm">
+    <rect x="188" y="2590" width="210" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="212" y="2617" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>ECMAScript Modules</tspan>
+    </text>
+    <g>
+      <circle cx="186" cy="2609" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="186" cy="2609" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="186" cy="2609" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M180 2609L184 2613 191 2606" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="116-javascript-memory-management">
+    <rect x="468" y="2618" width="271" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="519" y="2648" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Memory Management</tspan>
+    </text>
+    <g>
+      <circle cx="468" cy="2639" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="468" cy="2639" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M462 2639L466 2643 473 2636" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-memory-management:memory-lifecycle">
+    <rect x="817" y="2596" width="238" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="870" y="2623" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Memory Lifecycle</tspan>
+    </text>
+    <g>
+      <circle cx="1053" cy="2615" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1053" cy="2615" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M1047 2615L1051 2619 1058 2612" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-memory-management:garbage-collection">
+    <rect x="817" y="2646" width="238" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="862" y="2673" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Garbage Collection</tspan>
+    </text>
+    <g>
+      <circle cx="1053" cy="2665" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1053" cy="2665" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M1047 2665L1051 2669 1058 2662" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="117-javascript-chrome-dev-tools">
+    <rect x="458" y="2771" width="271" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="499" y="2801" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Using Chrome Dev Tools</tspan>
+    </text>
+    <g>
+      <circle cx="459" cy="2793" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="459" cy="2793" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="459" cy="2793" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M453 2793L457 2797 464 2790" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-javascript-chrome-dev-tools:debugging-issues">
+    <rect x="819" y="2725" width="236" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="868" y="2752" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Debugging Issues</tspan>
+    </text>
+    <g>
+      <circle cx="1053" cy="2744" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1053" cy="2744" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1053" cy="2744" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M1047 2744L1051 2748 1058 2741" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-javascript-chrome-dev-tools:debugging-memory-leaks">
+    <rect x="819" y="2774" width="236" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="837" y="2801" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Debugging Memory Leaks</tspan>
+    </text>
+    <g>
+      <circle cx="1053" cy="2793" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1053" cy="2793" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M1047 2793L1051 2797 1058 2790" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="102-javascript-chrome-dev-tools:debugging-performance">
+    <rect x="819" y="2823" width="236" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="844" y="2850" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Debugging Performance</tspan>
+    </text>
+    <g>
+      <circle cx="1053" cy="2842" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="1053" cy="2842" r="10" fill="rgb(0,0,0)"></circle>
+      <path d="M1047 2842L1051 2846 1058 2839" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <rect x="327" y="2925" width="549" height="121" rx="2" fill="rgb(255,255,255)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+  <text x="355" y="2963" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+    <tspan>For ecosystem and more, check other tracks involving JavaScript</tspan>
+  </text>
+  <g class="clickable-group " data-group-id="ext_link:roadmap/backend">
+    <rect x="622" y="2980" width="226" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="662" y="3007" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Backend Roadmap</tspan>
+    </text>
+  </g>
+  <g class="clickable-group " data-group-id="ext_link:roadmap/frontend">
+    <rect x="356" y="2980" width="249" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="406" y="3007" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Frontend Roadmap</tspan>
+    </text>
+  </g>
+  <g class="clickable-group " data-group-id="118-working-with-apis">
+    <rect x="472" y="2399" width="273" height="47" rx="2" fill="rgb(255,255,0)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="541" y="2429" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Working with APIs</tspan>
+    </text>
+    <g>
+      <circle cx="739" cy="2420" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="739" cy="2420" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="739" cy="2420" r="10" fill="rgb(153,0,255)"></circle>
+      <path d="M733 2420L737 2424 744 2417" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="100-working-with-apis:xml-http-request">
+    <rect x="187" y="2423" width="181" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="206" y="2450" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>XMLHTTPRequest</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="2441" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="2441" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 2441L183 2445 190 2438" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <g class="clickable-group " data-group-id="101-working-with-apis:fetch">
+    <rect x="187" y="2473" width="181" height="41" rx="2" fill="rgb(255,229,153)" fill-opacity="1" stroke="rgb(0,0,0)" stroke-width="2"></rect>
+    <text x="256" y="2500" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="17px">
+      <tspan>Fetch</tspan>
+    </text>
+    <g>
+      <circle cx="185" cy="2491" r="10" fill="rgb(255,255,255)"></circle>
+      <circle cx="185" cy="2491" r="10" fill="rgb(56,118,29)"></circle>
+      <path d="M179 2491L183 2495 190 2488" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+</svg>

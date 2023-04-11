@@ -3,12 +3,11 @@ import { JwtService } from '@nestjs/jwt';
 import {
   ConnectedSocket,
   MessageBody,
-  OnGatewayConnection,
-  OnGatewayDisconnect,
   SubscribeMessage,
   WebSocketGateway,
   WebSocketServer,
 } from '@nestjs/websockets';
+import { Socket } from 'socket.io';
 import { CommentService } from 'src/Entities/comment/Comment.service';
 import { CreateRequestDto } from 'src/Entities/comment/dto/CreateRequest.dto';
 import { UserService } from 'src/Entities/user/User.service';
@@ -22,6 +21,7 @@ export class ChatGateway {
     private readonly userService: UserService,
     private readonly jwtService: JwtService,
   ) {}
+
   @SubscribeMessage('post_comment')
   async handlePostComment(@MessageBody() comment: string): Promise<void> {
     const format = JSON.parse(comment);
@@ -36,7 +36,7 @@ export class ChatGateway {
       created_by: user,
     });
     this.server.emit(
-      'post_comment',
+      'post_comment/' + format.roadmap,
       JSON.stringify({ ...commentData, number_of_users: 0 }),
     );
   }
