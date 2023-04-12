@@ -64,20 +64,24 @@ export class RoadmapService {
     },
   ) {
     const skip = (parseInt(dto.page) - 1) * parseInt(dto.page_size);
-    console.log(dto, 'Adfa');
+    const isProUser =
+      loggedInUser.social.role.name == 'Administrator' ||
+      loggedInUser.social.role.name == 'Editor';
     const data = this.entityRepo
       .createQueryBuilder('roadmap')
       .leftJoinAndSelect('roadmap.status', 'status_tbl')
       .leftJoinAndSelect('roadmap.categories', 'categories_tbl')
-      .where('roadmap.title LIKE :keyword', {
-        keyword: `%${dto.keyword || ''}%`,
-      })
-      .andWhere(
-        '(status_tbl.name = :statusNameApproved OR (roadmap.createdById = :createdById AND status_tbl.name = :statusNamePending))',
+      .where(
+        `roadmap.title LIKE :keyword ${
+          isProUser
+            ? ''
+            : 'AND (status_tbl.name = :statusNameApproved OR (roadmap.createdById = :createdById AND status_tbl.name = :statusNamePending))'
+        } `,
         {
           statusNameApproved: StatusEnum.Approved,
           statusNamePending: StatusEnum.Pending,
           createdById: loggedInUser.id,
+          keyword: `%${dto.keyword || ''}%`,
         },
       )
       .select([
@@ -97,6 +101,7 @@ export class RoadmapService {
         'categories_tbl',
       ])
       .skip(skip)
+      .orderBy('roadmap.created_at', 'DESC')
       .take(parseInt(dto.page_size));
     if (isEmpty(dto.category)) {
       return await data.getMany();

@@ -19,4 +19,22 @@ export class RequestDto {
   // svg_url: Url;
   @IsString()
   svg_url: string;
+
+  @ApiProperty({
+    description: 'Roadmap Title',
+    example: 'Javascript',
+  })
+  // @IsUrl()
+  // svg_url: Url;
+  @IsString()
+  title: string;
+
+  @ApiProperty({
+    description: 'Roadmap Subtitle',
+    example: 'Great language to begin with',
+  })
+  // @IsUrl()
+  // svg_url: Url;
+  @IsString()
+  subtitle: string;
 }

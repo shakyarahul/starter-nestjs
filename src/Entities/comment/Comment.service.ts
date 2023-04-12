@@ -60,16 +60,26 @@ export class CommentService {
     dto = {
       page: '1',
       page_size: '10',
+      comments_till: null,
     },
   ) {
     console.log(linkId, roadmapId, 'ADsfadsfda');
-    const skip = (parseInt(dto.page) - 1) * parseInt(dto.page_size);
+    const skip =
+      (isEmpty(dto.comments_till) ? parseInt(dto.page) - 1 : 0) *
+      parseInt(dto.page_size);
     const data = this.entityRepo
       .createQueryBuilder('comment')
       .leftJoinAndSelect('comment.link', 'link_tbl')
       .leftJoinAndSelect('comment.roadmap', 'roadmap_tbl')
       .leftJoinAndSelect('comment.created_by', 'user_tbl')
-      .where('comment.roadmap = :roadmapId', { roadmapId: roadmapId })
+      .where(
+        (isEmpty(dto.comments_till) ? '' : 'comment.id < :comments_till AND ') +
+          'comment.roadmap = :roadmapId',
+        {
+          comments_till: dto.comments_till,
+          roadmapId: roadmapId,
+        },
+      )
       // .where(isEmpty(linkId) ? '' : 'comment.link LIKE :linkId', {
       //   linkId: `%${linkId}%`,
       // })

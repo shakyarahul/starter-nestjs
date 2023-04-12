@@ -551,6 +551,7 @@ export class V1Controller {
     dto: get_comments_RequestDto = {
       page: '1',
       page_size: '10',
+      comments_till: null,
     },
   ): Promise<get_comments_ResponseDto> {
     const data: Array<Comment> = await this.entityService.get_comments(

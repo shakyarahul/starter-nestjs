@@ -1,5 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsOptional, IsString } from 'class-validator';
+import { IsNumber, IsOptional, IsString } from 'class-validator';
+import { Comment } from 'src/Entities/comment/Comment.entity';
 export class RequestDto {
   @ApiProperty({
     description: 'Page Number',
@@ -16,4 +17,8 @@ export class RequestDto {
   @IsString()
   @IsOptional()
   page_size: string;
+
+  @IsString()
+  @IsOptional()
+  comments_till: Comment;
 }

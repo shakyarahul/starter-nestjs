@@ -254,6 +254,7 @@ export class V1Service {
     dto = {
       page: '1',
       page_size: '10',
+      comments_till: null,
     },
   ): Promise<Array<Comment>> {
     return await this.comment.findMine(user, roadmapId, linkId, dto);

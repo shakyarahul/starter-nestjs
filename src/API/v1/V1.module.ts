@@ -165,12 +165,12 @@ export class V1Module implements OnModuleInit {
         name: 'Google',
       });
     const admin = await this.v1Service.post_continue_with({
-      social_account_unique_user: '107691503500061ddd50715113082367',
+      social_account_unique_user: '108111783002087858100',
       social_account_email: 'rahulsaqya@gmail.com',
       role: role_admin,
       social_account_type: social_account_type_google,
       first_name: 'Rahul',
-      last_name: 'Saqya',
+      last_name: 'Shakya',
     });
 
     await this.add_default_category(approvedStatus);
