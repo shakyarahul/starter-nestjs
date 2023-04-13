@@ -45,10 +45,12 @@ export class RoadmapService {
       page: '1',
       page_size: '10',
     },
+    status = undefined,
   ) {
     return await this.entityRepo.count({
       where: {
         title: Like(`%${dto?.keyword}%`),
+        status: status,
       },
       order: { updated_at: -1 },
     });

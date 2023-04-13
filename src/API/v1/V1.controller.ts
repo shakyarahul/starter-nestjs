@@ -67,12 +67,15 @@ import { Category } from 'src/Entities/category/Category.entity';
 import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
 import { Link } from 'src/Entities/link/Link.entity';
 import { Comment } from 'src/Entities/comment/Comment.entity';
+import { Status, StatusEnum } from 'src/Entities/status/Status.entity';
+import { StatusService } from 'src/Entities/status/Status.service';
 
 @ApiTags('V1')
 @Controller('v1')
 export class V1Controller {
   constructor(
     private readonly entityService: EntityService,
+    private readonly statusService: StatusService,
     private readonly jwtService: JwtService,
   ) {}
   /**
@@ -457,6 +460,33 @@ export class V1Controller {
     return response;
   }
 
+  @HasRoles(RoleEnum.Subscriber)
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Get('change_status_of_roadmap/:roadMapId/:status')
+  @HttpCode(200)
+  @ApiCreatedResponse({
+    description: 'Api that helps users to update few comments informations',
+    type: Promise<any>,
+  })
+  async change_status_of_roadmap(
+    @Request() req: any,
+    @Param('roadMapId') roadMapId: Roadmap,
+    @Param('status') status: Status,
+  ): Promise<any> {
+    const user: User = req.user;
+    const data: any = await this.entityService.change_status_of_roadmap(
+      user,
+      roadMapId,
+      status,
+    );
+    const response: post_upload_ResponseDto = {
+      data: data,
+      meta_data: { last_updated: getLastUpdatedDate(data) },
+    };
+    // return res.sendFile(data.filename, { root: 'uploads' });
+    return response;
+  }
+
   async get_the_categories(
     user: User,
     dto: get_categories_RequestDto = {
@@ -481,6 +511,7 @@ export class V1Controller {
         total_pages: Math.ceil(total / parseInt(dto.page_size)),
         sort_by: Object.values(SortByEnum),
         has_next,
+        total,
       },
     };
     return response;
@@ -501,6 +532,23 @@ export class V1Controller {
       dto,
     );
     const total: number = await this.entityService.total_roadmaps(dto);
+    let total_pending: number = 0;
+    let total_rejected: number = 0;
+    let total_approved: number = 0;
+    if (parseInt(dto.page_size) < 10) {
+      const pending = await this.statusService.findAEntity({
+        name: StatusEnum.Pending,
+      });
+      total_pending = await this.entityService.total_roadmaps(dto, pending);
+      const rejected = await this.statusService.findAEntity({
+        name: StatusEnum.Rejected,
+      });
+      total_rejected = await this.entityService.total_roadmaps(dto, rejected);
+      const approved = await this.statusService.findAEntity({
+        name: StatusEnum.Approved,
+      });
+      total_approved = await this.entityService.total_roadmaps(dto, approved);
+    }
     const has_next: boolean =
       total - parseInt(dto.page) * parseInt(dto.page_size) > 0;
     const response: get_roadmaps_ResponseDto = {
@@ -511,6 +559,10 @@ export class V1Controller {
         total_pages: Math.ceil(total / parseInt(dto.page_size)),
         sort_by: Object.values(SortByEnum),
         has_next,
+        total,
+        total_pending,
+        total_rejected,
+        total_approved,
       },
     };
     return response;
@@ -539,6 +591,7 @@ export class V1Controller {
         total_pages: Math.ceil(total / dto.page_size),
         sort_by: Object.values(SortByEnum),
         has_next,
+        total,
       },
     };
     return response;
@@ -571,6 +624,7 @@ export class V1Controller {
         total_pages: Math.ceil(total / parseInt(dto.page_size)),
         sort_by: Object.values(SortByEnum),
         has_next,
+        total,
       },
     };
     return response;

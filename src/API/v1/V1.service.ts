@@ -15,7 +15,7 @@ import { SocialAccount } from 'src/Entities/social_account/SocialAccount.entity'
 import { SocialAccountService } from 'src/Entities/social_account/SocialAccount.service';
 import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccountType.entity';
 import { SocialAccountTypeService } from 'src/Entities/social_account_type/SocialAccountType.service';
-import { StatusEnum } from 'src/Entities/status/Status.entity';
+import { Status, StatusEnum } from 'src/Entities/status/Status.entity';
 import { StatusService } from 'src/Entities/status/Status.service';
 import { User } from 'src/Entities/user/User.entity';
 import { UserService } from 'src/Entities/user/User.service';
@@ -169,8 +169,9 @@ export class V1Service {
       page: '1',
       page_size: '10',
     },
+    status = undefined,
   ): Promise<number> {
-    return await this.roadmap.totalRows(dto);
+    return await this.roadmap.totalRows(dto, status);
   }
   async get_roadmaps(
     user: User,
@@ -237,6 +238,16 @@ export class V1Service {
     });
 
     return await this.user.findAEntity({ id: user.id });
+  }
+  async change_status_of_roadmap(
+    user: User,
+    roadMapId: Roadmap,
+    status: Status,
+  ) {
+    const roadmap = await this.roadmap.findAEntity({ id: roadMapId });
+    const updatedRoadmap = await this.roadmap.update({ ...roadmap, status });
+
+    return updatedRoadmap;
   }
 
   async total_comments(
