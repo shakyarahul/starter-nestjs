@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Roadmap } from '../../Entities/roadmap/Roadmap.entity';
+import { Roadmap } from './Roadmap.entity';
 import { RoadmapController } from './Roadmap.controller';
 import { RoadmapService } from './Roadmap.service';
 
