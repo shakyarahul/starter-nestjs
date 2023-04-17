@@ -33,7 +33,7 @@ export class Roadmap extends CommonEntity {
   @JoinColumn()
   status!: Status;
 
-  @Column('varchar', { nullable: true, length: 50, name: 'description' })
+  @Column('text', { nullable: true, name: 'description' })
   description!: string;
 
   @Column('text', { nullable: true, default: null, name: 'svg_url' })

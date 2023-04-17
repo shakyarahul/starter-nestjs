@@ -26,10 +26,9 @@ export class Category extends CommonEntity {
   @Column('text', { nullable: true, default: null, name: 'image_url' })
   image_url!: Url;
 
-  @Column('varchar', {
+  @Column('text', {
     nullable: true,
     default: null,
-    length: 255,
     name: 'description',
   })
   description!: string;

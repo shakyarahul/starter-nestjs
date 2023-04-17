@@ -27,11 +27,11 @@ import { V1Module } from './API/v1/V1.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: '23.106.126.205',
-      port: 3306,
-      username: 'rahulshakya1_waxy',
-      password: '(J@?6Dt],C]F',
-      database: 'rahulshakya1_waxy',
+      host: 'containers-us-west-58.railway.app',
+      port: 7213,
+      username: 'root',
+      password: '93W3n2s76qgs9Uzzh0SX',
+      database: 'railway',
       entities: [
         Role,
         SocialAccountType,

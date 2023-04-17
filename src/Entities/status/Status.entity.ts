@@ -14,7 +14,7 @@ export class Status extends CommonEntity {
   @Column('varchar', { nullable: false, length: 50, name: 'name' })
   name!: StatusEnum;
 
-  @Column('varchar', { nullable: false, length: 50, name: 'color' })
+  @Column('varchar', { nullable: true, length: 50, name: 'color' })
   color!: string;
 
   @OneToMany(() => Category, (category) => category.status)
