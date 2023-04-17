@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsArray, IsDate, IsNumber, IsString, IsUrl } from 'class-validator';
-import { Category } from 'src/Entities/category/Category.entity';
+import { Category } from '../../../../../Entities/category/Category.entity';
 import { Url } from 'url';
 
 export class RequestDto {

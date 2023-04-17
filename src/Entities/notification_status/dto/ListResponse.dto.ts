@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsArray, IsObject } from 'class-validator';
-import { NotificationStatus } from 'src/Entities/notification_status/NotificationStatus.entity';
+import { NotificationStatus } from '../../../Entities/notification_status/NotificationStatus.entity';
 
 export class ListResponseDto {
   @ApiProperty({

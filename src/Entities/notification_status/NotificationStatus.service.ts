@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { NotificationStatus } from 'src/Entities/notification_status/NotificationStatus.entity';
+import { NotificationStatus } from '../../Entities/notification_status/NotificationStatus.entity';
 import { Repository } from 'typeorm';
 import { CreateRequestDto } from './dto/CreateRequest.dto';
 import { UpdateRequestDto } from './dto/UpdateRequest.dto';

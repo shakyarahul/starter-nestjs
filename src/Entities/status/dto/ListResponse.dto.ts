@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsArray, IsObject } from 'class-validator';
-import { Status } from 'src/Entities/status/Status.entity';
+import { Status } from '../../../Entities/status/Status.entity';
 
 export class ListResponseDto {
   @ApiProperty({

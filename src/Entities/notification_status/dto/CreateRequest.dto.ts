@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsBoolean, IsNotEmpty, IsNumber, IsOptional } from 'class-validator';
-import { User } from 'src/Entities/user/User.entity';
+import { User } from '../../../Entities/user/User.entity';
 
 export class CreateRequestDto {
   @ApiProperty({

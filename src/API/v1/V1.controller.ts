@@ -54,8 +54,8 @@ import { ResponseDto as get_categories_ResponseDto } from './dto/categories/GET/
 import { RequestDto as post_upload_RequestDto } from './dto/upload/POST/request.dto';
 import { ResponseDto as post_upload_ResponseDto } from './dto/upload/POST/response.dto';
 import { getLastUpdatedDate } from './helpers/index.helpers';
-import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccountType.entity';
-import { User } from 'src/Entities/user/User.entity';
+import { SocialAccountType } from '../../Entities/social_account_type/SocialAccountType.entity';
+import { User } from '../../Entities/user/User.entity';
 import { JwtService } from '@nestjs/jwt';
 import { HasRoles, RoleEnum } from './decorator/roles.decorator';
 import { JwtAuthGuard } from './guard/jwt-auth.guard';
@@ -63,12 +63,12 @@ import { RolesGuard } from './guard/roles.guard';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { diskStorage } from 'multer';
 import { extname } from 'path';
-import { Category } from 'src/Entities/category/Category.entity';
-import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
-import { Link } from 'src/Entities/link/Link.entity';
-import { Comment } from 'src/Entities/comment/Comment.entity';
-import { Status, StatusEnum } from 'src/Entities/status/Status.entity';
-import { StatusService } from 'src/Entities/status/Status.service';
+import { Category } from '../../Entities/category/Category.entity';
+import { Roadmap } from '../../Entities/roadmap/Roadmap.entity';
+import { Link } from '../../Entities/link/Link.entity';
+import { Comment } from '../../Entities/comment/Comment.entity';
+import { Status, StatusEnum } from '../../Entities/status/Status.entity';
+import { StatusService } from '../../Entities/status/Status.service';
 
 @ApiTags('V1')
 @Controller('v1')

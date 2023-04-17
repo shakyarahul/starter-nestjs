@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsArray, IsObject } from 'class-validator';
-import { Link } from 'src/Entities/link/Link.entity';
+import { Link } from '../../../Entities/link/Link.entity';
 
 export class ListResponseDto {
   @ApiProperty({

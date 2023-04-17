@@ -9,8 +9,8 @@ import {
   IsString,
   IsUrl,
 } from 'class-validator';
-import { NotificationStatus } from 'src/Entities/notification_status/NotificationStatus.entity';
-import { SocialAccount } from 'src/Entities/social_account/SocialAccount.entity';
+import { NotificationStatus } from '../../../Entities/notification_status/NotificationStatus.entity';
+import { SocialAccount } from '../../../Entities/social_account/SocialAccount.entity';
 import { Category } from '../../category/Category.entity';
 
 export class CreateRequestDto {

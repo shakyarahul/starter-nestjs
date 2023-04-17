@@ -8,9 +8,9 @@ import {
   WebSocketServer,
 } from '@nestjs/websockets';
 import { Socket } from 'socket.io';
-import { CommentService } from 'src/Entities/comment/Comment.service';
-import { CreateRequestDto } from 'src/Entities/comment/dto/CreateRequest.dto';
-import { UserService } from 'src/Entities/user/User.service';
+import { CommentService } from '../../../Entities/comment/Comment.service';
+import { CreateRequestDto } from '../../../Entities/comment/dto/CreateRequest.dto';
+import { UserService } from '../../../Entities/user/User.service';
 @WebSocketGateway()
 export class ChatGateway {
   @WebSocketServer()

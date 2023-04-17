@@ -12,7 +12,7 @@ import { Comment } from '../comment/Comment.entity';
 import { Link } from '../link/Link.entity';
 import { Structure } from '../structure/Structure.entity';
 import { User } from '../user/User.entity';
-import { Status } from 'src/Entities/status/Status.entity';
+import { Status } from '../../Entities/status/Status.entity';
 import { Url } from 'url';
 import { CommonEntity } from '../commons/common.entity';
 import { Category } from '../category/Category.entity';

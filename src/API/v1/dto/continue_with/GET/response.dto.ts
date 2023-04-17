@@ -1,7 +1,7 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsArray, IsObject } from 'class-validator';
-import { Link } from 'src/Entities/link/Link.entity';
-import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccountType.entity';
+import { Link } from '../../../../../Entities/link/Link.entity';
+import { SocialAccountType } from '../../../../../Entities/social_account_type/SocialAccountType.entity';
 
 export class ResponseDto {
   @ApiProperty({

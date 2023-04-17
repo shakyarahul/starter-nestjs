@@ -6,7 +6,7 @@ import {
   IsString,
   IsNotEmpty,
 } from 'class-validator';
-import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
+import { Roadmap } from '../../../../../Entities/roadmap/Roadmap.entity';
 import { SortByEnum } from '../../categories/GET/request.dto';
 
 export class RequestDto {

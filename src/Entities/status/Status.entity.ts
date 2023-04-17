@@ -1,7 +1,7 @@
 import { Category } from '../category/Category.entity';
-import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
+import { Roadmap } from '../../Entities/roadmap/Roadmap.entity';
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
-import { Link } from 'src/Entities/link/Link.entity';
+import { Link } from '../../Entities/link/Link.entity';
 import { CommonEntity } from '../commons/common.entity';
 
 export enum StatusEnum {

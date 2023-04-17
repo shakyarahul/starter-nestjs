@@ -1,8 +1,8 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsNumber, IsOptional, IsString } from 'class-validator';
-import { Link } from 'src/Entities/link/Link.entity';
-import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
-import { User } from 'src/Entities/user/User.entity';
+import { Link } from '../../../Entities/link/Link.entity';
+import { Roadmap } from '../../../Entities/roadmap/Roadmap.entity';
+import { User } from '../../../Entities/user/User.entity';
 
 export class CreateRequestDto {
   @ApiProperty({

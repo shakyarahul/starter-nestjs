@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsArray, IsObject } from 'class-validator';
-import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccountType.entity';
+import { SocialAccountType } from '../../../Entities/social_account_type/SocialAccountType.entity';
 
 export class ListResponseDto {
   @ApiProperty({

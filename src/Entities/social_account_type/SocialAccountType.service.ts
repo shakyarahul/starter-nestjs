@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccountType.entity';
+import { SocialAccountType } from '../../Entities/social_account_type/SocialAccountType.entity';
 import { Repository } from 'typeorm';
 import { CreateRequestDto } from './dto/CreateRequest.dto';
 import { UpdateRequestDto } from './dto/UpdateRequest.dto';

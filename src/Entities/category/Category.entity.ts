@@ -1,4 +1,4 @@
-import { Status } from 'src/Entities/status/Status.entity';
+import { Status } from '../../Entities/status/Status.entity';
 import {
   Column,
   Entity,

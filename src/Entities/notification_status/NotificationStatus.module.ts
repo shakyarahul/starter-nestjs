@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { NotificationStatus } from 'src/Entities/notification_status/NotificationStatus.entity';
+import { NotificationStatus } from '../../Entities/notification_status/NotificationStatus.entity';
 import { NotificationStatusController } from './NotificationStatus.controller';
 import { NotificationStatusService } from './NotificationStatus.service';
 

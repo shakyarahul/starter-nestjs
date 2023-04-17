@@ -6,8 +6,8 @@ import {
   IsOptional,
   IsString,
 } from 'class-validator';
-import { Role } from 'src/Entities/role/Role.entity';
-import { SocialAccountType } from 'src/Entities/social_account_type/SocialAccountType.entity';
+import { Role } from '../../../../../Entities/role/Role.entity';
+import { SocialAccountType } from '../../../../../Entities/social_account_type/SocialAccountType.entity';
 
 export class RequestDto {
   @ApiProperty({

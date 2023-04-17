@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Link } from 'src/Entities/link/Link.entity';
+import { Link } from '../../Entities/link/Link.entity';
 import { Like, Repository } from 'typeorm';
 import { Roadmap } from '../roadmap/Roadmap.entity';
 import { StatusEnum } from '../status/Status.entity';

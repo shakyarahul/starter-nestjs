@@ -6,8 +6,8 @@ import {
   IsString,
   IsUrl,
 } from 'class-validator';
-import { Status } from 'src/Entities/status/Status.entity';
-import { User } from 'src/Entities/user/User.entity';
+import { Status } from '../../../Entities/status/Status.entity';
+import { User } from '../../../Entities/user/User.entity';
 import { Url } from 'url';
 
 export class CreateRequestDto {

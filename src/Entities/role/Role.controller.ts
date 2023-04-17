@@ -8,9 +8,9 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { ApiCreatedResponse, ApiTags } from '@nestjs/swagger';
-import { HasRoles, RoleEnum } from 'src/API/v1/decorator/roles.decorator';
-import { JwtAuthGuard } from 'src/API/v1/guard/jwt-auth.guard';
-import { RolesGuard } from 'src/API/v1/guard/roles.guard';
+import { HasRoles, RoleEnum } from '../../API/v1/decorator/roles.decorator';
+import { JwtAuthGuard } from '../../API/v1/guard/jwt-auth.guard';
+import { RolesGuard } from '../../API/v1/guard/roles.guard';
 import { CreateRequestDto } from './dto/CreateRequest.dto';
 import { ListResponseDto } from './dto/ListResponse.dto';
 import { UpdateRequestDto } from './dto/UpdateRequest.dto';

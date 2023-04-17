@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { SortByEnum } from 'src/API/v1/dto/categories/GET/request.dto';
-import { getSorting } from 'src/API/v1/helpers/index.helpers';
-import { Category } from 'src/Entities/category/Category.entity';
+import { SortByEnum } from '../../API/v1/dto/categories/GET/request.dto';
+import { getSorting } from '../../API/v1/helpers/index.helpers';
+import { Category } from '../../Entities/category/Category.entity';
 import { Like, Not, Repository } from 'typeorm';
 import { StatusEnum } from '../status/Status.entity';
 import { User } from '../user/User.entity';

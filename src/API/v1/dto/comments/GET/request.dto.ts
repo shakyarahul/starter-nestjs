@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNumber, IsOptional, IsString } from 'class-validator';
-import { Comment } from 'src/Entities/comment/Comment.entity';
+import { Comment } from '../../../../../Entities/comment/Comment.entity';
 export class RequestDto {
   @ApiProperty({
     description: 'Page Number',

@@ -8,12 +8,12 @@ import {
   IsString,
   IsUrl,
 } from 'class-validator';
-import { Category } from 'src/Entities/category/Category.entity';
-import { Link } from 'src/Entities/link/Link.entity';
-import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
-import { Status } from 'src/Entities/status/Status.entity';
-import { Structure } from 'src/Entities/structure/Structure.entity';
-import { User } from 'src/Entities/user/User.entity';
+import { Category } from '../../../../../Entities/category/Category.entity';
+import { Link } from '../../../../../Entities/link/Link.entity';
+import { Roadmap } from '../../../../../Entities/roadmap/Roadmap.entity';
+import { Status } from '../../../../../Entities/status/Status.entity';
+import { Structure } from '../../../../../Entities/structure/Structure.entity';
+import { User } from '../../../../../Entities/user/User.entity';
 import { Url } from 'url';
 
 export class RequestDto {

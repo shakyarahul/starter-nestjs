@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsArray, IsObject } from 'class-validator';
-import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
+import { Roadmap } from '../../../../../Entities/roadmap/Roadmap.entity';
 
 export class ResponseDto {
   @ApiProperty({

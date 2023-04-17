@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { isEmpty } from 'class-validator';
-import { Comment } from 'src/Entities/comment/Comment.entity';
+import { Comment } from '../../Entities/comment/Comment.entity';
 import { Repository } from 'typeorm';
 import { Link } from '../link/Link.entity';
 import { Roadmap } from '../roadmap/Roadmap.entity';

@@ -7,7 +7,7 @@ import {
   IsOptional,
   IsString,
 } from 'class-validator';
-import { Category } from 'src/Entities/category/Category.entity';
+import { Category } from '../../../../../Entities/category/Category.entity';
 import { SortByEnum } from '../../categories/GET/request.dto';
 
 export class RequestDto {

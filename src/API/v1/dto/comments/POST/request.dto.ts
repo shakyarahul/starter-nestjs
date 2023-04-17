@@ -1,7 +1,7 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNumber, IsOptional, IsString } from 'class-validator';
-import { Link } from 'src/Entities/link/Link.entity';
-import { Roadmap } from 'src/Entities/roadmap/Roadmap.entity';
+import { Link } from '../../../../../Entities/link/Link.entity';
+import { Roadmap } from '../../../../../Entities/roadmap/Roadmap.entity';
 export class RequestDto {
   @ApiProperty({
     description: 'Comments',

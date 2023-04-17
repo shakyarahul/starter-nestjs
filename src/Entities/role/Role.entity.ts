@@ -1,4 +1,4 @@
-import { RoleEnum } from 'src/API/v1/decorator/roles.decorator';
+import { RoleEnum } from '../../API/v1/decorator/roles.decorator';
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { CommonEntity } from '../commons/common.entity';
 import { SocialAccount } from '../social_account/SocialAccount.entity';
