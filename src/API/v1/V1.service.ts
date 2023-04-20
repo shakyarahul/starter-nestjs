@@ -36,7 +36,13 @@ export class V1Service {
     private link: LinkService,
     private comment: CommentService,
   ) {}
+  async hasRedirectUrl(id: bigint): Promise<any> {
+    return false;
 
+    return {
+      redirect_url: 'https://facebook.com',
+    };
+  }
   async get_continue_with(): Promise<Array<SocialAccountType>> {
     return this.social_account_type.findAll();
   }

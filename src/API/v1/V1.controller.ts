@@ -6,6 +6,8 @@ import {
   Param,
   Post,
   Query,
+  Redirect,
+  Render,
   Request,
   Res,
   UploadedFile,
@@ -95,6 +97,18 @@ export class V1Controller {
       meta_data: { last_updated: getLastUpdatedDate(data) },
     };
     return response;
+  }
+
+  @Get('/qr/:id')
+  @Render('qritem/index')
+  async qr_item(@Param('id') id: bigint, @Res() res) {
+    const hasRedirectUrl = await this.entityService.hasRedirectUrl(id);
+    if (hasRedirectUrl) {
+      res.redirect(hasRedirectUrl.redirect_url);
+      return;
+    } else {
+      return {};
+    }
   }
 
   /**
